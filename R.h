@@ -2878,6 +2878,38 @@ en: "MyCloudMusic"
 - (UIImage*)commentCount;
 - (UIImage*)guide2;
 - (UIImage*)guide3;
+- (UIImage*)qmuiTipsInfo2x;
+- (UIImage*)qmuiEmotionDelete2x;
+- (UIImage*)qmuiConsoleLogo2x;
+- (UIImage*)qmuiPickerImageCheckbox2x;
+- (UIImage*)qmuiPreviewImageCheckbox2x;
+- (UIImage*)qmuiPickerImageCheckboxChecked3x;
+- (UIImage*)qmuiConsoleFilterSelected3x;
+- (UIImage*)qmuiConsoleFilterSelected2x;
+- (UIImage*)qmuiPickerImageCheckboxChecked2x;
+- (UIImage*)qmuiPreviewImageCheckbox3x;
+- (UIImage*)qmuiPickerImageCheckbox3x;
+- (UIImage*)qmuiEmotionDelete3x;
+- (UIImage*)qmuiConsoleLogo3x;
+- (UIImage*)qmuiTipsInfo3x;
+- (UIImage*)qmuiTipsError3x;
+- (UIImage*)qmuiConsoleFilter2x;
+- (UIImage*)qmuiTipsDone3x;
+- (UIImage*)qmuiConsoleClear3x;
+- (UIImage*)qmuiIcloudDownloadFault2x;
+- (UIImage*)qmuiPreviewImageCheckboxChecked2x;
+- (UIImage*)qmuiIcloudDownloadFault3x;
+- (UIImage*)qmuiPreviewImageCheckboxChecked3x;
+- (UIImage*)qmuiConsoleClear2x;
+- (UIImage*)qmuiTipsDone2x;
+- (UIImage*)qmuiConsoleFilter3x;
+- (UIImage*)qmuiTipsError2x;
+- (UIImage*)qmuiHiddenAlbum2x;
+- (UIImage*)qmuiPickerImageFavorite3x;
+- (UIImage*)qmuiPickerImageVideoMark3x;
+- (UIImage*)qmuiPickerImageVideoMark2x;
+- (UIImage*)qmuiPickerImageFavorite2x;
+- (UIImage*)qmuiHiddenAlbum3x;
 @end
 
 

@@ -12,8 +12,9 @@
 #import "R.h"
 #import "UIColor+Config.h"
 #import "UIColor+Theme.h"
+#import "TermServiceDialogController.h"
 @interface SplashViewController ()
-
+@property (nonatomic, strong) TermServiceDialogController *dialogController;
 @end
 
 @implementation SplashViewController
@@ -59,6 +60,33 @@
     logoView2.image=[UIImage imageNamed:@"SplashLogo"];
     logoView2.contentMode = UIViewContentModeScaleAspectFit;
     [self.container addSubview:logoView2];
+}
+
+- (void)initDatum{
+    [super initDatum];
+    
+    [self showTermsServiceAgreementDialog];
+}
+
+/// 显示同意服务条款对话框
+- (void)showTermsServiceAgreementDialog{
+    [self.dialogController show];
+}
+
+/// 主按钮点击
+/// @param sender <#sender description#>
+-(void)primaryClick:(UIButton *)sender{
+    [self.dialogController hide];
+}
+
+/// 返回控制器，懒加载方式
+- (TermServiceDialogController *)dialogController{
+    if (!_dialogController) {
+        _dialogController=[TermServiceDialogController new];
+        _dialogController.titleView.text = R.string.localizable.termServicePrivacy;
+        [_dialogController.primaryButton addTarget:self action:@selector(primaryClick:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _dialogController;
 }
 
 @end

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0602A4EE73EEB0661ECEBA5B /* libPods-MyCloudMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */; };
+		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
+		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */; };
 		8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985129E3FC8700E67AC8 /* ViewController.m */; };
 		8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985629E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld */; };
@@ -31,6 +33,11 @@
 /* Begin PBXFileReference section */
 		67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCloudMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8558CA7B62B1D206278AC68E /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
+		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
+		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
+		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
+		8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewFactoryUtil.m; sourceTree = "<group>"; };
+		8D9DC7A129E5566E0025F4C4 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
 		8D9F984729E3FC8700E67AC8 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F984A29E3FC8700E67AC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +97,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8D9DC79D29E555CF0025F4C4 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */,
+				8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */,
+				8D9DC7A129E5566E0025F4C4 /* Constant.h */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
 		8D9F983E29E3FC8700E67AC8 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +128,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D9DC79D29E555CF0025F4C4 /* Util */,
 				8D9F989229E52C9600E67AC8 /* Controller */,
 				8D9F988829E50C6000E67AC8 /* Config */,
 				8D9F986B29E45BFE00E67AC8 /* Vender */,
@@ -145,6 +163,8 @@
 			children = (
 				8D9F986829E3FD7E00E67AC8 /* SplashViewController.h */,
 				8D9F986929E3FD7E00E67AC8 /* SplashViewController.m */,
+				8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */,
+				8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */,
 			);
 			path = SplashController;
 			sourceTree = "<group>";
@@ -231,6 +251,7 @@
 				8D9F984329E3FC8700E67AC8 /* Sources */,
 				8D9F984429E3FC8700E67AC8 /* Frameworks */,
 				8D9F984529E3FC8700E67AC8 /* Resources */,
+				7D8D5F6BA441A55B29F67FED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -311,6 +332,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7D8D5F6BA441A55B29F67FED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources.sh",
+				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		8D9F987F29E4759F00E67AC8 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,10 +386,12 @@
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
+				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
+				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
 			);
