@@ -10,6 +10,7 @@
 		0602A4EE73EEB0661ECEBA5B /* libPods-MyCloudMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
+		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
 		8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */; };
 		8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985129E3FC8700E67AC8 /* ViewController.m */; };
 		8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985629E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld */; };
@@ -38,6 +39,8 @@
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
 		8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewFactoryUtil.m; sourceTree = "<group>"; };
 		8D9DC7A129E5566E0025F4C4 /* Constant.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constant.h; sourceTree = "<group>"; };
+		8D9DC7A229E567280025F4C4 /* DefaultPreferenceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultPreferenceUtil.h; sourceTree = "<group>"; };
+		8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultPreferenceUtil.m; sourceTree = "<group>"; };
 		8D9F984729E3FC8700E67AC8 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F984A29E3FC8700E67AC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 				8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */,
 				8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */,
 				8D9DC7A129E5566E0025F4C4 /* Constant.h */,
+				8D9DC7A229E567280025F4C4 /* DefaultPreferenceUtil.h */,
+				8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -389,6 +394,7 @@
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
+				8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,

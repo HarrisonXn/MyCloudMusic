@@ -13,6 +13,8 @@
 #import "UIColor+Config.h"
 #import "UIColor+Theme.h"
 #import "TermServiceDialogController.h"
+#import "DefaultPreferenceUtil.h"
+
 @interface SplashViewController ()
 @property (nonatomic, strong) TermServiceDialogController *dialogController;
 @end
@@ -64,8 +66,17 @@
 
 - (void)initDatum{
     [super initDatum];
+
+    if ([DefaultPreferenceUtil isAcceptTermsServiceAgreement]) {
+        //已经同意了用户协议
+        [self prepareNext];
+    } else {
+        [self showTermsServiceAgreementDialog];
+    }
+}
+
+-(void)prepareNext{
     
-    [self showTermsServiceAgreementDialog];
 }
 
 /// 显示同意服务条款对话框
@@ -77,6 +88,9 @@
 /// @param sender <#sender description#>
 -(void)primaryClick:(UIButton *)sender{
     [self.dialogController hide];
+    [DefaultPreferenceUtil setAcceptTermsServiceAgreement:YES];
+    
+    [self prepareNext];
 }
 
 /// 返回控制器，懒加载方式
