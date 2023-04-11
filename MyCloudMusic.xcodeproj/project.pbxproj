@@ -23,6 +23,9 @@
 		8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F988A29E50C8300E67AC8 /* UIColor+Config.m */; };
 		8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F988D29E50F3A00E67AC8 /* UIColor+Theme.m */; };
 		8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989029E5101B00E67AC8 /* UIColor+SuperUI.m */; };
+		8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989429E52CC100E67AC8 /* BaseController.m */; };
+		8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */; };
+		8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +61,12 @@
 		8D9F988D29E50F3A00E67AC8 /* UIColor+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
 		8D9F988F29E5101B00E67AC8 /* UIColor+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SuperUI.h"; sourceTree = "<group>"; };
 		8D9F989029E5101B00E67AC8 /* UIColor+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SuperUI.m"; sourceTree = "<group>"; };
+		8D9F989329E52CC100E67AC8 /* BaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseController.h; sourceTree = "<group>"; };
+		8D9F989429E52CC100E67AC8 /* BaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseController.m; sourceTree = "<group>"; };
+		8D9F989629E52D6B00E67AC8 /* BaseCommonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCommonController.h; sourceTree = "<group>"; };
+		8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCommonController.m; sourceTree = "<group>"; };
+		8D9F989929E52DEC00E67AC8 /* BaseLogicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLogicController.h; sourceTree = "<group>"; };
+		8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLogicController.m; sourceTree = "<group>"; };
 		DD39585A1CA2DCD7AF36F5A4 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +111,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D9F989229E52C9600E67AC8 /* Controller */,
 				8D9F988829E50C6000E67AC8 /* Config */,
 				8D9F986B29E45BFE00E67AC8 /* Vender */,
 				8D9F986629E3FD5C00E67AC8 /* Component */,
@@ -185,6 +195,19 @@
 				8D9F988D29E50F3A00E67AC8 /* UIColor+Theme.m */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		8D9F989229E52C9600E67AC8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F989329E52CC100E67AC8 /* BaseController.h */,
+				8D9F989429E52CC100E67AC8 /* BaseController.m */,
+				8D9F989629E52D6B00E67AC8 /* BaseCommonController.h */,
+				8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */,
+				8D9F989929E52DEC00E67AC8 /* BaseLogicController.h */,
+				8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		A23E75ECDDCCDD3F1EE0EA06 /* Pods */ = {
@@ -312,16 +335,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */,
 				8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */,
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
+				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
+				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

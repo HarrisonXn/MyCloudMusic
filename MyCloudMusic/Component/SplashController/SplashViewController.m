@@ -18,21 +18,12 @@
 
 @implementation SplashViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor colorBackground];
+- (void)initViews{
+    [super initViews];
+    [self setBackgroundColor:[UIColor colorBackground]];
     
     //根容器
-    MyRelativeLayout *container = [[MyRelativeLayout alloc]init];
-    
-    //从安全区开始
-    container.leadingPos.equalTo(@(MyLayoutPos.safeAreaMargin));
-    container.trailingPos.equalTo(@(MyLayoutPos.safeAreaMargin));
-    container.topPos.equalTo(@(MyLayoutPos.safeAreaMargin));
-    container.bottomPos.equalTo(@(MyLayoutPos.safeAreaMargin));
-    
-    [self.view addSubview:container];
+    [self initRelativeLayoutSafeArea];
     
     //Logo
     UIImageView *logoView = [UIImageView new];
@@ -41,7 +32,7 @@
     logoView.myHeight = 110;
     logoView.myCenterX = 0;
     logoView.myCenterY = 0;
-    [container addSubview:logoView];
+    [self.container addSubview:logoView];
     
     //版权
     NSInteger year=[SuperDateUtil currentYear];
@@ -57,7 +48,7 @@
 //    result=[NSString stringWithFormat:result,year];
     //使用R.objc框架
     agrementView.text=[R.string.localizable copyright:year];
-    [container addSubview:agrementView];
+    [self.container addSubview:agrementView];
     
     //logo
     UIImageView *logoView2=[UIImageView new];
@@ -67,17 +58,7 @@
     logoView2.myCenterX=0;
     logoView2.image=[UIImage imageNamed:@"SplashLogo"];
     logoView2.contentMode = UIViewContentModeScaleAspectFit;
-    [container addSubview:logoView2];
+    [self.container addSubview:logoView2];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end
