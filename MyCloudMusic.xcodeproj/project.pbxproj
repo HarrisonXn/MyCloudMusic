@@ -16,6 +16,13 @@
 		8D9F986029E3FC8700E67AC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985F29E3FC8700E67AC8 /* main.m */; };
 		8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F986929E3FD7E00E67AC8 /* SplashViewController.m */; };
 		8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F986E29E45CFC00E67AC8 /* SuperDateUtil.m */; };
+		8D9F987329E4661700E67AC8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F987529E4661700E67AC8 /* Localizable.strings */; };
+		8D9F987B29E46FD400E67AC8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D9F987D29E46FD400E67AC8 /* InfoPlist.strings */; };
+		8D9F988229E4776500E67AC8 /* R.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F988129E4776500E67AC8 /* R.m */; };
+		8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F988629E509D300E67AC8 /* UIColor+Hex.m */; };
+		8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F988A29E50C8300E67AC8 /* UIColor+Config.m */; };
+		8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F988D29E50F3A00E67AC8 /* UIColor+Theme.m */; };
+		8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989029E5101B00E67AC8 /* UIColor+SuperUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +42,22 @@
 		8D9F986929E3FD7E00E67AC8 /* SplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashViewController.m; sourceTree = "<group>"; };
 		8D9F986D29E45CFC00E67AC8 /* SuperDateUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperDateUtil.h; sourceTree = "<group>"; };
 		8D9F986E29E45CFC00E67AC8 /* SuperDateUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDateUtil.m; sourceTree = "<group>"; };
+		8D9F987229E465F300E67AC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		8D9F987429E4661700E67AC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		8D9F987729E4665A00E67AC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8D9F987829E4667A00E67AC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8D9F987C29E46FD400E67AC8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D9F987E29E46FD800E67AC8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		8D9F988029E4776500E67AC8 /* R.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = R.h; sourceTree = SOURCE_ROOT; };
+		8D9F988129E4776500E67AC8 /* R.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = R.m; sourceTree = SOURCE_ROOT; };
+		8D9F988529E509D300E67AC8 /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		8D9F988629E509D300E67AC8 /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		8D9F988929E50C8300E67AC8 /* UIColor+Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Config.h"; sourceTree = "<group>"; };
+		8D9F988A29E50C8300E67AC8 /* UIColor+Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Config.m"; sourceTree = "<group>"; };
+		8D9F988C29E50F3A00E67AC8 /* UIColor+Theme.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
+		8D9F988D29E50F3A00E67AC8 /* UIColor+Theme.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
+		8D9F988F29E5101B00E67AC8 /* UIColor+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+SuperUI.h"; sourceTree = "<group>"; };
+		8D9F989029E5101B00E67AC8 /* UIColor+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SuperUI.m"; sourceTree = "<group>"; };
 		DD39585A1CA2DCD7AF36F5A4 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +102,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D9F988829E50C6000E67AC8 /* Config */,
 				8D9F986B29E45BFE00E67AC8 /* Vender */,
 				8D9F986629E3FD5C00E67AC8 /* Component */,
 				8D9F984A29E3FC8700E67AC8 /* AppDelegate.h */,
@@ -90,6 +114,10 @@
 				8D9F985E29E3FC8700E67AC8 /* Info.plist */,
 				8D9F985F29E3FC8700E67AC8 /* main.m */,
 				8D9F985629E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld */,
+				8D9F988029E4776500E67AC8 /* R.h */,
+				8D9F988129E4776500E67AC8 /* R.m */,
+				8D9F987529E4661700E67AC8 /* Localizable.strings */,
+				8D9F987D29E46FD400E67AC8 /* InfoPlist.strings */,
 			);
 			path = MyCloudMusic;
 			sourceTree = "<group>";
@@ -122,10 +150,41 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D9F988429E5098C00E67AC8 /* Color */,
+				8D9F988329E5097E00E67AC8 /* Group */,
+			);
+			path = SuperUI;
+			sourceTree = "<group>";
+		};
+		8D9F988329E5097E00E67AC8 /* Group */ = {
+			isa = PBXGroup;
+			children = (
 				8D9F986D29E45CFC00E67AC8 /* SuperDateUtil.h */,
 				8D9F986E29E45CFC00E67AC8 /* SuperDateUtil.m */,
 			);
-			path = SuperUI;
+			path = Group;
+			sourceTree = "<group>";
+		};
+		8D9F988429E5098C00E67AC8 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F988529E509D300E67AC8 /* UIColor+Hex.h */,
+				8D9F988629E509D300E67AC8 /* UIColor+Hex.m */,
+				8D9F988F29E5101B00E67AC8 /* UIColor+SuperUI.h */,
+				8D9F989029E5101B00E67AC8 /* UIColor+SuperUI.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		8D9F988829E50C6000E67AC8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				8D9F988929E50C8300E67AC8 /* UIColor+Config.h */,
+				8D9F988A29E50C8300E67AC8 /* UIColor+Config.m */,
+				8D9F988C29E50F3A00E67AC8 /* UIColor+Theme.h */,
+				8D9F988D29E50F3A00E67AC8 /* UIColor+Theme.m */,
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 		A23E75ECDDCCDD3F1EE0EA06 /* Pods */ = {
@@ -145,6 +204,7 @@
 			buildConfigurationList = 8D9F986329E3FC8700E67AC8 /* Build configuration list for PBXNativeTarget "MyCloudMusic" */;
 			buildPhases = (
 				1A2AB049FC0975890808244F /* [CP] Check Pods Manifest.lock */,
+				8D9F987F29E4759F00E67AC8 /* ShellScript */,
 				8D9F984329E3FC8700E67AC8 /* Sources */,
 				8D9F984429E3FC8700E67AC8 /* Frameworks */,
 				8D9F984529E3FC8700E67AC8 /* Resources */,
@@ -179,6 +239,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 8D9F983E29E3FC8700E67AC8;
 			productRefGroup = 8D9F984829E3FC8700E67AC8 /* Products */;
@@ -196,6 +257,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9F985D29E3FC8700E67AC8 /* LaunchScreen.storyboard in Resources */,
+				8D9F987B29E46FD400E67AC8 /* InfoPlist.strings in Resources */,
+				8D9F987329E4661700E67AC8 /* Localizable.strings in Resources */,
 				8D9F985A29E3FC8700E67AC8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +288,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8D9F987F29E4759F00E67AC8 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/R.objc/Robjc\" -p \"$SRCROOT\" --skip-themes\n \n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -233,10 +313,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */,
+				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
+				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
+				8D9F988229E4776500E67AC8 /* R.m in Sources */,
+				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
+				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,8 +333,28 @@
 			isa = PBXVariantGroup;
 			children = (
 				8D9F985C29E3FC8700E67AC8 /* Base */,
+				8D9F987229E465F300E67AC8 /* zh-Hans */,
+				8D9F987729E4665A00E67AC8 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8D9F987529E4661700E67AC8 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9F987429E4661700E67AC8 /* zh-Hans */,
+				8D9F987829E4667A00E67AC8 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		8D9F987D29E46FD400E67AC8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D9F987C29E46FD400E67AC8 /* en */,
+				8D9F987E29E46FD800E67AC8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -305,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -317,6 +423,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -357,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

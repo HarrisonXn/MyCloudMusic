@@ -4,4 +4,5 @@
 target 'MyCloudMusic' do
 
 pod 'MyLayout', '~> 1.9.8'
+pod 'R.objc', '~> 0.8.2'
 end

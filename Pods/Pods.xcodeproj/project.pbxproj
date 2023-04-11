@@ -7,56 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03FC57F4525C4CDA071797CE4D17BEAF /* MyGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE8D5FF9A07717ECB0064132436863AB /* MyGridLayout.m */; };
-		0C623C8ECFFCFD3EFF6DFA737B1E8C74 /* MyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 04847978B1FFA4E78A5DB5707609F908 /* MyMaker.m */; };
-		0DB88239DADF48BDF7A1AC6B164D996A /* MyLayoutPos.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8614CAB201B8A19F94251B16778C57 /* MyLayoutPos.m */; };
-		19CE3F8C66D1600E5CBDB72ED556662B /* MyLayoutMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA914A1A4EB3FFE223FDDCBA54578CF /* MyLayoutMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1D22181A32209623F6F1EA3C9BF1EBD3 /* MyTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = B141AB52097C157803575293D4B18DBB /* MyTableLayout.m */; };
-		266B28DAFDD94CB10C36689D2CF9F860 /* MyMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CF47C1326BA460223E29E461218AF0 /* MyMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		280F0AFCE306DDD3E962A0AF573B53DA /* MyGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 697632A603DC879544137ECF538FBEED /* MyGrid.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		2B108BF91339C7B8C35B3E94CDBE84CC /* MyLinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E70AAF9CADA36FBBF07B0D7C31AF18 /* MyLinearLayout.m */; };
-		33906379120CEE23A5552E077EDE810A /* MyLayoutPos.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F91D32024BBE917846D07AE932429BE /* MyLayoutPos.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		36339F44FF1D5E4B2B5D75B32EC1FAA6 /* MyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 190AFC9262B5BF75E01874FB916F9273 /* MyLayout-dummy.m */; };
-		3E8BBBAC015B9FAE06FA0F59F91B355B /* MyGridNode.m in Sources */ = {isa = PBXBuildFile; fileRef = E8EF59B918F1D34965F00282653E6EE1 /* MyGridNode.m */; };
-		3F7BAF0BFCC133EE7BD4123E43AEC696 /* MyRelativeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = DE988FCC8EFA5367EEC8B86FEB18C7DF /* MyRelativeLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		415DADA660EA94B602236D48B0A1F979 /* MyBorderline.m in Sources */ = {isa = PBXBuildFile; fileRef = F4DAD7597935821D65FDCA765E38EFE6 /* MyBorderline.m */; };
+		03FC57F4525C4CDA071797CE4D17BEAF /* MyGridLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E35646CE149BAD78AFF7E3AFBFE489ED /* MyGridLayout.m */; };
+		0C623C8ECFFCFD3EFF6DFA737B1E8C74 /* MyMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = FF1C0B2846A25BE7A44F1140B11D5018 /* MyMaker.m */; };
+		0DB88239DADF48BDF7A1AC6B164D996A /* MyLayoutPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 447C0FF8F362B81B0E9EE379F93B7E83 /* MyLayoutPos.m */; };
+		19CE3F8C66D1600E5CBDB72ED556662B /* MyLayoutMath.h in Headers */ = {isa = PBXBuildFile; fileRef = C12FF636F5C8597C1A7844B8CFAA7EE2 /* MyLayoutMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1D22181A32209623F6F1EA3C9BF1EBD3 /* MyTableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EE98BEF617D94A4C75200173314186C4 /* MyTableLayout.m */; };
+		266B28DAFDD94CB10C36689D2CF9F860 /* MyMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 41059417FD2905972B10E6ED0FF8C6B9 /* MyMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		280F0AFCE306DDD3E962A0AF573B53DA /* MyGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 50ADC9A577F5B3B34CE0E00E44E722E8 /* MyGrid.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2B108BF91339C7B8C35B3E94CDBE84CC /* MyLinearLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 88043D05577717CB1C260973AAC5C273 /* MyLinearLayout.m */; };
+		33906379120CEE23A5552E077EDE810A /* MyLayoutPos.h in Headers */ = {isa = PBXBuildFile; fileRef = A9799FF32FE4AA395F427071C2D47BCD /* MyLayoutPos.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		36339F44FF1D5E4B2B5D75B32EC1FAA6 /* MyLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 64612BCD017482E9961974732BE465AA /* MyLayout-dummy.m */; };
+		3E8BBBAC015B9FAE06FA0F59F91B355B /* MyGridNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DBEEE8FA14ED7362AF5C8460A4D2E49A /* MyGridNode.m */; };
+		3F7BAF0BFCC133EE7BD4123E43AEC696 /* MyRelativeLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 768CDF89BCC968805FA33B6FF2221815 /* MyRelativeLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		415DADA660EA94B602236D48B0A1F979 /* MyBorderline.m in Sources */ = {isa = PBXBuildFile; fileRef = C22FF13EF0E9C3DC9E6D3A16CA701F0E /* MyBorderline.m */; };
 		4DD0497BF5DC681C9F15F8E0C515ED8E /* Pods-MyCloudMusic-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56471F6C5E7CA4FE31D94AE264B80831 /* Pods-MyCloudMusic-dummy.m */; };
-		5D365646A0C464611581B61B88EDD18E /* MyBaseLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 141B4B491B03986D5DCC087905E49995 /* MyBaseLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62FE95C1C208BE1141FA4E051E912CC1 /* MyFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8CF51D97AB9A3E232AB519FF1A9669 /* MyFloatLayout.m */; };
-		633BEEC3998DCA51DCF789AF21F88085 /* MyTableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D2C4D22CF04439BEA97D4F208425DFE /* MyTableLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6ED7706C713EAAE8F18BC22193A151B1 /* MyPathLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D2CEA2153AA35697691BE372DCCF87DC /* MyPathLayout.m */; };
-		703092AF4795310F00B094EFB84FD6A9 /* MyLayoutSizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 98C10BFEECA514B1D085E871E1006B07 /* MyLayoutSizeClass.m */; };
-		74A0D1BDA259EA4452E2DE87FDC6D44F /* MyFlexLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = B38B0430957872123823F81D2C9F34D0 /* MyFlexLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7CF372C5C3D0912741AE0AC3189BAEB9 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 447141E92DA0F394BFE8872DA0078F6E /* MyFlowLayout.m */; };
-		7F2D665426486A08B989D9C25EBB0637 /* MyBorderline.h in Headers */ = {isa = PBXBuildFile; fileRef = 83353A47D8B2B258E0079460521763BD /* MyBorderline.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8019C04A9101B04B98DB4698DA850BE9 /* MyGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 54C05F85407F468FDA091A35AA400E4B /* MyGridLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		801A5444DE8238B60D03994C92883D5D /* MyLayoutMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 664BE9B2A9FADE256F9EFE7C8668A970 /* MyLayoutMath.m */; };
-		8106E7F16B684C97EF3A6999309765A4 /* MyLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5660692F5852995D5C565870A4E4B95B /* MyLayoutDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		81420D243BC7719AA082FFBCE282962F /* MyFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 77C8F8EC4E2D73EE088F34BBE710B88B /* MyFlowLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8A21D92C97E0376BFB606D1BF0116D2C /* MyFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CEE3F146B7F3DC502B1EE8193D9AA6 /* MyFrameLayout.m */; };
-		9B79325834A116951FE4B99DCD5E367A /* MyLayoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = C7E3F6F55713A56AFE71DC5C1296EE1D /* MyLayoutSize.m */; };
-		A2225436B9B16BFD877D426341CA183B /* MyLayoutInner.h in Headers */ = {isa = PBXBuildFile; fileRef = B96864914C74E20FB9038762D59F6607 /* MyLayoutInner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A39E79B4579CE77452BC8C96D4BFC6F2 /* MyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 57806EF970C924217EA601547E96A479 /* MyLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A6277B3992D391747D439DD67E4C3591 /* MyDimeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B0EFAE94E98045D5A8F5FEF46A912D /* MyDimeScale.m */; };
-		A98D69E7B9FECADDAAE0E842C7E11404 /* MyFlexLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA3DC073761653234AF214EF79EFD22 /* MyFlexLayout.m */; };
-		AC8CE531063A34A7C0D192413C0C1712 /* MyLayoutPosInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 396C638E3D85A06F694891821C58DB8F /* MyLayoutPosInner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B60B59D6EB79DA20420B1BAB11DFC791 /* MyLayoutSizeClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 83D3970AA03DE11102BC29CA10FD9EDA /* MyLayoutSizeClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B72B56FBF0D863E664544477076A6FE6 /* MyDimeScale.h in Headers */ = {isa = PBXBuildFile; fileRef = B648E3198D48C302B20FC26AA6B00E3B /* MyDimeScale.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		BFB12649118C56FA1DB30EAEEEA78A47 /* MyRelativeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9176DF9C83E68B3107A96E7EE30BB194 /* MyRelativeLayout.m */; };
-		C0481AC8BA775D9FCBBA14B1472500D4 /* MyBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0CD613949FAB2C01FAAF876197F1D2 /* MyBaseLayout.m */; };
-		C89BE1FF7319B72CD79FD81EF8ACD32B /* MyLayoutDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ACC91DEF37AE3C6DC9C670655BD7F43 /* MyLayoutDef.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		CC8C706BAF241D68692EEAB598286CB3 /* MyLinearLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C815C4AB8321776A0F5BD9A950AC3835 /* MyLinearLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D02BAEF2A05AB2B9285B794117F5A8F1 /* MyFloatLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 91A512729EC38A6D39EBBCD4732454DF /* MyFloatLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D205A1038D115D5E183567501535C9AC /* MyFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E7218A3885C0713DC8C75674B4A41BCF /* MyFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D5EBCD0DDB7841A30ADC7CE5CBE5937B /* MyGridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF72DFD4E00542B86A7C1943A971941 /* MyGridNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DD8FD81F444F631D39D5067F1830F56D /* MyLayoutSize.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E78E2B25012BA0B415077668260BF3 /* MyLayoutSize.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DF64AA1C87E9BC71FE296C011CA942C4 /* MyLayoutSizeInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 555DA206C85957E975B57B372D8E740A /* MyLayoutSizeInner.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		ED74BDF9BD3795BDB048706AC566D449 /* MyLayoutDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1E8CC8921ED02A60CF40073E6DA75DD /* MyLayoutDelegate.m */; };
-		FA797708A55B7975B1B295F0D29B2ADF /* MyPathLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CF365BC32D6A41AF4418FD849F767A6F /* MyPathLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5D365646A0C464611581B61B88EDD18E /* MyBaseLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 00519152AF84467F4855DA2C0CCE4D62 /* MyBaseLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		62FE95C1C208BE1141FA4E051E912CC1 /* MyFloatLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CA24981E01CB57DACD7B10EDF2F6EC87 /* MyFloatLayout.m */; };
+		633BEEC3998DCA51DCF789AF21F88085 /* MyTableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE8F2C46C34AE81FA8CD768B7661BB2 /* MyTableLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6ED7706C713EAAE8F18BC22193A151B1 /* MyPathLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D56885274776B6FEF082826068167 /* MyPathLayout.m */; };
+		703092AF4795310F00B094EFB84FD6A9 /* MyLayoutSizeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FF27F92A4D01A093CF9FA2BA5E4EC586 /* MyLayoutSizeClass.m */; };
+		74A0D1BDA259EA4452E2DE87FDC6D44F /* MyFlexLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B91D1B1E7E8AF5E90B913D51B832330 /* MyFlexLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7CF372C5C3D0912741AE0AC3189BAEB9 /* MyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 916B5E4D5D17E139590E500E8BD27D3D /* MyFlowLayout.m */; };
+		7F2D665426486A08B989D9C25EBB0637 /* MyBorderline.h in Headers */ = {isa = PBXBuildFile; fileRef = 43ECA2E44B278817893740ABE433527F /* MyBorderline.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8019C04A9101B04B98DB4698DA850BE9 /* MyGridLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 90EB38D7B8A56EEAC03CCCA6E27A334F /* MyGridLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		801A5444DE8238B60D03994C92883D5D /* MyLayoutMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 07719BBF45AF06271CC075EA13E76452 /* MyLayoutMath.m */; };
+		8106E7F16B684C97EF3A6999309765A4 /* MyLayoutDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 498AADC92713D1FBDE991B9923FDF9E7 /* MyLayoutDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		81420D243BC7719AA082FFBCE282962F /* MyFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 1863CE741CE0F5C55099BD3B6D4F6027 /* MyFlowLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8A21D92C97E0376BFB606D1BF0116D2C /* MyFrameLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F68EB2DF169474F1C26BC66BE2139 /* MyFrameLayout.m */; };
+		9B79325834A116951FE4B99DCD5E367A /* MyLayoutSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 968F309666363E76315ABAFE0D0F4D9B /* MyLayoutSize.m */; };
+		A2225436B9B16BFD877D426341CA183B /* MyLayoutInner.h in Headers */ = {isa = PBXBuildFile; fileRef = EC34FFE6F8B2EAC45D3B73F096012DA0 /* MyLayoutInner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A39E79B4579CE77452BC8C96D4BFC6F2 /* MyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 710CB67253426DEF06260C34DA498C26 /* MyLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A6277B3992D391747D439DD67E4C3591 /* MyDimeScale.m in Sources */ = {isa = PBXBuildFile; fileRef = ED76E1A3207C3CF6853FA8621FFB7A59 /* MyDimeScale.m */; };
+		A98D69E7B9FECADDAAE0E842C7E11404 /* MyFlexLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F7EF1AB83B33BE929099DE3ACF86B5F /* MyFlexLayout.m */; };
+		AC8CE531063A34A7C0D192413C0C1712 /* MyLayoutPosInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D4B39EE4E4E0F8469A1A63A35DA9F33 /* MyLayoutPosInner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B60B59D6EB79DA20420B1BAB11DFC791 /* MyLayoutSizeClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 15CC2A9B4DAB81A57A584DCEC1E538B0 /* MyLayoutSizeClass.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B72B56FBF0D863E664544477076A6FE6 /* MyDimeScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 0770A969DBAB8037A934809F17EDAED5 /* MyDimeScale.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BFB12649118C56FA1DB30EAEEEA78A47 /* MyRelativeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB5D1639CBB64003CA8358B1F76F25D /* MyRelativeLayout.m */; };
+		C0481AC8BA775D9FCBBA14B1472500D4 /* MyBaseLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A16AD934F1CAE3479ED31015EB087C /* MyBaseLayout.m */; };
+		C89BE1FF7319B72CD79FD81EF8ACD32B /* MyLayoutDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 61C66F9AB092FB068C43C3FF1ADB55BB /* MyLayoutDef.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CC8C706BAF241D68692EEAB598286CB3 /* MyLinearLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C51CEDCA3CC0E885D52AE32F34D5FF /* MyLinearLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D02BAEF2A05AB2B9285B794117F5A8F1 /* MyFloatLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 181A8648A67C0C91476C0E5574BE993E /* MyFloatLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D205A1038D115D5E183567501535C9AC /* MyFrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F04C64B1F7FF558B4918EED6301C49BD /* MyFrameLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D5EBCD0DDB7841A30ADC7CE5CBE5937B /* MyGridNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 070BAB8191EF00736432A73CBB32AA06 /* MyGridNode.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DD8FD81F444F631D39D5067F1830F56D /* MyLayoutSize.h in Headers */ = {isa = PBXBuildFile; fileRef = D47F47548B0933C5F6A0A118231D75B8 /* MyLayoutSize.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		DF64AA1C87E9BC71FE296C011CA942C4 /* MyLayoutSizeInner.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B16FC83D6B41FAEB8EA33B3647D4917 /* MyLayoutSizeInner.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		ED74BDF9BD3795BDB048706AC566D449 /* MyLayoutDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B59DAE2876C01EE9D0DA017FE4F3D53 /* MyLayoutDelegate.m */; };
+		FA797708A55B7975B1B295F0D29B2ADF /* MyPathLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F813971E05AD9EA6053001041938BECA /* MyPathLayout.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E24431D0945601B761B996044E8D8F60 /* PBXContainerItemProxy */ = {
+		6EB48420549F9BEC7CDACFB29A14FA33 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -66,63 +66,63 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04847978B1FFA4E78A5DB5707609F908 /* MyMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyMaker.m; path = MyLayout/Lib/MyMaker.m; sourceTree = "<group>"; };
-		08CEE3F146B7F3DC502B1EE8193D9AA6 /* MyFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFrameLayout.m; path = MyLayout/Lib/MyFrameLayout.m; sourceTree = "<group>"; };
+		00519152AF84467F4855DA2C0CCE4D62 /* MyBaseLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBaseLayout.h; path = MyLayout/Lib/MyBaseLayout.h; sourceTree = "<group>"; };
+		070BAB8191EF00736432A73CBB32AA06 /* MyGridNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridNode.h; path = MyLayout/Lib/MyGridNode.h; sourceTree = "<group>"; };
+		0770A969DBAB8037A934809F17EDAED5 /* MyDimeScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyDimeScale.h; path = MyLayout/Lib/MyDimeScale.h; sourceTree = "<group>"; };
+		07719BBF45AF06271CC075EA13E76452 /* MyLayoutMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutMath.m; path = MyLayout/Lib/MyLayoutMath.m; sourceTree = "<group>"; };
 		0C096B1D6C13222BCE894F92F7705CCF /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
-		0DA914A1A4EB3FFE223FDDCBA54578CF /* MyLayoutMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutMath.h; path = MyLayout/Lib/MyLayoutMath.h; sourceTree = "<group>"; };
-		0F91D32024BBE917846D07AE932429BE /* MyLayoutPos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPos.h; path = MyLayout/Lib/MyLayoutPos.h; sourceTree = "<group>"; };
-		141B4B491B03986D5DCC087905E49995 /* MyBaseLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBaseLayout.h; path = MyLayout/Lib/MyBaseLayout.h; sourceTree = "<group>"; };
-		15CF47C1326BA460223E29E461218AF0 /* MyMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyMaker.h; path = MyLayout/Lib/MyMaker.h; sourceTree = "<group>"; };
-		18B0EFAE94E98045D5A8F5FEF46A912D /* MyDimeScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyDimeScale.m; path = MyLayout/Lib/MyDimeScale.m; sourceTree = "<group>"; };
-		190AFC9262B5BF75E01874FB916F9273 /* MyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLayout-dummy.m"; sourceTree = "<group>"; };
+		0D4B39EE4E4E0F8469A1A63A35DA9F33 /* MyLayoutPosInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPosInner.h; path = MyLayout/Lib/MyLayoutPosInner.h; sourceTree = "<group>"; };
+		15CC2A9B4DAB81A57A584DCEC1E538B0 /* MyLayoutSizeClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeClass.h; path = MyLayout/Lib/MyLayoutSizeClass.h; sourceTree = "<group>"; };
+		181A8648A67C0C91476C0E5574BE993E /* MyFloatLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFloatLayout.h; path = MyLayout/Lib/MyFloatLayout.h; sourceTree = "<group>"; };
+		1863CE741CE0F5C55099BD3B6D4F6027 /* MyFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlowLayout.h; path = MyLayout/Lib/MyFlowLayout.h; sourceTree = "<group>"; };
 		1EBB731B10E3445D9F769C9E0D287BC5 /* Pods-MyCloudMusic-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyCloudMusic-acknowledgements.plist"; sourceTree = "<group>"; };
+		1FE8F2C46C34AE81FA8CD768B7661BB2 /* MyTableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyTableLayout.h; path = MyLayout/Lib/MyTableLayout.h; sourceTree = "<group>"; };
 		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		34E70AAF9CADA36FBBF07B0D7C31AF18 /* MyLinearLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLinearLayout.m; path = MyLayout/Lib/MyLinearLayout.m; sourceTree = "<group>"; };
-		384E21D0D5BAA935169D2BAA09604F98 /* MyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLayout-prefix.pch"; sourceTree = "<group>"; };
-		396C638E3D85A06F694891821C58DB8F /* MyLayoutPosInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPosInner.h; path = MyLayout/Lib/MyLayoutPosInner.h; sourceTree = "<group>"; };
-		447141E92DA0F394BFE8872DA0078F6E /* MyFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlowLayout.m; path = MyLayout/Lib/MyFlowLayout.m; sourceTree = "<group>"; };
-		4A0CD613949FAB2C01FAAF876197F1D2 /* MyBaseLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBaseLayout.m; path = MyLayout/Lib/MyBaseLayout.m; sourceTree = "<group>"; };
+		2E6F68EB2DF169474F1C26BC66BE2139 /* MyFrameLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFrameLayout.m; path = MyLayout/Lib/MyFrameLayout.m; sourceTree = "<group>"; };
+		2F7EF1AB83B33BE929099DE3ACF86B5F /* MyFlexLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlexLayout.m; path = MyLayout/Lib/MyFlexLayout.m; sourceTree = "<group>"; };
+		3CB5D1639CBB64003CA8358B1F76F25D /* MyRelativeLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyRelativeLayout.m; path = MyLayout/Lib/MyRelativeLayout.m; sourceTree = "<group>"; };
+		41059417FD2905972B10E6ED0FF8C6B9 /* MyMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyMaker.h; path = MyLayout/Lib/MyMaker.h; sourceTree = "<group>"; };
+		43ECA2E44B278817893740ABE433527F /* MyBorderline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBorderline.h; path = MyLayout/Lib/MyBorderline.h; sourceTree = "<group>"; };
+		447C0FF8F362B81B0E9EE379F93B7E83 /* MyLayoutPos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutPos.m; path = MyLayout/Lib/MyLayoutPos.m; sourceTree = "<group>"; };
+		498AADC92713D1FBDE991B9923FDF9E7 /* MyLayoutDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDelegate.h; path = MyLayout/Lib/MyLayoutDelegate.h; sourceTree = "<group>"; };
 		4C7AABB9BF04CC4CB05BDFF844DED4EB /* Pods-MyCloudMusic-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCloudMusic-frameworks.sh"; sourceTree = "<group>"; };
-		54C05F85407F468FDA091A35AA400E4B /* MyGridLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridLayout.h; path = MyLayout/Lib/MyGridLayout.h; sourceTree = "<group>"; };
-		555DA206C85957E975B57B372D8E740A /* MyLayoutSizeInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeInner.h; path = MyLayout/Lib/MyLayoutSizeInner.h; sourceTree = "<group>"; };
+		50ADC9A577F5B3B34CE0E00E44E722E8 /* MyGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGrid.h; path = MyLayout/Lib/MyGrid.h; sourceTree = "<group>"; };
 		56471F6C5E7CA4FE31D94AE264B80831 /* Pods-MyCloudMusic-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyCloudMusic-dummy.m"; sourceTree = "<group>"; };
-		5660692F5852995D5C565870A4E4B95B /* MyLayoutDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDelegate.h; path = MyLayout/Lib/MyLayoutDelegate.h; sourceTree = "<group>"; };
-		57806EF970C924217EA601547E96A479 /* MyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayout.h; path = MyLayout/Lib/MyLayout.h; sourceTree = "<group>"; };
-		5ACC91DEF37AE3C6DC9C670655BD7F43 /* MyLayoutDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDef.h; path = MyLayout/Lib/MyLayoutDef.h; sourceTree = "<group>"; };
-		664BE9B2A9FADE256F9EFE7C8668A970 /* MyLayoutMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutMath.m; path = MyLayout/Lib/MyLayoutMath.m; sourceTree = "<group>"; };
-		697632A603DC879544137ECF538FBEED /* MyGrid.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGrid.h; path = MyLayout/Lib/MyGrid.h; sourceTree = "<group>"; };
-		77C8F8EC4E2D73EE088F34BBE710B88B /* MyFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlowLayout.h; path = MyLayout/Lib/MyFlowLayout.h; sourceTree = "<group>"; };
+		61C66F9AB092FB068C43C3FF1ADB55BB /* MyLayoutDef.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutDef.h; path = MyLayout/Lib/MyLayoutDef.h; sourceTree = "<group>"; };
+		64612BCD017482E9961974732BE465AA /* MyLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyLayout-dummy.m"; sourceTree = "<group>"; };
+		6B16FC83D6B41FAEB8EA33B3647D4917 /* MyLayoutSizeInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeInner.h; path = MyLayout/Lib/MyLayoutSizeInner.h; sourceTree = "<group>"; };
+		710CB67253426DEF06260C34DA498C26 /* MyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayout.h; path = MyLayout/Lib/MyLayout.h; sourceTree = "<group>"; };
+		768CDF89BCC968805FA33B6FF2221815 /* MyRelativeLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyRelativeLayout.h; path = MyLayout/Lib/MyRelativeLayout.h; sourceTree = "<group>"; };
+		7B59DAE2876C01EE9D0DA017FE4F3D53 /* MyLayoutDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutDelegate.m; path = MyLayout/Lib/MyLayoutDelegate.m; sourceTree = "<group>"; };
 		814BB61E1142AB1E5FA117F2E33292C4 /* libPods-MyCloudMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyCloudMusic.a"; path = "libPods-MyCloudMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		83353A47D8B2B258E0079460521763BD /* MyBorderline.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyBorderline.h; path = MyLayout/Lib/MyBorderline.h; sourceTree = "<group>"; };
-		83D3970AA03DE11102BC29CA10FD9EDA /* MyLayoutSizeClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSizeClass.h; path = MyLayout/Lib/MyLayoutSizeClass.h; sourceTree = "<group>"; };
-		8AF72DFD4E00542B86A7C1943A971941 /* MyGridNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridNode.h; path = MyLayout/Lib/MyGridNode.h; sourceTree = "<group>"; };
-		8D2C4D22CF04439BEA97D4F208425DFE /* MyTableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyTableLayout.h; path = MyLayout/Lib/MyTableLayout.h; sourceTree = "<group>"; };
-		9176DF9C83E68B3107A96E7EE30BB194 /* MyRelativeLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyRelativeLayout.m; path = MyLayout/Lib/MyRelativeLayout.m; sourceTree = "<group>"; };
-		91A512729EC38A6D39EBBCD4732454DF /* MyFloatLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFloatLayout.h; path = MyLayout/Lib/MyFloatLayout.h; sourceTree = "<group>"; };
-		98C10BFEECA514B1D085E871E1006B07 /* MyLayoutSizeClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSizeClass.m; path = MyLayout/Lib/MyLayoutSizeClass.m; sourceTree = "<group>"; };
-		ACFE09D5D9D179AB25F82DCB40D20629 /* MyLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLayout.xcconfig; sourceTree = "<group>"; };
-		AE8CF51D97AB9A3E232AB519FF1A9669 /* MyFloatLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFloatLayout.m; path = MyLayout/Lib/MyFloatLayout.m; sourceTree = "<group>"; };
-		B141AB52097C157803575293D4B18DBB /* MyTableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyTableLayout.m; path = MyLayout/Lib/MyTableLayout.m; sourceTree = "<group>"; };
-		B1E8CC8921ED02A60CF40073E6DA75DD /* MyLayoutDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutDelegate.m; path = MyLayout/Lib/MyLayoutDelegate.m; sourceTree = "<group>"; };
-		B38B0430957872123823F81D2C9F34D0 /* MyFlexLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlexLayout.h; path = MyLayout/Lib/MyFlexLayout.h; sourceTree = "<group>"; };
-		B648E3198D48C302B20FC26AA6B00E3B /* MyDimeScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyDimeScale.h; path = MyLayout/Lib/MyDimeScale.h; sourceTree = "<group>"; };
-		B96864914C74E20FB9038762D59F6607 /* MyLayoutInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutInner.h; path = MyLayout/Lib/MyLayoutInner.h; sourceTree = "<group>"; };
-		C7E3F6F55713A56AFE71DC5C1296EE1D /* MyLayoutSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSize.m; path = MyLayout/Lib/MyLayoutSize.m; sourceTree = "<group>"; };
-		C815C4AB8321776A0F5BD9A950AC3835 /* MyLinearLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLinearLayout.h; path = MyLayout/Lib/MyLinearLayout.h; sourceTree = "<group>"; };
-		CE8D5FF9A07717ECB0064132436863AB /* MyGridLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyGridLayout.m; path = MyLayout/Lib/MyGridLayout.m; sourceTree = "<group>"; };
-		CF365BC32D6A41AF4418FD849F767A6F /* MyPathLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyPathLayout.h; path = MyLayout/Lib/MyPathLayout.h; sourceTree = "<group>"; };
-		D2CEA2153AA35697691BE372DCCF87DC /* MyPathLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyPathLayout.m; path = MyLayout/Lib/MyPathLayout.m; sourceTree = "<group>"; };
-		DE988FCC8EFA5367EEC8B86FEB18C7DF /* MyRelativeLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyRelativeLayout.h; path = MyLayout/Lib/MyRelativeLayout.h; sourceTree = "<group>"; };
+		82C51CEDCA3CC0E885D52AE32F34D5FF /* MyLinearLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLinearLayout.h; path = MyLayout/Lib/MyLinearLayout.h; sourceTree = "<group>"; };
+		88043D05577717CB1C260973AAC5C273 /* MyLinearLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLinearLayout.m; path = MyLayout/Lib/MyLinearLayout.m; sourceTree = "<group>"; };
+		8B91D1B1E7E8AF5E90B913D51B832330 /* MyFlexLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFlexLayout.h; path = MyLayout/Lib/MyFlexLayout.h; sourceTree = "<group>"; };
+		90EB38D7B8A56EEAC03CCCA6E27A334F /* MyGridLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyGridLayout.h; path = MyLayout/Lib/MyGridLayout.h; sourceTree = "<group>"; };
+		916B5E4D5D17E139590E500E8BD27D3D /* MyFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlowLayout.m; path = MyLayout/Lib/MyFlowLayout.m; sourceTree = "<group>"; };
+		968F309666363E76315ABAFE0D0F4D9B /* MyLayoutSize.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSize.m; path = MyLayout/Lib/MyLayoutSize.m; sourceTree = "<group>"; };
+		A2A16AD934F1CAE3479ED31015EB087C /* MyBaseLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBaseLayout.m; path = MyLayout/Lib/MyBaseLayout.m; sourceTree = "<group>"; };
+		A9799FF32FE4AA395F427071C2D47BCD /* MyLayoutPos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutPos.h; path = MyLayout/Lib/MyLayoutPos.h; sourceTree = "<group>"; };
+		AD21F06F521F128169D83B420FF19D1E /* MyLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyLayout-prefix.pch"; sourceTree = "<group>"; };
+		C12FF636F5C8597C1A7844B8CFAA7EE2 /* MyLayoutMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutMath.h; path = MyLayout/Lib/MyLayoutMath.h; sourceTree = "<group>"; };
+		C22FF13EF0E9C3DC9E6D3A16CA701F0E /* MyBorderline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBorderline.m; path = MyLayout/Lib/MyBorderline.m; sourceTree = "<group>"; };
+		C47D56885274776B6FEF082826068167 /* MyPathLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyPathLayout.m; path = MyLayout/Lib/MyPathLayout.m; sourceTree = "<group>"; };
+		CA24981E01CB57DACD7B10EDF2F6EC87 /* MyFloatLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFloatLayout.m; path = MyLayout/Lib/MyFloatLayout.m; sourceTree = "<group>"; };
+		D47F47548B0933C5F6A0A118231D75B8 /* MyLayoutSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSize.h; path = MyLayout/Lib/MyLayoutSize.h; sourceTree = "<group>"; };
+		DBEEE8FA14ED7362AF5C8460A4D2E49A /* MyGridNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyGridNode.m; path = MyLayout/Lib/MyGridNode.m; sourceTree = "<group>"; };
 		E31FDCC671C5E0FE50C74B323FC0DE26 /* Pods-MyCloudMusic-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyCloudMusic-resources.sh"; sourceTree = "<group>"; };
-		E7218A3885C0713DC8C75674B4A41BCF /* MyFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFrameLayout.h; path = MyLayout/Lib/MyFrameLayout.h; sourceTree = "<group>"; };
+		E35646CE149BAD78AFF7E3AFBFE489ED /* MyGridLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyGridLayout.m; path = MyLayout/Lib/MyGridLayout.m; sourceTree = "<group>"; };
+		E3DC2B48C65869EECBB30E45F2982B08 /* MyLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyLayout.xcconfig; sourceTree = "<group>"; };
 		E7851AF5761DF0ECEE87E533E536B6B0 /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
 		E8D5DBCD8AD248D81DBFD60B05883E76 /* libMyLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMyLayout.a; path = libMyLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		E8EF59B918F1D34965F00282653E6EE1 /* MyGridNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyGridNode.m; path = MyLayout/Lib/MyGridNode.m; sourceTree = "<group>"; };
-		EDA3DC073761653234AF214EF79EFD22 /* MyFlexLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyFlexLayout.m; path = MyLayout/Lib/MyFlexLayout.m; sourceTree = "<group>"; };
+		EC34FFE6F8B2EAC45D3B73F096012DA0 /* MyLayoutInner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutInner.h; path = MyLayout/Lib/MyLayoutInner.h; sourceTree = "<group>"; };
+		ED76E1A3207C3CF6853FA8621FFB7A59 /* MyDimeScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyDimeScale.m; path = MyLayout/Lib/MyDimeScale.m; sourceTree = "<group>"; };
+		EE98BEF617D94A4C75200173314186C4 /* MyTableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyTableLayout.m; path = MyLayout/Lib/MyTableLayout.m; sourceTree = "<group>"; };
 		EEF650D74DC319331E39EA672400EDE0 /* Pods-MyCloudMusic-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyCloudMusic-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F4DAD7597935821D65FDCA765E38EFE6 /* MyBorderline.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyBorderline.m; path = MyLayout/Lib/MyBorderline.m; sourceTree = "<group>"; };
-		F5E78E2B25012BA0B415077668260BF3 /* MyLayoutSize.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyLayoutSize.h; path = MyLayout/Lib/MyLayoutSize.h; sourceTree = "<group>"; };
-		FA8614CAB201B8A19F94251B16778C57 /* MyLayoutPos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutPos.m; path = MyLayout/Lib/MyLayoutPos.m; sourceTree = "<group>"; };
+		F04C64B1F7FF558B4918EED6301C49BD /* MyFrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyFrameLayout.h; path = MyLayout/Lib/MyFrameLayout.h; sourceTree = "<group>"; };
+		F813971E05AD9EA6053001041938BECA /* MyPathLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MyPathLayout.h; path = MyLayout/Lib/MyPathLayout.h; sourceTree = "<group>"; };
+		FF1C0B2846A25BE7A44F1140B11D5018 /* MyMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyMaker.m; path = MyLayout/Lib/MyMaker.m; sourceTree = "<group>"; };
+		FF27F92A4D01A093CF9FA2BA5E4EC586 /* MyLayoutSizeClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MyLayoutSizeClass.m; path = MyLayout/Lib/MyLayoutSizeClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,14 +143,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CE872EAC26812A815B99FE485148FAF /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C40FC720B033259A783E5793D516C258 /* MyLayout */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		6FF003984FC0B660C8A9343DBE88B861 /* Pods-MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
@@ -166,23 +158,23 @@
 			path = "Target Support Files/Pods-MyCloudMusic";
 			sourceTree = "<group>";
 		};
+		A06209C51231DFD36EE24CFDB5AD55FC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3DC2B48C65869EECBB30E45F2982B08 /* MyLayout.xcconfig */,
+				64612BCD017482E9961974732BE465AA /* MyLayout-dummy.m */,
+				AD21F06F521F128169D83B420FF19D1E /* MyLayout-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MyLayout";
+			sourceTree = "<group>";
+		};
 		A0874C049A8480BF5E54654F1E6253DF /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				6FF003984FC0B660C8A9343DBE88B861 /* Pods-MyCloudMusic */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AFAE7CDCAAA04934A39D0AC59C644BB8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				ACFE09D5D9D179AB25F82DCB40D20629 /* MyLayout.xcconfig */,
-				190AFC9262B5BF75E01874FB916F9273 /* MyLayout-dummy.m */,
-				384E21D0D5BAA935169D2BAA09604F98 /* MyLayout-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MyLayout";
 			sourceTree = "<group>";
 		};
 		B4BE9C56C2FE0AEF1E1A034C863061A8 /* Products */ = {
@@ -194,57 +186,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C40FC720B033259A783E5793D516C258 /* MyLayout */ = {
+		B6A499E4ACE6E8E0C623B0B73C0287E7 /* R.objc */ = {
 			isa = PBXGroup;
 			children = (
-				141B4B491B03986D5DCC087905E49995 /* MyBaseLayout.h */,
-				4A0CD613949FAB2C01FAAF876197F1D2 /* MyBaseLayout.m */,
-				83353A47D8B2B258E0079460521763BD /* MyBorderline.h */,
-				F4DAD7597935821D65FDCA765E38EFE6 /* MyBorderline.m */,
-				B648E3198D48C302B20FC26AA6B00E3B /* MyDimeScale.h */,
-				18B0EFAE94E98045D5A8F5FEF46A912D /* MyDimeScale.m */,
-				B38B0430957872123823F81D2C9F34D0 /* MyFlexLayout.h */,
-				EDA3DC073761653234AF214EF79EFD22 /* MyFlexLayout.m */,
-				91A512729EC38A6D39EBBCD4732454DF /* MyFloatLayout.h */,
-				AE8CF51D97AB9A3E232AB519FF1A9669 /* MyFloatLayout.m */,
-				77C8F8EC4E2D73EE088F34BBE710B88B /* MyFlowLayout.h */,
-				447141E92DA0F394BFE8872DA0078F6E /* MyFlowLayout.m */,
-				E7218A3885C0713DC8C75674B4A41BCF /* MyFrameLayout.h */,
-				08CEE3F146B7F3DC502B1EE8193D9AA6 /* MyFrameLayout.m */,
-				697632A603DC879544137ECF538FBEED /* MyGrid.h */,
-				54C05F85407F468FDA091A35AA400E4B /* MyGridLayout.h */,
-				CE8D5FF9A07717ECB0064132436863AB /* MyGridLayout.m */,
-				8AF72DFD4E00542B86A7C1943A971941 /* MyGridNode.h */,
-				E8EF59B918F1D34965F00282653E6EE1 /* MyGridNode.m */,
-				57806EF970C924217EA601547E96A479 /* MyLayout.h */,
-				5ACC91DEF37AE3C6DC9C670655BD7F43 /* MyLayoutDef.h */,
-				5660692F5852995D5C565870A4E4B95B /* MyLayoutDelegate.h */,
-				B1E8CC8921ED02A60CF40073E6DA75DD /* MyLayoutDelegate.m */,
-				B96864914C74E20FB9038762D59F6607 /* MyLayoutInner.h */,
-				0DA914A1A4EB3FFE223FDDCBA54578CF /* MyLayoutMath.h */,
-				664BE9B2A9FADE256F9EFE7C8668A970 /* MyLayoutMath.m */,
-				0F91D32024BBE917846D07AE932429BE /* MyLayoutPos.h */,
-				FA8614CAB201B8A19F94251B16778C57 /* MyLayoutPos.m */,
-				396C638E3D85A06F694891821C58DB8F /* MyLayoutPosInner.h */,
-				F5E78E2B25012BA0B415077668260BF3 /* MyLayoutSize.h */,
-				C7E3F6F55713A56AFE71DC5C1296EE1D /* MyLayoutSize.m */,
-				83D3970AA03DE11102BC29CA10FD9EDA /* MyLayoutSizeClass.h */,
-				98C10BFEECA514B1D085E871E1006B07 /* MyLayoutSizeClass.m */,
-				555DA206C85957E975B57B372D8E740A /* MyLayoutSizeInner.h */,
-				C815C4AB8321776A0F5BD9A950AC3835 /* MyLinearLayout.h */,
-				34E70AAF9CADA36FBBF07B0D7C31AF18 /* MyLinearLayout.m */,
-				15CF47C1326BA460223E29E461218AF0 /* MyMaker.h */,
-				04847978B1FFA4E78A5DB5707609F908 /* MyMaker.m */,
-				CF365BC32D6A41AF4418FD849F767A6F /* MyPathLayout.h */,
-				D2CEA2153AA35697691BE372DCCF87DC /* MyPathLayout.m */,
-				DE988FCC8EFA5367EEC8B86FEB18C7DF /* MyRelativeLayout.h */,
-				9176DF9C83E68B3107A96E7EE30BB194 /* MyRelativeLayout.m */,
-				8D2C4D22CF04439BEA97D4F208425DFE /* MyTableLayout.h */,
-				B141AB52097C157803575293D4B18DBB /* MyTableLayout.m */,
-				AFAE7CDCAAA04934A39D0AC59C644BB8 /* Support Files */,
 			);
-			name = MyLayout;
-			path = MyLayout;
+			name = R.objc;
+			path = R.objc;
+			sourceTree = "<group>";
+		};
+		CCC1FA692520350E689641DB17EA1803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD91A05DF83C91D2405F9DAE5938D5BB /* MyLayout */,
+				B6A499E4ACE6E8E0C623B0B73C0287E7 /* R.objc */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -252,7 +208,7 @@
 			children = (
 				24390EFD555DD124430DFF9724065945 /* Podfile */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
-				1CE872EAC26812A815B99FE485148FAF /* Pods */,
+				CCC1FA692520350E689641DB17EA1803 /* Pods */,
 				B4BE9C56C2FE0AEF1E1A034C863061A8 /* Products */,
 				A0874C049A8480BF5E54654F1E6253DF /* Targets Support Files */,
 			);
@@ -263,6 +219,59 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD91A05DF83C91D2405F9DAE5938D5BB /* MyLayout */ = {
+			isa = PBXGroup;
+			children = (
+				00519152AF84467F4855DA2C0CCE4D62 /* MyBaseLayout.h */,
+				A2A16AD934F1CAE3479ED31015EB087C /* MyBaseLayout.m */,
+				43ECA2E44B278817893740ABE433527F /* MyBorderline.h */,
+				C22FF13EF0E9C3DC9E6D3A16CA701F0E /* MyBorderline.m */,
+				0770A969DBAB8037A934809F17EDAED5 /* MyDimeScale.h */,
+				ED76E1A3207C3CF6853FA8621FFB7A59 /* MyDimeScale.m */,
+				8B91D1B1E7E8AF5E90B913D51B832330 /* MyFlexLayout.h */,
+				2F7EF1AB83B33BE929099DE3ACF86B5F /* MyFlexLayout.m */,
+				181A8648A67C0C91476C0E5574BE993E /* MyFloatLayout.h */,
+				CA24981E01CB57DACD7B10EDF2F6EC87 /* MyFloatLayout.m */,
+				1863CE741CE0F5C55099BD3B6D4F6027 /* MyFlowLayout.h */,
+				916B5E4D5D17E139590E500E8BD27D3D /* MyFlowLayout.m */,
+				F04C64B1F7FF558B4918EED6301C49BD /* MyFrameLayout.h */,
+				2E6F68EB2DF169474F1C26BC66BE2139 /* MyFrameLayout.m */,
+				50ADC9A577F5B3B34CE0E00E44E722E8 /* MyGrid.h */,
+				90EB38D7B8A56EEAC03CCCA6E27A334F /* MyGridLayout.h */,
+				E35646CE149BAD78AFF7E3AFBFE489ED /* MyGridLayout.m */,
+				070BAB8191EF00736432A73CBB32AA06 /* MyGridNode.h */,
+				DBEEE8FA14ED7362AF5C8460A4D2E49A /* MyGridNode.m */,
+				710CB67253426DEF06260C34DA498C26 /* MyLayout.h */,
+				61C66F9AB092FB068C43C3FF1ADB55BB /* MyLayoutDef.h */,
+				498AADC92713D1FBDE991B9923FDF9E7 /* MyLayoutDelegate.h */,
+				7B59DAE2876C01EE9D0DA017FE4F3D53 /* MyLayoutDelegate.m */,
+				EC34FFE6F8B2EAC45D3B73F096012DA0 /* MyLayoutInner.h */,
+				C12FF636F5C8597C1A7844B8CFAA7EE2 /* MyLayoutMath.h */,
+				07719BBF45AF06271CC075EA13E76452 /* MyLayoutMath.m */,
+				A9799FF32FE4AA395F427071C2D47BCD /* MyLayoutPos.h */,
+				447C0FF8F362B81B0E9EE379F93B7E83 /* MyLayoutPos.m */,
+				0D4B39EE4E4E0F8469A1A63A35DA9F33 /* MyLayoutPosInner.h */,
+				D47F47548B0933C5F6A0A118231D75B8 /* MyLayoutSize.h */,
+				968F309666363E76315ABAFE0D0F4D9B /* MyLayoutSize.m */,
+				15CC2A9B4DAB81A57A584DCEC1E538B0 /* MyLayoutSizeClass.h */,
+				FF27F92A4D01A093CF9FA2BA5E4EC586 /* MyLayoutSizeClass.m */,
+				6B16FC83D6B41FAEB8EA33B3647D4917 /* MyLayoutSizeInner.h */,
+				82C51CEDCA3CC0E885D52AE32F34D5FF /* MyLinearLayout.h */,
+				88043D05577717CB1C260973AAC5C273 /* MyLinearLayout.m */,
+				41059417FD2905972B10E6ED0FF8C6B9 /* MyMaker.h */,
+				FF1C0B2846A25BE7A44F1140B11D5018 /* MyMaker.m */,
+				F813971E05AD9EA6053001041938BECA /* MyPathLayout.h */,
+				C47D56885274776B6FEF082826068167 /* MyPathLayout.m */,
+				768CDF89BCC968805FA33B6FF2221815 /* MyRelativeLayout.h */,
+				3CB5D1639CBB64003CA8358B1F76F25D /* MyRelativeLayout.m */,
+				1FE8F2C46C34AE81FA8CD768B7661BB2 /* MyTableLayout.h */,
+				EE98BEF617D94A4C75200173314186C4 /* MyTableLayout.m */,
+				A06209C51231DFD36EE24CFDB5AD55FC /* Support Files */,
+			);
+			name = MyLayout;
+			path = MyLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +330,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				456686E9D492E5B8848A4EF2FB26B7CC /* PBXTargetDependency */,
+				5C389E26AD84CD074994F17B4E79E628 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyCloudMusic";
 			productName = "Pods-MyCloudMusic";
@@ -412,18 +421,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		456686E9D492E5B8848A4EF2FB26B7CC /* PBXTargetDependency */ = {
+		5C389E26AD84CD074994F17B4E79E628 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MyLayout;
 			target = 72E55376D8C6EA145601F94B796B24AE /* MyLayout */;
-			targetProxy = E24431D0945601B761B996044E8D8F60 /* PBXContainerItemProxy */;
+			targetProxy = 6EB48420549F9BEC7CDACFB29A14FA33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		06C449E9DA82A8875C0824F42F4ED5BD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACFE09D5D9D179AB25F82DCB40D20629 /* MyLayout.xcconfig */;
+			baseConfigurationReference = E3DC2B48C65869EECBB30E45F2982B08 /* MyLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -619,7 +628,7 @@
 		};
 		E71A868D79C59CC73DBCF6C3D0A314B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ACFE09D5D9D179AB25F82DCB40D20629 /* MyLayout.xcconfig */;
+			baseConfigurationReference = E3DC2B48C65869EECBB30E45F2982B08 /* MyLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

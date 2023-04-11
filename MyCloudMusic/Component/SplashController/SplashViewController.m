@@ -9,6 +9,9 @@
 #import "SuperDateUtil.h"
 //第三方框架
 #import <MyLayout.h>
+#import "R.h"
+#import "UIColor+Config.h"
+#import "UIColor+Theme.h"
 @interface SplashViewController ()
 
 @end
@@ -18,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
+    self.view.backgroundColor = [UIColor colorBackground];
     
     //根容器
     MyRelativeLayout *container = [[MyRelativeLayout alloc]init];
@@ -49,8 +52,11 @@
     agrementView.myBottom=20;
     agrementView.myCenterX=0;
     agrementView.font=[UIFont systemFontOfSize:12];
-    agrementView.textColor=[UIColor grayColor];
-    agrementView.text=[NSString stringWithFormat:@"Copyright © %ld XingShiHang. All Rights Reserved",year];
+    agrementView.textColor=[UIColor black80];
+//    NSString *result=NSLocalizedString(@"Copyright", @"");
+//    result=[NSString stringWithFormat:result,year];
+    //使用R.objc框架
+    agrementView.text=[R.string.localizable copyright:year];
     [container addSubview:agrementView];
     
     //logo

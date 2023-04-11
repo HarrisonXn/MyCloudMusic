@@ -1,16 +1,20 @@
 PODS:
   - MyLayout (1.9.8)
+  - R.objc (0.8.2)
 
 DEPENDENCIES:
   - MyLayout (~> 1.9.8)
+  - R.objc (~> 0.8.2)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - MyLayout
+    - R.objc
 
 SPEC CHECKSUMS:
   MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
+  R.objc: bd0a4ef693bc8f9daa4e658d99afe1e01d204e7d
 
-PODFILE CHECKSUM: d5178f585cd65d313f53cd367062ffed33f9ed99
+PODFILE CHECKSUM: 31efebc5198213cefa371bd0025bbbd83d0beaf5
 
 COCOAPODS: 1.5.3
