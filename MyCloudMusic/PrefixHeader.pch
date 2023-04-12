@@ -8,6 +8,9 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+//网络框架
+#import "MSNetwork.h"
+
 #import "DefaultPreferenceUtil.h"
 #import "ViewFactoryUtil.h"
 #import "R.h"

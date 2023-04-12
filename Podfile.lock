@@ -1,5 +1,21 @@
 PODS:
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
   - GKCycleScrollView (1.2.0)
+  - MJExtension (3.4.1)
   - MyLayout (1.9.8)
   - QMUIKit (3.2.1):
     - QMUIKit/QMUIComponents (= 3.2.1)
@@ -268,26 +284,36 @@ PODS:
   - QMUIKit/QMUIResources (3.2.1)
   - QMUIKit/QMUIWeakObjectContainer (3.2.1)
   - R.objc (0.8.2)
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
+  - AFNetworking
   - GKCycleScrollView
+  - MJExtension
   - MyLayout (~> 1.9.8)
   - QMUIKit (~> 3.2.1)
   - R.objc (~> 0.8.2)
+  - YYCache (~> 1.0.4)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - AFNetworking
     - GKCycleScrollView
+    - MJExtension
     - MyLayout
     - QMUIKit
     - R.objc
+    - YYCache
 
 SPEC CHECKSUMS:
+  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
   GKCycleScrollView: a0136b10bb18a09fc98fefd48c11d60206f0e68e
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
   QMUIKit: a3af645843b9558eb7aaf407b320eaeb45ab6144
   R.objc: bd0a4ef693bc8f9daa4e658d99afe1e01d204e7d
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: 0e02e0d540835286c635b1b7ca72648ba98f19d9
+PODFILE CHECKSUM: fe4fcfb7c5f17dec0cfbd3ac585edc2f31384588
 
 COCOAPODS: 1.5.3

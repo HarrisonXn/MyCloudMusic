@@ -13,6 +13,7 @@
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
 		8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A929E653420025F4C4 /* GuideController.m */; };
 		8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7AC29E6AD400025F4C4 /* Config.m */; };
+		8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7B029E6AF690025F4C4 /* MSNetwork.m */; };
 		8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */; };
 		8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985129E3FC8700E67AC8 /* ViewController.m */; };
 		8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985629E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld */; };
@@ -48,6 +49,8 @@
 		8D9DC7A929E653420025F4C4 /* GuideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideController.m; sourceTree = "<group>"; };
 		8D9DC7AB29E6AD400025F4C4 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		8D9DC7AC29E6AD400025F4C4 /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		8D9DC7AF29E6AF690025F4C4 /* MSNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNetwork.h; sourceTree = "<group>"; };
+		8D9DC7B029E6AF690025F4C4 /* MSNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNetwork.m; sourceTree = "<group>"; };
 		8D9F984729E3FC8700E67AC8 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F984A29E3FC8700E67AC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -136,6 +139,15 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		8D9DC7AE29E6AF340025F4C4 /* MSNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7AF29E6AF690025F4C4 /* MSNetwork.h */,
+				8D9DC7B029E6AF690025F4C4 /* MSNetwork.m */,
+			);
+			path = MSNetwork;
+			sourceTree = "<group>";
+		};
 		8D9F983E29E3FC8700E67AC8 = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +215,7 @@
 		8D9F986B29E45BFE00E67AC8 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				8D9DC7AE29E6AF340025F4C4 /* MSNetwork */,
 				8D9F986C29E45CB900E67AC8 /* SuperUI */,
 			);
 			path = Vender;
@@ -423,6 +436,7 @@
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
+				8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */,
 				8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
