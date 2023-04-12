@@ -13,6 +13,12 @@
 
 @implementation BaseLogicController
 
+- (void)initViews{
+    [super initViews];
+    //默认颜色，如果某些界面不一样，在单独设置
+    [self setBackgroundColor:[UIColor colorBackground]];
+}
+
 /// 初始化垂直方向LinearLayout容器
 - (void)initLinearLayout{
     _rootContainer = [MyLinearLayout linearLayoutWithOrientation:MyOrientation_Vert];
@@ -36,6 +42,33 @@
     _container.backgroundColor = [UIColor clearColor];
     [_rootContainer addSubview:_container];
     
+    [self initFooterContainer];
+}
+
+/// 初始化垂直方向LinearLayout容器，四边都在安全区内
+- (void)initLinearLayoutSafeArea{
+    [self initLinearLayout];
+    
+    //header
+    [self initHeaderContainer];
+    
+    //frame（使用示例：例如后期网络请求失败的弹框就可以放在这里面
+    self.frameContainer=[MyRelativeLayout new];
+    self.frameContainer.myWidth = MyLayoutSize.fill;
+    self.frameContainer.myHeight = MyLayoutSize.wrap;
+    self.frameContainer.weight=1;
+    self.frameContainer.backgroundColor = [UIColor clearColor];
+    [_rootContainer addSubview:self.frameContainer];
+    
+    _container = [MyLinearLayout linearLayoutWithOrientation:MyOrientation_Vert];
+    _container.myWidth = MyLayoutSize.fill;
+    _container.myHeight = MyLayoutSize.fill;
+    _container.gravity = MyGravity_Vert_Stretch;
+    _container.backgroundColor = [UIColor clearColor];
+    [self.frameContainer addSubview:_container];
+    
+    //footer，一般是底部要显示按钮，例如：购物车界面，商城相关界面
+    //当然也可以细分到需要的界面才添加，但这样会增加复杂度
     [self initFooterContainer];
 }
 

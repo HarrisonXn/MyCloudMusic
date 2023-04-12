@@ -28,11 +28,17 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) MyBaseLayout *superFooterContainer;
 @property (nonatomic, strong) MyBaseLayout *superFooterContentContainer;
 
+/// frame容器，一般用来添加占位布局
+@property (nonatomic, strong) MyBaseLayout *frameContainer;
+
 /// 初始化垂直方向LinearLayout容器
 - (void)initLinearLayout;
 
 /// 初始化RelativeLayout容器，四边都在安全区内
 - (void)initRelativeLayoutSafeArea;
+
+/// 初始化垂直方向LinearLayout容器，四边都在安全区内
+- (void)initLinearLayoutSafeArea;
 @end
 
 NS_ASSUME_NONNULL_END

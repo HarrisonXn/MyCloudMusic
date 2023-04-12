@@ -15,6 +15,10 @@
 
 - (void)saveContext;
 
+/// 获取单例对象
++(instancetype)shared;
 
+/// 显示引导界面
+-(void)toGuide;
 @end
 

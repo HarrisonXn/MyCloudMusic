@@ -11,6 +11,7 @@
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
+		8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A929E653420025F4C4 /* GuideController.m */; };
 		8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */; };
 		8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985129E3FC8700E67AC8 /* ViewController.m */; };
 		8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985629E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld */; };
@@ -42,6 +43,8 @@
 		8D9DC7A229E567280025F4C4 /* DefaultPreferenceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultPreferenceUtil.h; sourceTree = "<group>"; };
 		8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultPreferenceUtil.m; sourceTree = "<group>"; };
 		8D9DC7A529E64B350025F4C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		8D9DC7A829E653420025F4C4 /* GuideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GuideController.h; sourceTree = "<group>"; };
+		8D9DC7A929E653420025F4C4 /* GuideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GuideController.m; sourceTree = "<group>"; };
 		8D9F984729E3FC8700E67AC8 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F984A29E3FC8700E67AC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -113,6 +116,23 @@
 			path = Util;
 			sourceTree = "<group>";
 		};
+		8D9DC7A629E652FD0025F4C4 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7A729E653100025F4C4 /* Controller */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		8D9DC7A729E653100025F4C4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7A829E653420025F4C4 /* GuideController.h */,
+				8D9DC7A929E653420025F4C4 /* GuideController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		8D9F983E29E3FC8700E67AC8 = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +180,7 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D9DC7A629E652FD0025F4C4 /* Guide */,
 				8D9F986729E3FD6800E67AC8 /* SplashController */,
 			);
 			path = Component;
@@ -188,18 +209,18 @@
 			isa = PBXGroup;
 			children = (
 				8D9F988429E5098C00E67AC8 /* Color */,
-				8D9F988329E5097E00E67AC8 /* Group */,
+				8D9F988329E5097E00E67AC8 /* Date */,
 			);
 			path = SuperUI;
 			sourceTree = "<group>";
 		};
-		8D9F988329E5097E00E67AC8 /* Group */ = {
+		8D9F988329E5097E00E67AC8 /* Date */ = {
 			isa = PBXGroup;
 			children = (
 				8D9F986D29E45CFC00E67AC8 /* SuperDateUtil.h */,
 				8D9F986E29E45CFC00E67AC8 /* SuperDateUtil.m */,
 			);
-			path = Group;
+			path = Date;
 			sourceTree = "<group>";
 		};
 		8D9F988429E5098C00E67AC8 /* Color */ = {
@@ -391,6 +412,7 @@
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
+				8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,

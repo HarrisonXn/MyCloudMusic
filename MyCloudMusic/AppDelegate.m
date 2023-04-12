@@ -7,12 +7,26 @@
 
 #import "AppDelegate.h"
 #import "SplashViewController.h"
+#import "GuideController.h"
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
 
++(instancetype)shared{
+  return (AppDelegate *)UIApplication.sharedApplication.delegate;
+}
+
+/// 显示引导界面
+-(void)toGuide{
+    GuideController *controller = [GuideController new];
+    [self setRootViewController:controller];
+}
+
+-(void)setRootViewController:(UIViewController *)controller{
+    self.window.rootViewController = controller;
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.

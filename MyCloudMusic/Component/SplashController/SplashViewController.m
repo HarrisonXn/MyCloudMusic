@@ -14,6 +14,8 @@
 #import "UIColor+Theme.h"
 #import "TermServiceDialogController.h"
 #import "DefaultPreferenceUtil.h"
+#import "GuideController.h"
+#import "AppDelegate.h"
 
 @interface SplashViewController ()
 @property (nonatomic, strong) TermServiceDialogController *dialogController;
@@ -23,7 +25,6 @@
 
 - (void)initViews{
     [super initViews];
-    [self setBackgroundColor:[UIColor colorBackground]];
     
     //根容器
     [self initRelativeLayoutSafeArea];
@@ -76,7 +77,12 @@
 }
 
 -(void)prepareNext{
-    
+    [self performSelector:@selector(next) withObject:nil afterDelay:3];
+//    [self next];
+}
+
+- (void)next{
+    [AppDelegate.shared toGuide];
 }
 
 /// 显示同意服务条款对话框
@@ -90,7 +96,7 @@
     [self.dialogController hide];
     [DefaultPreferenceUtil setAcceptTermsServiceAgreement:YES];
     
-    [self prepareNext];
+    [AppDelegate.shared toGuide];
 }
 
 /// 返回控制器，懒加载方式
