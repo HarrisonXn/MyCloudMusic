@@ -1,0 +1,18 @@
+//
+//  PrefixHeader.pch
+//  MyCloudMusic
+//
+//  Created by 邢世航 on 2023/4/12.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "DefaultPreferenceUtil.h"
+#import "ViewFactoryUtil.h"
+#import "R.h"
+#import "UIColor+Config.h"
+#import "UIColor+Theme.h"
+#import "Constant.h"
+
+#endif /* PrefixHeader_pch */

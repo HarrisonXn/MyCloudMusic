@@ -6,11 +6,11 @@
 //
 
 #import "TermServiceDialogController.h"
-#import "UIColor+Config.h"
-#import "UIColor+Theme.h"
-#import "ViewFactoryUtil.h"
-#import "Constant.h"
-#import "R.h"
+//#import "UIColor+Config.h"
+//#import "UIColor+Theme.h"
+//#import "ViewFactoryUtil.h"
+//#import "Constant.h"
+//#import "R.h"
 
 @interface TermServiceDialogController ()<QMUIModalPresentationContentViewControllerProtocol>
 
