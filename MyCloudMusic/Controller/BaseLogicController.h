@@ -13,6 +13,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface BaseLogicController : BaseCommonController
+/// 数组
+@property (nonatomic, strong) NSMutableArray *datum;
 
 /// 根容器
 @property (nonatomic, strong) MyBaseLayout *rootContainer;

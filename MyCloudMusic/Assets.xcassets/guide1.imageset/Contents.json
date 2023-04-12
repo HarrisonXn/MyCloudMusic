@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "guide1.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "guide1.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
