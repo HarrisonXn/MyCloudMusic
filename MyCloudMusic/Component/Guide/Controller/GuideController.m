@@ -5,10 +5,14 @@
 //  Created by 邢世航 on 2023/4/12.
 //
 
-#import "GuideController.h"
+
 //轮播图
 #import <GKCycleScrollView/GKCycleScrollView.h>
 #import <GKCycleScrollView/GKPageControl.h>
+
+#import "GuideController.h"
+#import "SuperHttpUtil.h"
+#import "Video.h"
 
 @interface GuideController ()<GKCycleScrollViewDataSource,GKCycleScrollViewDelegate>
 @property (nonatomic, strong) GKCycleScrollView *contentScrollView;
@@ -96,11 +100,34 @@
     [_contentScrollView reloadData];
 }
 - (void)onPrimaryClick:(QMUIButton *)sender{
+//    [SuperHttpUtil requestObjectWith:[Video class] url:@"v1/videos/98" parameters:nil cachePolicy:MSCachePolicyOnlyNetNoCache method:MSRequestMethodGET loading:NO controller:nil success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
+//        NSLog(@"request success %@",data);
+//    } failure:^BOOL(BaseResponse * _Nullable baseResponse, NSError * _Nonnull error) {
+//        NSLog(@"request error %@ %@",baseResponse,error);
+//        return NO;
+//    }];
+    [SuperHttpUtil requestObjectWith:[Video class] url:@"v1/videos/98" parameters:nil success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
+        NSLog(@"request success %@",data);
+    }];
 }
 
 - (void)onEnterClick:(QMUIButton *)sender{
 }
 
+- (void)testGet{
+    //参数
+    NSDictionary *parameters = @{@"nickname":@"ixuea"};
+
+    //地址
+    NSString *url = @"v1/sheets";
+    
+    //发送请求
+    [MSNetwork HTTPWithMethod:MSRequestMethodGET url:url parameters:parameters headers:nil cachePolicy:MSCachePolicyOnlyNetNoCache success:^(NSURLSessionDataTask *task,id  _Nonnull responseObject) {
+        NSLog(@"get success %@",responseObject);
+    } failure:^(NSURLSessionDataTask *task,NSError * _Nonnull error) {
+        NSLog(@"get error %@",error);
+    }];
+}
 #pragma mark  - 轮播图数据源
 
 /// 有多少个

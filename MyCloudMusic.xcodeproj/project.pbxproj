@@ -14,6 +14,13 @@
 		8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A929E653420025F4C4 /* GuideController.m */; };
 		8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7AC29E6AD400025F4C4 /* Config.m */; };
 		8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7B029E6AF690025F4C4 /* MSNetwork.m */; };
+		8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7B429E7DE1A0025F4C4 /* SuperHttpUtil.m */; };
+		8D9DC7BA29E7E04D0025F4C4 /* BaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7B929E7E04D0025F4C4 /* BaseResponse.m */; };
+		8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7BC29E7E1E20025F4C4 /* SuperBase.m */; };
+		8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7BF29E7E2BE0025F4C4 /* Meta.m */; };
+		8D9DC7C329E7EC440025F4C4 /* SuperBaseId.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7C229E7EC440025F4C4 /* SuperBaseId.m */; };
+		8D9DC7CE29E7ED4F0025F4C4 /* SuperCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7CD29E7ED4F0025F4C4 /* SuperCommon.m */; };
+		8D9DC7D129E7ED9D0025F4C4 /* Video.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7D029E7ED9D0025F4C4 /* Video.m */; };
 		8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */; };
 		8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985129E3FC8700E67AC8 /* ViewController.m */; };
 		8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F985629E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld */; };
@@ -51,6 +58,20 @@
 		8D9DC7AC29E6AD400025F4C4 /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
 		8D9DC7AF29E6AF690025F4C4 /* MSNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSNetwork.h; sourceTree = "<group>"; };
 		8D9DC7B029E6AF690025F4C4 /* MSNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSNetwork.m; sourceTree = "<group>"; };
+		8D9DC7B329E7DE1A0025F4C4 /* SuperHttpUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperHttpUtil.h; sourceTree = "<group>"; };
+		8D9DC7B429E7DE1A0025F4C4 /* SuperHttpUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperHttpUtil.m; sourceTree = "<group>"; };
+		8D9DC7B829E7E04D0025F4C4 /* BaseResponse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseResponse.h; sourceTree = "<group>"; };
+		8D9DC7B929E7E04D0025F4C4 /* BaseResponse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseResponse.m; sourceTree = "<group>"; };
+		8D9DC7BB29E7E1E20025F4C4 /* SuperBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperBase.h; sourceTree = "<group>"; };
+		8D9DC7BC29E7E1E20025F4C4 /* SuperBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBase.m; sourceTree = "<group>"; };
+		8D9DC7BE29E7E2BE0025F4C4 /* Meta.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Meta.h; sourceTree = "<group>"; };
+		8D9DC7BF29E7E2BE0025F4C4 /* Meta.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Meta.m; sourceTree = "<group>"; };
+		8D9DC7C129E7EC440025F4C4 /* SuperBaseId.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperBaseId.h; sourceTree = "<group>"; };
+		8D9DC7C229E7EC440025F4C4 /* SuperBaseId.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperBaseId.m; sourceTree = "<group>"; };
+		8D9DC7CC29E7ED4F0025F4C4 /* SuperCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperCommon.h; sourceTree = "<group>"; };
+		8D9DC7CD29E7ED4F0025F4C4 /* SuperCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCommon.m; sourceTree = "<group>"; };
+		8D9DC7CF29E7ED9D0025F4C4 /* Video.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		8D9DC7D029E7ED9D0025F4C4 /* Video.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Video.m; sourceTree = "<group>"; };
 		8D9F984729E3FC8700E67AC8 /* MyCloudMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCloudMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D9F984A29E3FC8700E67AC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D9F984B29E3FC8700E67AC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -148,6 +169,57 @@
 			path = MSNetwork;
 			sourceTree = "<group>";
 		};
+		8D9DC7B229E7DDF10025F4C4 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7B329E7DE1A0025F4C4 /* SuperHttpUtil.h */,
+				8D9DC7B429E7DE1A0025F4C4 /* SuperHttpUtil.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		8D9DC7B629E7E02E0025F4C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7B729E7E03A0025F4C4 /* Response */,
+				8D9DC7BB29E7E1E20025F4C4 /* SuperBase.h */,
+				8D9DC7BC29E7E1E20025F4C4 /* SuperBase.m */,
+				8D9DC7C129E7EC440025F4C4 /* SuperBaseId.h */,
+				8D9DC7C229E7EC440025F4C4 /* SuperBaseId.m */,
+				8D9DC7CC29E7ED4F0025F4C4 /* SuperCommon.h */,
+				8D9DC7CD29E7ED4F0025F4C4 /* SuperCommon.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D9DC7B729E7E03A0025F4C4 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7B829E7E04D0025F4C4 /* BaseResponse.h */,
+				8D9DC7B929E7E04D0025F4C4 /* BaseResponse.m */,
+				8D9DC7BE29E7E2BE0025F4C4 /* Meta.h */,
+				8D9DC7BF29E7E2BE0025F4C4 /* Meta.m */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		8D9DC7C729E7ECC40025F4C4 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7C829E7ECCE0025F4C4 /* Model */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		8D9DC7C829E7ECCE0025F4C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D9DC7CF29E7ED9D0025F4C4 /* Video.h */,
+				8D9DC7D029E7ED9D0025F4C4 /* Video.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8D9F983E29E3FC8700E67AC8 = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +241,8 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D9DC7B629E7E02E0025F4C4 /* Model */,
+				8D9DC7B229E7DDF10025F4C4 /* NetWork */,
 				8D9DC79D29E555CF0025F4C4 /* Util */,
 				8D9F989229E52C9600E67AC8 /* Controller */,
 				8D9F988829E50C6000E67AC8 /* Config */,
@@ -195,6 +269,7 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D9DC7C729E7ECC40025F4C4 /* Video */,
 				8D9DC7A629E652FD0025F4C4 /* Guide */,
 				8D9F986729E3FD6800E67AC8 /* SplashController */,
 			);
@@ -426,6 +501,7 @@
 			files = (
 				8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */,
 				8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */,
+				8D9DC7C329E7EC440025F4C4 /* SuperBaseId.m in Sources */,
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
@@ -440,10 +516,16 @@
 				8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
+				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
+				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
 				8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */,
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,
+				8D9DC7D129E7ED9D0025F4C4 /* Video.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
+				8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */,
+				8D9DC7CE29E7ED4F0025F4C4 /* SuperCommon.m in Sources */,
+				8D9DC7BA29E7E04D0025F4C4 /* BaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
