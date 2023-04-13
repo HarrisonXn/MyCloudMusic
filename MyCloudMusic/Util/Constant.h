@@ -7,6 +7,8 @@
 
 #ifndef Constant_h
 #define Constant_h
+
+static NSString * const URL_VIDEO = @"v1/videos";
 #pragma mark - 按钮尺寸
 static float const BUTTON_SMALL = 30;
 static float const BUTTON_MEDDLE = 42;

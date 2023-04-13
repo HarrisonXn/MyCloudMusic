@@ -106,9 +106,13 @@
 //        NSLog(@"request error %@ %@",baseResponse,error);
 //        return NO;
 //    }];
-    [SuperHttpUtil requestObjectWith:[Video class] url:@"v1/videos/98" parameters:nil success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
-        NSLog(@"request success %@",data);
-    }];
+//    [SuperHttpUtil requestObjectWith:[Video class] url:@"v1/videos/98" parameters:nil success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
+//        NSLog(@"request success %@",data);
+//    }];
+    //视频详情
+        [[DefaultRepository shared] videoDetail:@"98" success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
+            NSLog(@"request success %@",data);
+        }];
 }
 
 - (void)onEnterClick:(QMUIButton *)sender{

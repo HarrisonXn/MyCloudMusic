@@ -18,5 +18,6 @@
 #import "UIColor+Theme.h"
 #import "Constant.h"
 #import "Config.h"
+#import "DefaultRepository.h"
 
 #endif /* PrefixHeader_pch */

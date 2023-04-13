@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0602A4EE73EEB0661ECEBA5B /* libPods-MyCloudMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */; };
+		8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D42F93129E8021B009B9788 /* DefaultRepository.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -44,6 +45,8 @@
 /* Begin PBXFileReference section */
 		67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCloudMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8558CA7B62B1D206278AC68E /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
+		8D42F93029E8021B009B9788 /* DefaultRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultRepository.h; sourceTree = "<group>"; };
+		8D42F93129E8021B009B9788 /* DefaultRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultRepository.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -129,6 +132,15 @@
 				67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D42F92F29E801FD009B9788 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				8D42F93029E8021B009B9788 /* DefaultRepository.h */,
+				8D42F93129E8021B009B9788 /* DefaultRepository.m */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
@@ -241,6 +253,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D42F92F29E801FD009B9788 /* Repository */,
 				8D9DC7B629E7E02E0025F4C4 /* Model */,
 				8D9DC7B229E7DDF10025F4C4 /* NetWork */,
 				8D9DC79D29E555CF0025F4C4 /* Util */,
@@ -506,6 +519,7 @@
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
+				8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */,
 				8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
