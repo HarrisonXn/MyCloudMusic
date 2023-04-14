@@ -27,6 +27,14 @@
 }
 /// 视频详情
 -(void)videoDetail:(NSString *)id success:(SuperHttpSuccess)success{
-    [SuperHttpUtil requestObjectWith:[Video class] url:URL_VIDEO id:id success:success];
+    //[SuperHttpUtil requestObjectWith:[Video class] url:URL_VIDEO id:id success:success];
+    [SuperHttpUtil requestObjectWith:[Video class] url:[NSString stringWithFormat:@"%@/%@",URL_VIDEO] parameters:nil cachePolicy:MSCachePolicyOnlyNetNoCache loading:YES controller:nil success:success];
 }
+
+// 视频详情，可以手动处理错误
+-(void)videoDetail:(NSString *)id success:(SuperHttpSuccess)success  failure:(_Nullable SuperHttpFail)failure{
+    
+    [SuperHttpUtil requestObjectWith:[Video class] url:[NSString stringWithFormat:@"%@/%@",URL_VIDEO,id] parameters:nil cachePolicy:MSCachePolicyOnlyNetNoCache loading:YES controller:nil success:success failure:failure];
+}
+
 @end

@@ -20,5 +20,8 @@
 #import "Config.h"
 #import "DefaultRepository.h"
 #import "SuperToast.h"
+#import "StringUtil.h"
+#import "SuperToast.h"
+#import "TipUtil.h"
 
 #endif /* PrefixHeader_pch */

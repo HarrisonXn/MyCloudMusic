@@ -13,6 +13,7 @@
 #import "GuideController.h"
 #import "SuperHttpUtil.h"
 #import "Video.h"
+#import "AppDelegate.h"
 
 @interface GuideController ()<GKCycleScrollViewDataSource,GKCycleScrollViewDelegate>
 @property (nonatomic, strong) GKCycleScrollView *contentScrollView;
@@ -100,6 +101,7 @@
     [_contentScrollView reloadData];
 }
 - (void)onPrimaryClick:(QMUIButton *)sender{
+    [AppDelegate.shared toMain];
 //    [SuperHttpUtil requestObjectWith:[Video class] url:@"v1/videos/98" parameters:nil cachePolicy:MSCachePolicyOnlyNetNoCache method:MSRequestMethodGET loading:NO controller:nil success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
 //        NSLog(@"request success %@",data);
 //    } failure:^BOOL(BaseResponse * _Nullable baseResponse, NSError * _Nonnull error) {
@@ -109,11 +111,18 @@
 //    [SuperHttpUtil requestObjectWith:[Video class] url:@"v1/videos/98" parameters:nil success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
 //        NSLog(@"request success %@",data);
 //    }];
-
-//    [[DefaultRepository shared] videoDetail:@"98" success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
+    //视频详情
+//    [[DefaultRepository shared] videoDetail:@"89" success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
 //        NSLog(@"request success %@",data);
 //    }];
-        
+    
+//    [[DefaultRepository shared] videoDetail:@"213123" success:^(BaseResponse * _Nonnull baseResponse, id  _Nonnull data) {
+//        NSLog(@"request success %@",data);
+//    } failure:^BOOL(BaseResponse * _Nullable baseResponse, NSError * _Nonnull error) {
+//        NSLog(@"request error %@ %@",baseResponse,error);
+//        return NO;
+//    }];
+    
     //视频列表
     //    [SuperHttpUtil requestListObjectWith:[Video class] url:@"v1/videos" success:^(BaseResponse * _Nonnull baseResponse, Meta * _Nonnull meta, NSArray * _Nonnull data) {
     //        NSLog(@"request success %@ %@",meta,data);
@@ -122,7 +131,11 @@
 //    [[DefaultRepository shared] videos:1 success:^(BaseResponse * _Nonnull baseResponse, Meta * _Nonnull meta, NSArray * _Nonnull data) {
 //        NSLog(@"request success %@ %@",meta,data);
 //    }];
-    [SuperToast showWithTitle:R.string.localizable.enterUsername];
+//    [SuperToast showLoading];
+//
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        [SuperToast hideLoading];
+//    });
     
 }
 

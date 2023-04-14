@@ -43,6 +43,14 @@
 		8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1029E8EC0A004E22DB /* PlaceholderView.m */; };
 		8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1529E8F1A9004E22DB /* StringUtil.m */; };
 		8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1A29E8FDFD004E22DB /* SuperToast.m */; };
+		8DE85D1E29E92207004E22DB /* TipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1D29E92207004E22DB /* TipUtil.m */; };
+		8DE85D2829E93160004E22DB /* FeedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D2729E93160004E22DB /* FeedController.m */; };
+		8DE85D2D29E931C7004E22DB /* MainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D2C29E931C7004E22DB /* MainController.m */; };
+		8DE85D3229E9321A004E22DB /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D3129E9321A004E22DB /* MeController.m */; };
+		8DE85D3729E93245004E22DB /* RoomController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D3629E93245004E22DB /* RoomController.m */; };
+		8DE85D3B29E932B4004E22DB /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D3A29E932B4004E22DB /* VideoController.m */; };
+		8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D3D29E9335A004E22DB /* DiscoveryController.m */; };
+		8DE85D4229E933A2004E22DB /* UIImage+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D4129E933A2004E22DB /* UIImage+SuperUI.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -120,6 +128,22 @@
 		8DE85D1529E8F1A9004E22DB /* StringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
 		8DE85D1929E8FDFD004E22DB /* SuperToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperToast.h; sourceTree = "<group>"; };
 		8DE85D1A29E8FDFD004E22DB /* SuperToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperToast.m; sourceTree = "<group>"; };
+		8DE85D1C29E92207004E22DB /* TipUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TipUtil.h; sourceTree = "<group>"; };
+		8DE85D1D29E92207004E22DB /* TipUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipUtil.m; sourceTree = "<group>"; };
+		8DE85D2629E93160004E22DB /* FeedController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedController.h; sourceTree = "<group>"; };
+		8DE85D2729E93160004E22DB /* FeedController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedController.m; sourceTree = "<group>"; };
+		8DE85D2B29E931C7004E22DB /* MainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainController.h; sourceTree = "<group>"; };
+		8DE85D2C29E931C7004E22DB /* MainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainController.m; sourceTree = "<group>"; };
+		8DE85D3029E9321A004E22DB /* MeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		8DE85D3129E9321A004E22DB /* MeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		8DE85D3529E93245004E22DB /* RoomController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoomController.h; sourceTree = "<group>"; };
+		8DE85D3629E93245004E22DB /* RoomController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RoomController.m; sourceTree = "<group>"; };
+		8DE85D3929E932B4004E22DB /* VideoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoController.h; sourceTree = "<group>"; };
+		8DE85D3A29E932B4004E22DB /* VideoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoController.m; sourceTree = "<group>"; };
+		8DE85D3C29E9335A004E22DB /* DiscoveryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryController.h; sourceTree = "<group>"; };
+		8DE85D3D29E9335A004E22DB /* DiscoveryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryController.m; sourceTree = "<group>"; };
+		8DE85D4029E933A2004E22DB /* UIImage+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SuperUI.h"; sourceTree = "<group>"; };
+		8DE85D4129E933A2004E22DB /* UIImage+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SuperUI.m"; sourceTree = "<group>"; };
 		DD39585A1CA2DCD7AF36F5A4 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +184,8 @@
 				8D9DC7A129E5566E0025F4C4 /* Constant.h */,
 				8D9DC7A229E567280025F4C4 /* DefaultPreferenceUtil.h */,
 				8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */,
+				8DE85D1C29E92207004E22DB /* TipUtil.h */,
+				8DE85D1D29E92207004E22DB /* TipUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -227,6 +253,7 @@
 		8D9DC7C729E7ECC40025F4C4 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D3829E9328C004E22DB /* Controller */,
 				8D9DC7C829E7ECCE0025F4C4 /* Model */,
 			);
 			path = Video;
@@ -292,6 +319,11 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D3329E93229004E22DB /* Room */,
+				8DE85D2E29E931EC004E22DB /* New Group */,
+				8DE85D2929E93197004E22DB /* Main */,
+				8DE85D2429E9313F004E22DB /* Feed */,
+				8DE85D1F29E93062004E22DB /* Discovery */,
 				8D9DC7C729E7ECC40025F4C4 /* Video */,
 				8D9DC7A629E652FD0025F4C4 /* Guide */,
 				8D9F986729E3FD6800E67AC8 /* SplashController */,
@@ -323,6 +355,7 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D3F29E93386004E22DB /* Image */,
 				8DE85D1729E8FDD7004E22DB /* Toast */,
 				8D9F988429E5098C00E67AC8 /* Color */,
 				8D9F988329E5097E00E67AC8 /* Date */,
@@ -409,6 +442,109 @@
 				8DE85D1A29E8FDFD004E22DB /* SuperToast.m */,
 			);
 			path = Toast;
+			sourceTree = "<group>";
+		};
+		8DE85D1F29E93062004E22DB /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D2029E93078004E22DB /* Controller */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		8DE85D2029E93078004E22DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D3C29E9335A004E22DB /* DiscoveryController.h */,
+				8DE85D3D29E9335A004E22DB /* DiscoveryController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D2429E9313F004E22DB /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D2529E93148004E22DB /* Controller */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		8DE85D2529E93148004E22DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D2629E93160004E22DB /* FeedController.h */,
+				8DE85D2729E93160004E22DB /* FeedController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D2929E93197004E22DB /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D2A29E931A1004E22DB /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		8DE85D2A29E931A1004E22DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D2B29E931C7004E22DB /* MainController.h */,
+				8DE85D2C29E931C7004E22DB /* MainController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D2E29E931EC004E22DB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D2F29E931FC004E22DB /* Controller */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		8DE85D2F29E931FC004E22DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D3029E9321A004E22DB /* MeController.h */,
+				8DE85D3129E9321A004E22DB /* MeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D3329E93229004E22DB /* Room */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D3429E9322F004E22DB /* Controller */,
+			);
+			path = Room;
+			sourceTree = "<group>";
+		};
+		8DE85D3429E9322F004E22DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D3529E93245004E22DB /* RoomController.h */,
+				8DE85D3629E93245004E22DB /* RoomController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D3829E9328C004E22DB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D3929E932B4004E22DB /* VideoController.h */,
+				8DE85D3A29E932B4004E22DB /* VideoController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D3F29E93386004E22DB /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D4029E933A2004E22DB /* UIImage+SuperUI.h */,
+				8DE85D4129E933A2004E22DB /* UIImage+SuperUI.m */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 		A23E75ECDDCCDD3F1EE0EA06 /* Pods */ = {
@@ -560,9 +696,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */,
+				8DE85D3B29E932B4004E22DB /* VideoController.m in Sources */,
 				8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */,
 				8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */,
 				8D9DC7C329E7EC440025F4C4 /* SuperBaseId.m in Sources */,
+				8DE85D4229E933A2004E22DB /* UIImage+SuperUI.m in Sources */,
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
@@ -574,6 +712,8 @@
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
+				8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */,
+				8DE85D1E29E92207004E22DB /* TipUtil.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
 				8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */,
 				8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */,
@@ -582,13 +722,17 @@
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
 				8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */,
+				8DE85D3729E93245004E22DB /* RoomController.m in Sources */,
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,
 				8D9DC7D129E7ED9D0025F4C4 /* Video.m in Sources */,
+				8DE85D2829E93160004E22DB /* FeedController.m in Sources */,
 				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
+				8DE85D3229E9321A004E22DB /* MeController.m in Sources */,
 				8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */,
 				8D9DC7CE29E7ED4F0025F4C4 /* SuperCommon.m in Sources */,
+				8DE85D2D29E931C7004E22DB /* MainController.m in Sources */,
 				8D9DC7BA29E7E04D0025F4C4 /* BaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

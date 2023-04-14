@@ -45,6 +45,31 @@
     [self initFooterContainer];
 }
 
+/// 初始化TableView，四边都在安全区内
+- (void)initTableViewSafeArea{
+    //外面添加一层容器，是方便在真实内容控件前后添加内容
+    [self initLinearLayoutSafeArea];
+
+    //tableView
+    [self createTableView];
+
+    [self.container addSubview:self.tableView];
+}
+
+/// 创建TableView，不会添加到任何布局
+-(void)createTableView{
+    self.datum = [NSMutableArray array];
+
+    self.tableView = [ViewFactoryUtil tableView];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.weight=1;
+}
+
+/// 使用默认分割线
+- (void)initDefaultTableViewDivider{
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+}
 /// 初始化垂直方向LinearLayout容器，四边都在安全区内
 - (void)initLinearLayoutSafeArea{
     [self initLinearLayout];
@@ -108,5 +133,13 @@
     
     [self.superFooterContainer addSubview:self.superFooterContentContainer];
     [self.rootContainer addSubview:self.superFooterContainer];
+}
+#pragma mark - 列表数据源
+
+/// 有多少个
+/// @param tableView <#tableView description#>
+/// @param section <#section description#>
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return _datum.count;
 }
 @end

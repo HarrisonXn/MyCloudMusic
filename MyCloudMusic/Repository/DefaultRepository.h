@@ -28,6 +28,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 视频详情
 -(void)videoDetail:(NSString *)id success:(SuperHttpSuccess)success;
 
+/// 视频详情，可以手动处理错误
+-(void)videoDetail:(NSString *)id success:(SuperHttpSuccess)success  failure:(_Nullable SuperHttpFail)failure;
+
 @end
 
 NS_ASSUME_NONNULL_END

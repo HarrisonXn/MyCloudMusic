@@ -52,4 +52,35 @@
     
     return result;
 }
+
++(UITableView *)tableView{
+    QMUITableView *result = [[QMUITableView alloc] init];
+    
+    result.backgroundColor = [UIColor clearColor];
+    
+    //去掉没有数据cell的分割线
+    result.tableFooterView = [[UIView alloc] init];
+    
+    //去掉默认分割线
+    result.separatorStyle = UITableViewCellSeparatorStyleNone;
+    
+    //修复默认分割线，向右偏移问题
+    result.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
+    
+    result.myWidth = MyLayoutSize.fill;
+    result.myHeight = MyLayoutSize.fill;
+    
+    //设置所有cell的高度为高度自适应，如果cell高度是动态的请这么设置。 如果不同的cell有差异那么可以通过实现协议方法-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+    //如果您最低要支持到iOS7那么请您实现-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath方法来代替这个属性的设置。
+    result.rowHeight = UITableViewAutomaticDimension;
+    
+    result.estimatedRowHeight = UITableViewAutomaticDimension;
+    
+    //不显示滚动条
+    [result setShowsVerticalScrollIndicator:NO];
+    
+    result.allowsSelection = YES;
+    
+    return result;
+}
 @end

@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "SplashViewController.h"
 #import "GuideController.h"
+#import "MainController.h"
 @interface AppDelegate ()
 
 @end
@@ -21,6 +22,12 @@
 /// 显示引导界面
 -(void)toGuide{
     GuideController *controller = [GuideController new];
+    [self setRootViewController:controller];
+}
+
+/// 显示主界面
+-(void)toMain{
+    MainController *controller = [MainController new];
     [self setRootViewController:controller];
 }
 

@@ -30,10 +30,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 创建只有标题按钮（类似网页连接）
 +(QMUIButton *)linkButton;
 
-
-
 /// 小圆角空心按钮
 + (QMUIButton *)primaryOutlineButton;
+
+/// 创建TableView
++(QMUITableView *)tableView;
 @end
 
 NS_ASSUME_NONNULL_END
