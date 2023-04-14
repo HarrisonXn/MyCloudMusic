@@ -40,6 +40,9 @@
 		8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989429E52CC100E67AC8 /* BaseController.m */; };
 		8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */; };
 		8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */; };
+		8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1029E8EC0A004E22DB /* PlaceholderView.m */; };
+		8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1529E8F1A9004E22DB /* StringUtil.m */; };
+		8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D1A29E8FDFD004E22DB /* SuperToast.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -111,6 +114,12 @@
 		8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCommonController.m; sourceTree = "<group>"; };
 		8D9F989929E52DEC00E67AC8 /* BaseLogicController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLogicController.h; sourceTree = "<group>"; };
 		8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLogicController.m; sourceTree = "<group>"; };
+		8DE85D0F29E8EC0A004E22DB /* PlaceholderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlaceholderView.h; sourceTree = "<group>"; };
+		8DE85D1029E8EC0A004E22DB /* PlaceholderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlaceholderView.m; sourceTree = "<group>"; };
+		8DE85D1429E8F1A9004E22DB /* StringUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StringUtil.h; sourceTree = "<group>"; };
+		8DE85D1529E8F1A9004E22DB /* StringUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringUtil.m; sourceTree = "<group>"; };
+		8DE85D1929E8FDFD004E22DB /* SuperToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperToast.h; sourceTree = "<group>"; };
+		8DE85D1A29E8FDFD004E22DB /* SuperToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperToast.m; sourceTree = "<group>"; };
 		DD39585A1CA2DCD7AF36F5A4 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -253,6 +262,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D0E29E8EBED004E22DB /* View */,
 				8D42F92F29E801FD009B9788 /* Repository */,
 				8D9DC7B629E7E02E0025F4C4 /* Model */,
 				8D9DC7B229E7DDF10025F4C4 /* NetWork */,
@@ -303,6 +313,7 @@
 		8D9F986B29E45BFE00E67AC8 /* Vender */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D1229E8EF9C004E22DB /* SuperOC */,
 				8D9DC7AE29E6AF340025F4C4 /* MSNetwork */,
 				8D9F986C29E45CB900E67AC8 /* SuperUI */,
 			);
@@ -312,6 +323,7 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D1729E8FDD7004E22DB /* Toast */,
 				8D9F988429E5098C00E67AC8 /* Color */,
 				8D9F988329E5097E00E67AC8 /* Date */,
 			);
@@ -362,6 +374,41 @@
 				8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8DE85D0E29E8EBED004E22DB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D0F29E8EC0A004E22DB /* PlaceholderView.h */,
+				8DE85D1029E8EC0A004E22DB /* PlaceholderView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8DE85D1229E8EF9C004E22DB /* SuperOC */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D1329E8EFA8004E22DB /* Util */,
+			);
+			path = SuperOC;
+			sourceTree = "<group>";
+		};
+		8DE85D1329E8EFA8004E22DB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D1429E8F1A9004E22DB /* StringUtil.h */,
+				8DE85D1529E8F1A9004E22DB /* StringUtil.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		8DE85D1729E8FDD7004E22DB /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D1929E8FDFD004E22DB /* SuperToast.h */,
+				8DE85D1A29E8FDFD004E22DB /* SuperToast.m */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 		A23E75ECDDCCDD3F1EE0EA06 /* Pods */ = {
@@ -512,6 +559,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */,
 				8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */,
 				8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */,
 				8D9DC7C329E7EC440025F4C4 /* SuperBaseId.m in Sources */,
@@ -521,6 +569,7 @@
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */,
 				8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */,
+				8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
@@ -535,6 +584,7 @@
 				8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */,
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,
 				8D9DC7D129E7ED9D0025F4C4 /* Video.m in Sources */,
+				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
 				8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */,

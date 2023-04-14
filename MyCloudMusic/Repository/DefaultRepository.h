@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - 视频
 
+/// 视频列表
+-(void)videos:(int)page success:(SuperHttpListSuccess)success;
+
 /// 视频详情
 -(void)videoDetail:(NSString *)id success:(SuperHttpSuccess)success;
 

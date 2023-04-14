@@ -69,6 +69,15 @@ typedef BOOL(^SuperHttpFail)(BaseResponse * _Nullable baseResponse,NSError *erro
 /// @param success 成功回调
 /// @param failure 失败回调
 +(void)requestObjectWith:(Class)clazz url:(NSString *)url parameters:(nullable NSDictionary *)parameters cachePolicy:(MSCachePolicy)cachePolicy method:(MSRequestMethod)method loading:(BOOL)loading controller:(BaseLogicController *)controller success:(SuperHttpSuccess)success failure:(_Nullable SuperHttpFail)failure;
+
+#pragma mark - 请求列表
++ (void)requestListObjectWith:(Class)clazz url:(NSString *)url parameters:(nullable NSDictionary *)parameters cachePolicy:(MSCachePolicy)cachePolicy controller:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
+
++ (void)requestListObjectWith:(Class)clazz url:(NSString *)url success:(SuperHttpListSuccess)success;
+
++ (void)requestListObjectWith:(Class)clazz url:(NSString *)url parameters:(nullable NSDictionary *)parameters  success:(SuperHttpListSuccess)success;
+
++ (void)requestListObjectWith:(Class)clazz url:(NSString *)url parameters:(nullable NSDictionary *)parameters cachePolicy:(MSCachePolicy)cachePolicy loading:(BOOL)loading controller:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success failure:(_Nullable SuperHttpFail)failure;
 @end
 
 NS_ASSUME_NONNULL_END

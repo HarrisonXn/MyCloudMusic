@@ -19,4 +19,7 @@ pod 'YYCache', '~> 1.0.4'
 #JSON解析
 pod 'MJExtension'
 
+#弹窗框架
+pod 'MBProgressHUD', '~> 1.2.0'
+
 end
