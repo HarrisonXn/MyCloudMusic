@@ -336,6 +336,15 @@ en: "点击刷新"
 */
 - (NSString*)clickRefresh;
 /**
+key: "ClickReload"
+
+zh-Hans: "%\@, 点击重试"
+
+en: "%\@, click to refresh"
+*/
+- (NSString*)clickReload;
+- (NSString*)clickReload:(nullable NSString*)value1;
+/**
 key: "CloseApp"
 
 zh-Hans: "关闭应用"
@@ -1606,9 +1615,9 @@ en: "我的电台"
 /**
 key: "NetworkError"
 
-zh-Hans: "Your Network seems to be suck."
+zh-Hans: "您的网络不佳"
 
-en: "Your Network seems to be suck."
+en: "Your Network seems to be suck"
 */
 - (NSString*)networkError;
 /**
@@ -2817,6 +2826,7 @@ en: "MyCloudMusic"
 - (UIImage*)guide1;
 - (UIImage*)live;
 - (UIImage*)digitalAlbum;
+- (UIImage*)banner1;
 - (UIImage*)arrowCircleDown;
 - (UIImage*)list;
 - (UIImage*)discovery;
@@ -2831,6 +2841,8 @@ en: "MyCloudMusic"
 - (UIImage*)checked;
 - (UIImage*)flashlightOn;
 - (UIImage*)loginWeibo;
+- (UIImage*)banner4;
+- (UIImage*)banner5;
 - (UIImage*)download;
 - (UIImage*)qrCode;
 - (UIImage*)loginQq;
@@ -2866,6 +2878,8 @@ en: "MyCloudMusic"
 - (UIImage*)arrowLeft;
 - (UIImage*)add;
 - (UIImage*)discoverySelected;
+- (UIImage*)banner3;
+- (UIImage*)banner2;
 - (UIImage*)search;
 - (UIImage*)placeholder;
 - (UIImage*)addFill;

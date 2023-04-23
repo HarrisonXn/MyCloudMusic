@@ -46,6 +46,8 @@
 - (NSString*)changeStyle { return NSLocalizedStringFromTableInBundle(@"ChangeStyle", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)clickDownload { return NSLocalizedStringFromTableInBundle(@"ClickDownload", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)clickRefresh { return NSLocalizedStringFromTableInBundle(@"ClickRefresh", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)clickReload { return NSLocalizedStringFromTableInBundle(@"ClickReload", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)clickReload:(nullable NSString*)value1 { return [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"ClickReload", @"Localizable", [NSBundle bundleForClass:self.class], nil), value1]; }
 - (NSString*)closeApp { return NSLocalizedStringFromTableInBundle(@"CloseApp", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)collect { return NSLocalizedStringFromTableInBundle(@"Collect", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)collect:(NSInteger)value1 { return [NSString stringWithFormat:NSLocalizedStringFromTableInBundle(@"Collect", @"Localizable", [NSBundle bundleForClass:self.class], nil), value1]; }
@@ -441,6 +443,7 @@
 @property (nonatomic, strong) UIImage* guide1;
 @property (nonatomic, strong) UIImage* live;
 @property (nonatomic, strong) UIImage* digitalAlbum;
+@property (nonatomic, strong) UIImage* banner1;
 @property (nonatomic, strong) UIImage* arrowCircleDown;
 @property (nonatomic, strong) UIImage* list;
 @property (nonatomic, strong) UIImage* discovery;
@@ -455,6 +458,8 @@
 @property (nonatomic, strong) UIImage* checked;
 @property (nonatomic, strong) UIImage* flashlightOn;
 @property (nonatomic, strong) UIImage* loginWeibo;
+@property (nonatomic, strong) UIImage* banner4;
+@property (nonatomic, strong) UIImage* banner5;
 @property (nonatomic, strong) UIImage* download;
 @property (nonatomic, strong) UIImage* qrCode;
 @property (nonatomic, strong) UIImage* loginQq;
@@ -490,6 +495,8 @@
 @property (nonatomic, strong) UIImage* arrowLeft;
 @property (nonatomic, strong) UIImage* add;
 @property (nonatomic, strong) UIImage* discoverySelected;
+@property (nonatomic, strong) UIImage* banner3;
+@property (nonatomic, strong) UIImage* banner2;
 @property (nonatomic, strong) UIImage* search;
 @property (nonatomic, strong) UIImage* placeholder;
 @property (nonatomic, strong) UIImage* addFill;
@@ -565,6 +572,7 @@
 - (UIImage*)guide1 { return [UIImage imageNamed:@"guide1" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)live { return [UIImage imageNamed:@"Live" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)digitalAlbum { return [UIImage imageNamed:@"DigitalAlbum" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)banner1 { return [UIImage imageNamed:@"banner_1" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)arrowCircleDown { return [UIImage imageNamed:@"ArrowCircleDown" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)list { return [UIImage imageNamed:@"List" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)discovery { return [UIImage imageNamed:@"Discovery" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
@@ -579,6 +587,8 @@
 - (UIImage*)checked { return [UIImage imageNamed:@"Checked" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)flashlightOn { return [UIImage imageNamed:@"FlashlightOn" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)loginWeibo { return [UIImage imageNamed:@"LoginWeibo" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)banner4 { return [UIImage imageNamed:@"banner_4" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)banner5 { return [UIImage imageNamed:@"banner_5" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)download { return [UIImage imageNamed:@"Download" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)qrCode { return [UIImage imageNamed:@"QRCode" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)loginQq { return [UIImage imageNamed:@"LoginQq" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
@@ -614,6 +624,8 @@
 - (UIImage*)arrowLeft { return [UIImage imageNamed:@"ArrowLeft" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)add { return [UIImage imageNamed:@"Add" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)discoverySelected { return [UIImage imageNamed:@"DiscoverySelected" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)banner3 { return [UIImage imageNamed:@"banner_3" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)banner2 { return [UIImage imageNamed:@"banner_2" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)search { return [UIImage imageNamed:@"Search" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)placeholder { return [UIImage imageNamed:@"Placeholder" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)addFill { return [UIImage imageNamed:@"AddFill" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }

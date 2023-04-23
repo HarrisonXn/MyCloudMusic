@@ -8,7 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0602A4EE73EEB0661ECEBA5B /* libPods-MyCloudMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */; };
+		8D0FB0F129EC0E8F0074AA6B /* BannerData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0FB0F029EC0E8F0074AA6B /* BannerData.m */; };
 		8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D42F93129E8021B009B9788 /* DefaultRepository.m */; };
+		8D7560DD29F23C620027F959 /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560DC29F23C620027F959 /* BaseTableViewCell.m */; };
+		8D7560E129F240AA0027F959 /* BannerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560E029F240AA0027F959 /* BannerCell.m */; };
+		8D7560E429F257310027F959 /* ResourceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560E329F257310027F959 /* ResourceUtil.m */; };
+		8D7560E829F4DDF90027F959 /* BannerClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560E729F4DDF90027F959 /* BannerClickEvent.m */; };
+		8D7560EC29F4E5770027F959 /* UIView+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -51,13 +57,26 @@
 		8DE85D3B29E932B4004E22DB /* VideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D3A29E932B4004E22DB /* VideoController.m */; };
 		8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D3D29E9335A004E22DB /* DiscoveryController.m */; };
 		8DE85D4229E933A2004E22DB /* UIImage+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D4129E933A2004E22DB /* UIImage+SuperUI.m */; };
+		8DE85D4729E940B9004E22DB /* Ad.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DE85D4629E940B9004E22DB /* Ad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		67C5AE3070E486CA48E76613 /* libPods-MyCloudMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyCloudMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8558CA7B62B1D206278AC68E /* Pods-MyCloudMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.release.xcconfig"; sourceTree = "<group>"; };
+		8D0FB0EF29EC0E8F0074AA6B /* BannerData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerData.h; sourceTree = "<group>"; };
+		8D0FB0F029EC0E8F0074AA6B /* BannerData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerData.m; sourceTree = "<group>"; };
 		8D42F93029E8021B009B9788 /* DefaultRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefaultRepository.h; sourceTree = "<group>"; };
 		8D42F93129E8021B009B9788 /* DefaultRepository.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefaultRepository.m; sourceTree = "<group>"; };
+		8D7560DB29F23C620027F959 /* BaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		8D7560DC29F23C620027F959 /* BaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		8D7560DF29F240AA0027F959 /* BannerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerCell.h; sourceTree = "<group>"; };
+		8D7560E029F240AA0027F959 /* BannerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerCell.m; sourceTree = "<group>"; };
+		8D7560E229F257310027F959 /* ResourceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResourceUtil.h; sourceTree = "<group>"; };
+		8D7560E329F257310027F959 /* ResourceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResourceUtil.m; sourceTree = "<group>"; };
+		8D7560E629F4DDF90027F959 /* BannerClickEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerClickEvent.h; sourceTree = "<group>"; };
+		8D7560E729F4DDF90027F959 /* BannerClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerClickEvent.m; sourceTree = "<group>"; };
+		8D7560EA29F4E5770027F959 /* UIView+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SuperUI.h"; sourceTree = "<group>"; };
+		8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperUI.m"; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -144,6 +163,8 @@
 		8DE85D3D29E9335A004E22DB /* DiscoveryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryController.m; sourceTree = "<group>"; };
 		8DE85D4029E933A2004E22DB /* UIImage+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+SuperUI.h"; sourceTree = "<group>"; };
 		8DE85D4129E933A2004E22DB /* UIImage+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+SuperUI.m"; sourceTree = "<group>"; };
+		8DE85D4529E940B9004E22DB /* Ad.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ad.h; sourceTree = "<group>"; };
+		8DE85D4629E940B9004E22DB /* Ad.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ad.m; sourceTree = "<group>"; };
 		DD39585A1CA2DCD7AF36F5A4 /* Pods-MyCloudMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCloudMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -167,6 +188,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8D0FB0EE29EC0E620074AA6B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D0FB0EF29EC0E8F0074AA6B /* BannerData.h */,
+				8D0FB0F029EC0E8F0074AA6B /* BannerData.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8D42F92F29E801FD009B9788 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,6 +204,42 @@
 				8D42F93129E8021B009B9788 /* DefaultRepository.m */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		8D7560DA29F23C3C0027F959 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D7560DB29F23C620027F959 /* BaseTableViewCell.h */,
+				8D7560DC29F23C620027F959 /* BaseTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8D7560DE29F240810027F959 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D7560DF29F240AA0027F959 /* BannerCell.h */,
+				8D7560E029F240AA0027F959 /* BannerCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		8D7560E529F4DDCF0027F959 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				8D7560E629F4DDF90027F959 /* BannerClickEvent.h */,
+				8D7560E729F4DDF90027F959 /* BannerClickEvent.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		8D7560E929F4E55F0027F959 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D7560EA29F4E5770027F959 /* UIView+SuperUI.h */,
+				8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
@@ -186,6 +252,8 @@
 				8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */,
 				8DE85D1C29E92207004E22DB /* TipUtil.h */,
 				8DE85D1D29E92207004E22DB /* TipUtil.m */,
+				8D7560E229F257310027F959 /* ResourceUtil.h */,
+				8D7560E329F257310027F959 /* ResourceUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -289,6 +357,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D7560DA29F23C3C0027F959 /* Cell */,
 				8DE85D0E29E8EBED004E22DB /* View */,
 				8D42F92F29E801FD009B9788 /* Repository */,
 				8D9DC7B629E7E02E0025F4C4 /* Model */,
@@ -319,6 +388,7 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8DE85D4329E9408E004E22DB /* Ad */,
 				8DE85D3329E93229004E22DB /* Room */,
 				8DE85D2E29E931EC004E22DB /* New Group */,
 				8DE85D2929E93197004E22DB /* Main */,
@@ -355,6 +425,7 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D7560E929F4E55F0027F959 /* View */,
 				8DE85D3F29E93386004E22DB /* Image */,
 				8DE85D1729E8FDD7004E22DB /* Toast */,
 				8D9F988429E5098C00E67AC8 /* Color */,
@@ -447,6 +518,8 @@
 		8DE85D1F29E93062004E22DB /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				8D7560DE29F240810027F959 /* Cell */,
+				8D0FB0EE29EC0E620074AA6B /* Model */,
 				8DE85D2029E93078004E22DB /* Controller */,
 			);
 			path = Discovery;
@@ -545,6 +618,24 @@
 				8DE85D4129E933A2004E22DB /* UIImage+SuperUI.m */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		8DE85D4329E9408E004E22DB /* Ad */ = {
+			isa = PBXGroup;
+			children = (
+				8DE85D4429E94093004E22DB /* Model */,
+			);
+			path = Ad;
+			sourceTree = "<group>";
+		};
+		8DE85D4429E94093004E22DB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D7560E529F4DDCF0027F959 /* Event */,
+				8DE85D4529E940B9004E22DB /* Ad.h */,
+				8DE85D4629E940B9004E22DB /* Ad.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		A23E75ECDDCCDD3F1EE0EA06 /* Pods */ = {
@@ -655,20 +746,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources.sh",
-				"${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/QMUIResources.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCloudMusic/Pods-MyCloudMusic-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		8D9F987F29E4759F00E67AC8 /* ShellScript */ = {
@@ -702,14 +788,20 @@
 				8D9DC7C329E7EC440025F4C4 /* SuperBaseId.m in Sources */,
 				8DE85D4229E933A2004E22DB /* UIImage+SuperUI.m in Sources */,
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
+				8D7560E429F257310027F959 /* ResourceUtil.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */,
 				8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */,
+				8D7560E829F4DDF90027F959 /* BannerClickEvent.m in Sources */,
+				8D7560DD29F23C620027F959 /* BaseTableViewCell.m in Sources */,
+				8DE85D4729E940B9004E22DB /* Ad.m in Sources */,
 				8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
+				8D7560E129F240AA0027F959 /* BannerCell.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
+				8D0FB0F129EC0E8F0074AA6B /* BannerData.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
 				8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */,
@@ -721,6 +813,7 @@
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
+				8D7560EC29F4E5770027F959 /* UIView+SuperUI.m in Sources */,
 				8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */,
 				8DE85D3729E93245004E22DB /* RoomController.m in Sources */,
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,

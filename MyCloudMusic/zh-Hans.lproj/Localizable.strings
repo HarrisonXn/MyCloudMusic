@@ -22,6 +22,8 @@ ErrorUploadfile = "Upload file error";
 ErrorResponsesign = "API signature error";
 ErrorResponsedecrypt = "API decryption error";
 SuperLoading="Loading.";
+NetworkError= "您的网络不佳";
+ClickReload= "%@, 点击重试";
 
 //发现界面
 DayRecommend="每日推荐";

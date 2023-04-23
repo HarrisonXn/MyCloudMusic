@@ -22,6 +22,8 @@ ErrorUploadfile = "Upload file error";
 ErrorResponsesign = "API signature error";
 ErrorResponsedecrypt = "API decryption error";
 SuperLoading="Loading.";
+NetworkError= "Your Network seems to be suck";
+ClickReload= "%@, click to refresh";
 
 //发现界面
 DayRecommend="每日推荐";

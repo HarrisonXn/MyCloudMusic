@@ -15,7 +15,7 @@
 + (void)showErrorWithToast:(NSString *)toast placeholderView:(PlaceholderView *)placeholderView placeholderTitle:(NSString *)placeholderTitle placeholderIcon:(UIImage *)placeholderIcon{
     if (placeholderView) {
         placeholderView.visibility = MyVisibility_Visible;
-//        [placeholderView showWithTitle:placeholderTitle icon:placeholderIcon];
+        [placeholderView showWithTitle:placeholderTitle icon:placeholderIcon];
     } else {
         [SuperToast showWithTitle:toast];
     }

@@ -284,7 +284,13 @@ PODS:
     - QMUIKit/QMUILog
   - QMUIKit/QMUIResources (3.2.1)
   - QMUIKit/QMUIWeakObjectContainer (3.2.1)
+  - QTEventBus (0.4.1):
+    - QTEventBus/Core (= 0.4.1)
+  - QTEventBus/Core (0.4.1)
   - R.objc (0.8.2)
+  - SDWebImage (5.15.5):
+    - SDWebImage/Core (= 5.15.5)
+  - SDWebImage/Core (5.15.5)
   - YYCache (1.0.4)
 
 DEPENDENCIES:
@@ -294,11 +300,13 @@ DEPENDENCIES:
   - MJExtension
   - MyLayout (~> 1.9.8)
   - QMUIKit (~> 3.2.1)
+  - QTEventBus (~> 0.4.0)
   - R.objc (~> 0.8.2)
+  - SDWebImage (~> 5.15.5)
   - YYCache (~> 1.0.4)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - GKCycleScrollView
     - MBProgressHUD
@@ -307,6 +315,9 @@ SPEC REPOS:
     - QMUIKit
     - R.objc
     - YYCache
+  trunk:
+    - QTEventBus
+    - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
@@ -315,9 +326,11 @@ SPEC CHECKSUMS:
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
   QMUIKit: a3af645843b9558eb7aaf407b320eaeb45ab6144
+  QTEventBus: ea42577d40303f11fb2392e1383fb5d4a7335609
   R.objc: bd0a4ef693bc8f9daa4e658d99afe1e01d204e7d
+  SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: f1da05b69a26ce3f60038ef0caa879ce79c3950a
+PODFILE CHECKSUM: 52661da7d61fe98f991b030223dd8c1dedaf1016
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.12.1

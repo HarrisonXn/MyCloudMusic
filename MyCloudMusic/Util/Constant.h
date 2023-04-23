@@ -9,6 +9,13 @@
 #define Constant_h
 
 static NSString * const URL_VIDEO = @"v1/videos";
+static NSString * const URL_AD = @"v1/ads";
+
+static int const VALUE_NO = -1;
+static int const VALUE0 = 0;
+static int const VALUE10 = 10;
+static int const VALUE20 = 20;
+static int const VALUE30 = 30;
 #pragma mark - 按钮尺寸
 static float const BUTTON_SMALL = 30;
 static float const BUTTON_MEDDLE = 42;

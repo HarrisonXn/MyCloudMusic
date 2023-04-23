@@ -6,6 +6,7 @@
 //
 
 #import "BaseCommonController.h"
+#import "PlaceholderView.h"
 //提供类似Android中更高层级的布局框架
 #import <MyLayout/MyLayout.h>
 
@@ -35,6 +36,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// frame容器，一般用来添加占位布局
 @property (nonatomic, strong) MyBaseLayout *frameContainer;
 
+/// 占位控件
+@property(nonatomic,strong) PlaceholderView *placeholderView;
+
+
 /// 初始化垂直方向LinearLayout容器
 - (void)initLinearLayout;
 
@@ -49,6 +54,17 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 使用默认分割线
 - (void)initDefaultTableViewDivider;
+
+/// 初始化占位控件
+- (void)initPlaceholderView;
+#pragma mark - 加载数据
+
+/// 加载数据方法
+/// @param isPlaceholder 是否是通过placeholder控件触发的
+-(void)loadData:(BOOL)isPlaceholder;
+
+/// 加载数据方法
+-(void)loadData;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -12,6 +12,7 @@
 
 #import "SuperHttpUtil.h"
 #import "Video.h"
+#import "Ad.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -31,6 +32,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 视频详情，可以手动处理错误
 -(void)videoDetail:(NSString *)id success:(SuperHttpSuccess)success  failure:(_Nullable SuperHttpFail)failure;
 
+#pragma mark - 广告
+
+/// 广告列表
+/// @param position 那个位置广告；0：首页banner，10：启动界面
+-(void)adsWithPosition:(int)position controller:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
+
+/// 首页banner界面广告
+-(void)bannerAdWithController:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
 @end
 
 NS_ASSUME_NONNULL_END
