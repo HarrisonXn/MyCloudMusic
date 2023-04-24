@@ -221,7 +221,6 @@
             [TipUtil showErrorWithToast:data.message placeholderView:placeholder placeholderTitle:data.message];
         }
     }
-
 }
 
 +(void)handleError:(NSError *)error task:(NSURLSessionDataTask *)task placeholder:(nullable PlaceholderView *)placeholder{

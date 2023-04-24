@@ -15,6 +15,10 @@
 		8D7560E429F257310027F959 /* ResourceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560E329F257310027F959 /* ResourceUtil.m */; };
 		8D7560E829F4DDF90027F959 /* BannerClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560E729F4DDF90027F959 /* BannerClickEvent.m */; };
 		8D7560EC29F4E5770027F959 /* UIView+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */; };
+		8D7560EF29F5096B0027F959 /* DiscoveryButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560EE29F5096B0027F959 /* DiscoveryButtonCell.m */; };
+		8D7560F229F616690027F959 /* ButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560F129F616690027F959 /* ButtonData.m */; };
+		8D7560F529F616DA0027F959 /* IconTitleButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560F429F616DA0027F959 /* IconTitleButtonData.m */; };
+		8D7560F929F623670027F959 /* DiscoveryButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560F829F623670027F959 /* DiscoveryButtonView.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -77,6 +81,14 @@
 		8D7560E729F4DDF90027F959 /* BannerClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BannerClickEvent.m; sourceTree = "<group>"; };
 		8D7560EA29F4E5770027F959 /* UIView+SuperUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SuperUI.h"; sourceTree = "<group>"; };
 		8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperUI.m"; sourceTree = "<group>"; };
+		8D7560ED29F5096B0027F959 /* DiscoveryButtonCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryButtonCell.h; sourceTree = "<group>"; };
+		8D7560EE29F5096B0027F959 /* DiscoveryButtonCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryButtonCell.m; sourceTree = "<group>"; };
+		8D7560F029F616690027F959 /* ButtonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonData.h; sourceTree = "<group>"; };
+		8D7560F129F616690027F959 /* ButtonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonData.m; sourceTree = "<group>"; };
+		8D7560F329F616DA0027F959 /* IconTitleButtonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IconTitleButtonData.h; sourceTree = "<group>"; };
+		8D7560F429F616DA0027F959 /* IconTitleButtonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconTitleButtonData.m; sourceTree = "<group>"; };
+		8D7560F729F623670027F959 /* DiscoveryButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryButtonView.h; sourceTree = "<group>"; };
+		8D7560F829F623670027F959 /* DiscoveryButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryButtonView.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -193,6 +205,10 @@
 			children = (
 				8D0FB0EF29EC0E8F0074AA6B /* BannerData.h */,
 				8D0FB0F029EC0E8F0074AA6B /* BannerData.m */,
+				8D7560F029F616690027F959 /* ButtonData.h */,
+				8D7560F129F616690027F959 /* ButtonData.m */,
+				8D7560F329F616DA0027F959 /* IconTitleButtonData.h */,
+				8D7560F429F616DA0027F959 /* IconTitleButtonData.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -220,6 +236,8 @@
 			children = (
 				8D7560DF29F240AA0027F959 /* BannerCell.h */,
 				8D7560E029F240AA0027F959 /* BannerCell.m */,
+				8D7560ED29F5096B0027F959 /* DiscoveryButtonCell.h */,
+				8D7560EE29F5096B0027F959 /* DiscoveryButtonCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -238,6 +256,15 @@
 			children = (
 				8D7560EA29F4E5770027F959 /* UIView+SuperUI.h */,
 				8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8D7560F629F623470027F959 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8D7560F729F623670027F959 /* DiscoveryButtonView.h */,
+				8D7560F829F623670027F959 /* DiscoveryButtonView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -518,6 +545,7 @@
 		8DE85D1F29E93062004E22DB /* Discovery */ = {
 			isa = PBXGroup;
 			children = (
+				8D7560F629F623470027F959 /* View */,
 				8D7560DE29F240810027F959 /* Cell */,
 				8D0FB0EE29EC0E620074AA6B /* Model */,
 				8DE85D2029E93078004E22DB /* Controller */,
@@ -800,6 +828,7 @@
 				8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D7560E129F240AA0027F959 /* BannerCell.m in Sources */,
+				8D7560F929F623670027F959 /* DiscoveryButtonView.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D0FB0F129EC0E8F0074AA6B /* BannerData.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
@@ -810,6 +839,7 @@
 				8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */,
 				8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
+				8D7560F229F616690027F959 /* ButtonData.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
@@ -819,10 +849,12 @@
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,
 				8D9DC7D129E7ED9D0025F4C4 /* Video.m in Sources */,
 				8DE85D2829E93160004E22DB /* FeedController.m in Sources */,
+				8D7560F529F616DA0027F959 /* IconTitleButtonData.m in Sources */,
 				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
 				8DE85D3229E9321A004E22DB /* MeController.m in Sources */,
+				8D7560EF29F5096B0027F959 /* DiscoveryButtonCell.m in Sources */,
 				8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */,
 				8D9DC7CE29E7ED4F0025F4C4 /* SuperCommon.m in Sources */,
 				8DE85D2D29E931C7004E22DB /* MainController.m in Sources */,

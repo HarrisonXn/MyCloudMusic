@@ -56,4 +56,45 @@ static float const PADDING_LARGE = 20;
 //大间歇2
 static float const PADDING_LARGE2 = 30;
 
+//列表类型枚举，所有类型都定义到这里，方便统一管理，当然也可以按模块，界面拆分
+typedef NS_ENUM(NSUInteger, ListStyle) {
+    StyleNone,
+    StyleBanner,
+    StyleButton,
+    StyleSheet,
+    StyleSong,
+    StyleFooter,
+    StyleSheetMore,
+    StyleSongMore,
+    StyleOpenDrawer,
+    StyleRerfresh,
+    StyleMe,
+    StyleMessageTextLeft, //左边，文本消息，其他人发的
+    StyleMessageTextRight, //右边，文本消息，我发的
+    StyleMessageImageLeft, //左边，图片消息，其他人发的
+    StyleMessageImageRight, //右边，图片消息，我发的
+    StylePhoneLogin,
+    StyleForgotPassword,
+    StyleComment,
+    StyleVideo,
+    StyleVideoInfo,
+    StyleTitle,
+    StyleAdd,
+    StyleDownloadManager,
+    StyleLocal,
+    StyleCancel,
+    StyleTencentMap,
+    StyleBaiduMap,
+    StyleAMap,
+    StyleSystemMap,
+    StyleFriend,
+    StyleFans,
+    StyleComfirmOrder,
+    StyleOrder,
+    StyleSelect,
+    StyleIncrement,
+    StyleDecrement,
+    StylePlayList
+};
+
 #endif /* Constant_h */
