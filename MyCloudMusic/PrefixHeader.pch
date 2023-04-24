@@ -29,6 +29,7 @@
 #import "ResourceUtil.h"
 #import "UIView+SuperUI.h"
 #import "SuperDateUtil.h"
+#import "ImageUtil.h"
 
 #pragma mark - weakify宏
 #ifndef weakify

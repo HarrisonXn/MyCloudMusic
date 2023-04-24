@@ -19,6 +19,13 @@
 		8D7560F229F616690027F959 /* ButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560F129F616690027F959 /* ButtonData.m */; };
 		8D7560F529F616DA0027F959 /* IconTitleButtonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560F429F616DA0027F959 /* IconTitleButtonData.m */; };
 		8D7560F929F623670027F959 /* DiscoveryButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560F829F623670027F959 /* DiscoveryButtonView.m */; };
+		8D7560FC29F653FF0027F959 /* SheetGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560FB29F653FF0027F959 /* SheetGroupCell.m */; };
+		8D7560FF29F655680027F959 /* SheetData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D7560FE29F655680027F959 /* SheetData.m */; };
+		8D75610329F656470027F959 /* Sheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75610229F656470027F959 /* Sheet.m */; };
+		8D75610629F660A60027F959 /* ItemTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75610529F660A60027F959 /* ItemTitleView.m */; };
+		8D75610B29F66B4B0027F959 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75610A29F66B4B0027F959 /* BaseCollectionViewCell.m */; };
+		8D75610E29F66CD90027F959 /* SheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75610D29F66CD90027F959 /* SheetCell.m */; };
+		8D75611129F675080027F959 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611029F675080027F959 /* ImageUtil.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -89,6 +96,20 @@
 		8D7560F429F616DA0027F959 /* IconTitleButtonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconTitleButtonData.m; sourceTree = "<group>"; };
 		8D7560F729F623670027F959 /* DiscoveryButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoveryButtonView.h; sourceTree = "<group>"; };
 		8D7560F829F623670027F959 /* DiscoveryButtonView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoveryButtonView.m; sourceTree = "<group>"; };
+		8D7560FA29F653FF0027F959 /* SheetGroupCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetGroupCell.h; sourceTree = "<group>"; };
+		8D7560FB29F653FF0027F959 /* SheetGroupCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetGroupCell.m; sourceTree = "<group>"; };
+		8D7560FD29F655680027F959 /* SheetData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetData.h; sourceTree = "<group>"; };
+		8D7560FE29F655680027F959 /* SheetData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetData.m; sourceTree = "<group>"; };
+		8D75610129F656470027F959 /* Sheet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sheet.h; sourceTree = "<group>"; };
+		8D75610229F656470027F959 /* Sheet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sheet.m; sourceTree = "<group>"; };
+		8D75610429F660A60027F959 /* ItemTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemTitleView.h; sourceTree = "<group>"; };
+		8D75610529F660A60027F959 /* ItemTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemTitleView.m; sourceTree = "<group>"; };
+		8D75610929F66B4B0027F959 /* BaseCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseCollectionViewCell.h; sourceTree = "<group>"; };
+		8D75610A29F66B4B0027F959 /* BaseCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseCollectionViewCell.m; sourceTree = "<group>"; };
+		8D75610C29F66CD90027F959 /* SheetCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SheetCell.h; sourceTree = "<group>"; };
+		8D75610D29F66CD90027F959 /* SheetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetCell.m; sourceTree = "<group>"; };
+		8D75610F29F675080027F959 /* ImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
+		8D75611029F675080027F959 /* ImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -209,6 +230,8 @@
 				8D7560F129F616690027F959 /* ButtonData.m */,
 				8D7560F329F616DA0027F959 /* IconTitleButtonData.h */,
 				8D7560F429F616DA0027F959 /* IconTitleButtonData.m */,
+				8D7560FD29F655680027F959 /* SheetData.h */,
+				8D7560FE29F655680027F959 /* SheetData.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -227,6 +250,8 @@
 			children = (
 				8D7560DB29F23C620027F959 /* BaseTableViewCell.h */,
 				8D7560DC29F23C620027F959 /* BaseTableViewCell.m */,
+				8D75610929F66B4B0027F959 /* BaseCollectionViewCell.h */,
+				8D75610A29F66B4B0027F959 /* BaseCollectionViewCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -238,6 +263,8 @@
 				8D7560E029F240AA0027F959 /* BannerCell.m */,
 				8D7560ED29F5096B0027F959 /* DiscoveryButtonCell.h */,
 				8D7560EE29F5096B0027F959 /* DiscoveryButtonCell.m */,
+				8D7560FA29F653FF0027F959 /* SheetGroupCell.h */,
+				8D7560FB29F653FF0027F959 /* SheetGroupCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -265,8 +292,37 @@
 			children = (
 				8D7560F729F623670027F959 /* DiscoveryButtonView.h */,
 				8D7560F829F623670027F959 /* DiscoveryButtonView.m */,
+				8D75610429F660A60027F959 /* ItemTitleView.h */,
+				8D75610529F660A60027F959 /* ItemTitleView.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8D75610029F656200027F959 /* Sheet */ = {
+			isa = PBXGroup;
+			children = (
+				8D75610829F6656F0027F959 /* Cell */,
+				8D75610729F6655E0027F959 /* Model */,
+			);
+			path = Sheet;
+			sourceTree = "<group>";
+		};
+		8D75610729F6655E0027F959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D75610129F656470027F959 /* Sheet.h */,
+				8D75610229F656470027F959 /* Sheet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D75610829F6656F0027F959 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8D75610C29F66CD90027F959 /* SheetCell.h */,
+				8D75610D29F66CD90027F959 /* SheetCell.m */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
@@ -281,6 +337,8 @@
 				8DE85D1D29E92207004E22DB /* TipUtil.m */,
 				8D7560E229F257310027F959 /* ResourceUtil.h */,
 				8D7560E329F257310027F959 /* ResourceUtil.m */,
+				8D75610F29F675080027F959 /* ImageUtil.h */,
+				8D75611029F675080027F959 /* ImageUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -415,6 +473,7 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D75610029F656200027F959 /* Sheet */,
 				8DE85D4329E9408E004E22DB /* Ad */,
 				8DE85D3329E93229004E22DB /* Room */,
 				8DE85D2E29E931EC004E22DB /* New Group */,
@@ -809,11 +868,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D7560FC29F653FF0027F959 /* SheetGroupCell.m in Sources */,
 				8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */,
 				8DE85D3B29E932B4004E22DB /* VideoController.m in Sources */,
 				8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */,
 				8D9F986A29E3FD7E00E67AC8 /* SplashViewController.m in Sources */,
 				8D9DC7C329E7EC440025F4C4 /* SuperBaseId.m in Sources */,
+				8D75610629F660A60027F959 /* ItemTitleView.m in Sources */,
 				8DE85D4229E933A2004E22DB /* UIImage+SuperUI.m in Sources */,
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
 				8D7560E429F257310027F959 /* ResourceUtil.m in Sources */,
@@ -825,10 +886,12 @@
 				8D7560E829F4DDF90027F959 /* BannerClickEvent.m in Sources */,
 				8D7560DD29F23C620027F959 /* BaseTableViewCell.m in Sources */,
 				8DE85D4729E940B9004E22DB /* Ad.m in Sources */,
+				8D7560FF29F655680027F959 /* SheetData.m in Sources */,
 				8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D7560E129F240AA0027F959 /* BannerCell.m in Sources */,
 				8D7560F929F623670027F959 /* DiscoveryButtonView.m in Sources */,
+				8D75610E29F66CD90027F959 /* SheetCell.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D0FB0F129EC0E8F0074AA6B /* BannerData.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
@@ -842,6 +905,8 @@
 				8D7560F229F616690027F959 /* ButtonData.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
+				8D75611129F675080027F959 /* ImageUtil.m in Sources */,
+				8D75610329F656470027F959 /* Sheet.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
 				8D7560EC29F4E5770027F959 /* UIView+SuperUI.m in Sources */,
 				8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */,
@@ -853,6 +918,7 @@
 				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
+				8D75610B29F66B4B0027F959 /* BaseCollectionViewCell.m in Sources */,
 				8DE85D3229E9321A004E22DB /* MeController.m in Sources */,
 				8D7560EF29F5096B0027F959 /* DiscoveryButtonCell.m in Sources */,
 				8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */,

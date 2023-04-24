@@ -8,6 +8,11 @@
 #import "UIImage+SuperUI.h"
 
 @implementation UIImage (SuperUI)
+
+-(UIImage *)withTintColor{
+    return [self imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
+}
+
 + (UIImage *)imageWithColor:(UIColor *)color {
 
    CGRect rect = CGRectMake(0.0f,0.0f, 1.0f,1.0f);

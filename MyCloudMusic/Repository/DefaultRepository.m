@@ -47,4 +47,10 @@
     //因为参数比较少，所以通过字典传递更方便
     [SuperHttpUtil requestListObjectWith:[Ad class] url:URL_AD parameters:@{@"position":[NSNumber numberWithInt:position]} cachePolicy:MSCachePolicyNetElseCache controller:controller success:success];
 }
+
+#pragma mark - 歌单
+-(void)sheets:(int)size controller:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success{
+    [SuperHttpUtil requestListObjectWith:[Sheet class] url:URL_SHEET parameters:@{@"size":[NSNumber numberWithInt:size]} cachePolicy:MSCachePolicyNetElseCache controller:controller success:success];
+}
+
 @end

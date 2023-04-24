@@ -35,6 +35,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 创建TableView
 +(QMUITableView *)tableView;
+
+/// 创建CollectionView
++(UICollectionView *)collectionView;
++(UICollectionViewFlowLayout *)collectionViewFlowLayout;
+
 @end
 
 NS_ASSUME_NONNULL_END

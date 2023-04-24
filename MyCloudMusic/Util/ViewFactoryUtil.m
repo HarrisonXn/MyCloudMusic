@@ -83,4 +83,39 @@
     
     return result;
 }
+
++(UICollectionView *)collectionView{
+    UICollectionView *result = [[UICollectionView alloc] initWithFrame:CGRectZero collectionViewLayout:[self collectionViewFlowLayout]];
+    
+    result.backgroundColor = [UIColor clearColor];
+    
+    //不显示滚动条
+    [result setShowsVerticalScrollIndicator:NO];
+    [result setShowsHorizontalScrollIndicator:NO];
+
+    //tableView的内容从tableView顶部距离开始显示，不要自动偏移状态栏尺寸
+    [result setContentInsetAdjustmentBehavior:UIScrollViewContentInsetAdjustmentNever];
+    
+    result.myWidth = MyLayoutSize.fill;
+    result.myHeight = MyLayoutSize.fill;
+
+    return result;
+}
+
+///这里行间距和列间距可以重写
++(UICollectionViewFlowLayout *)collectionViewFlowLayout{
+    UICollectionViewFlowLayout *result = [UICollectionViewFlowLayout new];
+    result.sectionInset = UIEdgeInsetsMake(0, 0, 0, 0);
+
+    //滚动方向
+    result.scrollDirection=UICollectionViewScrollDirectionVertical;
+
+    //每个Cell的行间距
+    result.minimumLineSpacing = 0;
+
+    //每个Cell的列间距
+    result.minimumInteritemSpacing = 0;
+
+    return result;
+}
 @end

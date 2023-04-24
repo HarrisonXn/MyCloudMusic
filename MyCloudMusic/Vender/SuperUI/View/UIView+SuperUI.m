@@ -28,4 +28,9 @@
 -(void)show:(BOOL)show{
     self.visibility = show ? MyVisibility_Visible : MyVisibility_Gone;
 }
+
+-(void)smallRadius{
+    //小圆角
+    self.layer.cornerRadius = SMALL_RADIUS;
+}
 @end

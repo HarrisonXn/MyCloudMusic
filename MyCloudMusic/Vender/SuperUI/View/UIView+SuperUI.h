@@ -24,6 +24,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 显示控件
 /// @param show 是否显示
 -(void)show:(BOOL)show;
+
+/// 小圆角
+-(void)smallRadius;
 @end
 
 NS_ASSUME_NONNULL_END

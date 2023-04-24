@@ -12,6 +12,8 @@
 #import "BannerClickEvent.h"
 #import "DiscoveryButtonCell.h"
 #import "ButtonData.h"
+#import "SheetData.h"
+#import "SheetGroupCell.h"
 
 @interface DiscoveryController ()
 
@@ -32,6 +34,8 @@
     
     [self.tableView registerClass:[DiscoveryButtonCell class] forCellReuseIdentifier:DiscoveryButtonCellName];
     
+    [self.tableView registerClass:[SheetGroupCell class] forCellReuseIdentifier:SheetGroupCellName];
+    
 }
 
 - (void)initDatum{
@@ -42,11 +46,7 @@
 
 - (void)loadData:(BOOL)isPlaceholder{
     [self.datum removeAllObjects];
-    
-//    //广告API
-//    [[DefaultRepository shared] bannerAdWithController:self success:^(BaseResponse * _Nonnull baseResponse, Meta * _Nonnull meta, NSArray * _Nonnull data) {
-   
-//    }];
+
     //添加轮播图
     NSMutableArray *bannerName = [NSMutableArray new];
     BannerData *bannerData=[BannerData new];
@@ -57,11 +57,26 @@
     [bannerName addObject:@"banner_5"];
     bannerData.data = bannerName;
     [self.datum addObject:bannerData];
-    [self.tableView reloadData];
     
-    //添加快捷按钮
-    //添加快捷按钮
+    //添加快捷按钮数据
     [self.datum addObject:[ButtonData new]];
+    
+    //请求歌单数据
+    [self loadSheetData];
+}
+
+/// 请求歌单数据
+-(void)loadSheetData{
+    [[DefaultRepository shared] sheets:SIZE12 controller:self success:^(BaseResponse * _Nonnull baseResponse, Meta * _Nonnull meta, NSArray * _Nonnull data) {
+        
+        //添加歌单数据
+        SheetData *sheetData=[SheetData new];
+        sheetData.datum = data;
+        [self.datum addObject:sheetData];
+        
+        [self.tableView reloadData];
+        
+    }];
 }
 
 - (void)initListeners{
@@ -108,6 +123,13 @@
             [cell bind:data];
             
             return cell;
+        }case StyleSheet:{
+            //歌单组
+            SheetGroupCell *cell = [tableView dequeueReusableCellWithIdentifier:SheetGroupCellName forIndexPath:indexPath];
+            
+            [cell bind:data];
+            
+            return cell;
         }
         default:
             return nil;
@@ -126,10 +148,10 @@
         //按钮
         return StyleButton;
     }
-    //    else if ([data isKindOfClass:[SheetData class]]){
-    //        //歌单
-    //        return StyleSheet;
-    //    }
+    else if ([data isKindOfClass:[SheetData class]]){
+        //歌单
+        return StyleSheet;
+    }
     //    else if ([data isKindOfClass:[SongData class]]){
     //        //单曲
     //        return StyleSong;

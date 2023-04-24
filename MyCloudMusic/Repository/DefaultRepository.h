@@ -13,6 +13,8 @@
 #import "SuperHttpUtil.h"
 #import "Video.h"
 #import "Ad.h"
+#import "Sheet.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -40,6 +42,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 首页banner界面广告
 -(void)bannerAdWithController:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
+
+#pragma mark - 歌单
+
+/// 歌单列表
+-(void)sheets:(int)size controller:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
 @end
 
 NS_ASSUME_NONNULL_END

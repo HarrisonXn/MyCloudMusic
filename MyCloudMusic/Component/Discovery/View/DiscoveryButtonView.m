@@ -46,7 +46,7 @@
     _iconView.image = icon;
 }
 
-#pragma mark - 创建控件
+#pragma mark - 创建每日推荐控件
 - (UIImageView *)iconView{
     if (!_iconView) { // 此处为getter方法，不可用self.
         _iconView = [UIImageView new];// 此处为setter方法，可以使用self.
