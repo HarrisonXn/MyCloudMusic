@@ -127,4 +127,18 @@
     
     return result;
 }
+
++ (QMUIButton *)secondHalfFilletSmallButton{
+    QMUIButton *result = [[QMUIButton alloc] init];
+    result.titleLabel.font = UIFontMake(TEXT_SMALL);
+    result.myWidth = 90;
+    result.myHeight = BUTTON_SMALL;
+    result.tintColor = [UIColor black80];
+    result.layer.cornerRadius = BUTTON_SMALL_RADIUS;
+    result.layer.borderWidth = 1;
+    result.layer.borderColor = [[UIColor black80] CGColor];
+    [result setTitleColor:[UIColor black80] forState:UIControlStateNormal];
+    return result;
+}
+
 @end

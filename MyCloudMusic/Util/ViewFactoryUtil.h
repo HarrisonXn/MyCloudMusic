@@ -42,6 +42,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 创建小水平分割线
 +(UIView *)smallDivider;
+
+/// 创建次要，半圆角，小按钮
++(QMUIButton *)secondHalfFilletSmallButton;
+
 @end
 
 NS_ASSUME_NONNULL_END

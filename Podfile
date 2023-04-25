@@ -28,4 +28,8 @@ pod 'SDWebImage', '~> 5.15.5'
 #发布订阅框架，QTEventBus是一个优雅的iOS事件总线，用来实现“发布-订阅”的消息通信模式。
 #https://github.com/LeoMobileDeveloper/QTEventBus
 pod 'QTEventBus', '~> 0.4.1'
+
+#下拉刷新
+#https://github.com/CoderMJLee/MJRefresh
+pod 'MJRefresh'
 end

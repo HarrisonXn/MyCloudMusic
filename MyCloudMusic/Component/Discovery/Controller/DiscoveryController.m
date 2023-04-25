@@ -16,7 +16,8 @@
 #import "SheetGroupCell.h"
 #import "SongData.h"
 #import "SongGroupCell.h"
-
+//下拉刷新
+#import <MJRefresh/MJRefresh.h>
 @interface DiscoveryController ()<SheetGroupDelegate>
 
 @end
@@ -41,12 +42,34 @@
     [self.tableView registerClass:[SheetGroupCell class] forCellReuseIdentifier:SheetGroupCellName];
     
     [self.tableView registerClass:[SongGroupCell class] forCellReuseIdentifier:SongGroupCellName];
+    
+    //下拉刷新
+    MJRefreshNormalHeader *header=[MJRefreshNormalHeader headerWithRefreshingBlock:^{
+        [self loadData];
+    }];
+    
+    //隐藏标题
+   header.stateLabel.hidden = YES;
+    
+    // 隐藏时间
+   header.lastUpdatedTimeLabel.hidden = YES;
+   self.tableView.mj_header=header;
+}
+
+-(void)endRefresh{
+    [self.tableView.mj_header endRefreshing];
 }
 
 - (void)initDatum{
     [super initDatum];
     
-    [self loadData];
+//    [self loadData];
+    [self startRefresh];
+}
+
+-(void)startRefresh{
+    //进入界面后自动刷新，会调用回调方法
+    [self.tableView.mj_header beginRefreshing];
 }
 
 - (void)loadData:(BOOL)isPlaceholder{
@@ -87,6 +110,7 @@
 -(void)loadSongData{
     [[DefaultRepository shared] songsWithController:self success:^(BaseResponse * _Nonnull baseResponse, Meta * _Nonnull meta, NSArray * _Nonnull data) {
         
+        [self endRefresh];
         //添加单曲数据
         SongData *result=[SongData new];
         result.datum = data;

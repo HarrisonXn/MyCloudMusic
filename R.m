@@ -191,6 +191,21 @@
 - (NSString*)loginNow { return NSLocalizedStringFromTableInBundle(@"LoginNow", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)loginOrRegister { return NSLocalizedStringFromTableInBundle(@"LoginOrRegister", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)logout { return NSLocalizedStringFromTableInBundle(@"Logout", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshAutoFooterIdleText { return NSLocalizedStringFromTableInBundle(@"MJRefreshAutoFooterIdleText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshAutoFooterNoMoreDataText { return NSLocalizedStringFromTableInBundle(@"MJRefreshAutoFooterNoMoreDataText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshAutoFooterRefreshingText { return NSLocalizedStringFromTableInBundle(@"MJRefreshAutoFooterRefreshingText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshBackFooterIdleText { return NSLocalizedStringFromTableInBundle(@"MJRefreshBackFooterIdleText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshBackFooterNoMoreDataText { return NSLocalizedStringFromTableInBundle(@"MJRefreshBackFooterNoMoreDataText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshBackFooterPullingText { return NSLocalizedStringFromTableInBundle(@"MJRefreshBackFooterPullingText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshBackFooterRefreshingText { return NSLocalizedStringFromTableInBundle(@"MJRefreshBackFooterRefreshingText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshHeaderDateTodayText { return NSLocalizedStringFromTableInBundle(@"MJRefreshHeaderDateTodayText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshHeaderIdleText { return NSLocalizedStringFromTableInBundle(@"MJRefreshHeaderIdleText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshHeaderLastTimeText { return NSLocalizedStringFromTableInBundle(@"MJRefreshHeaderLastTimeText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshHeaderNoneLastDateText { return NSLocalizedStringFromTableInBundle(@"MJRefreshHeaderNoneLastDateText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshHeaderPullingText { return NSLocalizedStringFromTableInBundle(@"MJRefreshHeaderPullingText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshHeaderRefreshingText { return NSLocalizedStringFromTableInBundle(@"MJRefreshHeaderRefreshingText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshTrailerIdleText { return NSLocalizedStringFromTableInBundle(@"MJRefreshTrailerIdleText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
+- (NSString*)mjRefreshTrailerPullingText { return NSLocalizedStringFromTableInBundle(@"MJRefreshTrailerPullingText", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)mall { return NSLocalizedStringFromTableInBundle(@"Mall", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)mapAMap { return NSLocalizedStringFromTableInBundle(@"MapAMap", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
 - (NSString*)mapBaidu { return NSLocalizedStringFromTableInBundle(@"MapBaidu", @"Localizable", [NSBundle bundleForClass:self.class], nil); }
@@ -509,6 +524,8 @@
 @property (nonatomic, strong) UIImage* commentCount;
 @property (nonatomic, strong) UIImage* guide2;
 @property (nonatomic, strong) UIImage* guide3;
+@property (nonatomic, strong) UIImage* arrow2x;
+@property (nonatomic, strong) UIImage* trailArrow2x;
 @property (nonatomic, strong) UIImage* qmuiTipsInfo2x;
 @property (nonatomic, strong) UIImage* qmuiEmotionDelete2x;
 @property (nonatomic, strong) UIImage* qmuiConsoleLogo2x;
@@ -638,6 +655,8 @@
 - (UIImage*)commentCount { return [UIImage imageNamed:@"CommentCount" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)guide2 { return [UIImage imageNamed:@"guide2" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)guide3 { return [UIImage imageNamed:@"guide3" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)arrow2x { return [UIImage imageNamed:@"arrow@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)trailArrow2x { return [UIImage imageNamed:@"trail_arrow@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)qmuiTipsInfo2x { return [UIImage imageNamed:@"QMUI_tips_info@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)qmuiEmotionDelete2x { return [UIImage imageNamed:@"QMUI_emotion_delete@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)qmuiConsoleLogo2x { return [UIImage imageNamed:@"QMUI_console_logo@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }

@@ -31,7 +31,6 @@
 /// @param view <#view description#>
 /// @param uri <#uri description#>
 +(void)showFull:(UIImageView *)view uri:(NSString *)uri{
-    [view sd_setImageWithURL:[NSURL URLWithString:uri]
-                         placeholderImage:R.image.placeholder];
+    [view sd_setImageWithURL:[NSURL URLWithString:uri] placeholderImage:R.image.placeholder];
 }
 @end

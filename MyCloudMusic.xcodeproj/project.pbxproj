@@ -31,6 +31,7 @@
 		8D75611A29F7752B0027F959 /* SongData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611929F7752B0027F959 /* SongData.m */; };
 		8D75611F29F775700027F959 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611E29F775700027F959 /* Song.m */; };
 		8D75612429F7A2990027F959 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612329F7A2990027F959 /* User.m */; };
+		8D75612829F7BCC50027F959 /* ClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612729F7BCC50027F959 /* ClickEvent.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -125,6 +126,8 @@
 		8D75611E29F775700027F959 /* Song.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
 		8D75612229F7A2990027F959 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		8D75612329F7A2990027F959 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		8D75612629F7BCC50027F959 /* ClickEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickEvent.h; sourceTree = "<group>"; };
+		8D75612729F7BCC50027F959 /* ClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickEvent.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -239,6 +242,7 @@
 		8D0FB0EE29EC0E620074AA6B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				8D75612529F7BCA50027F959 /* Event */,
 				8D0FB0EF29EC0E8F0074AA6B /* BannerData.h */,
 				8D0FB0F029EC0E8F0074AA6B /* BannerData.m */,
 				8D7560F029F616690027F959 /* ButtonData.h */,
@@ -378,6 +382,15 @@
 				8D75612329F7A2990027F959 /* User.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		8D75612529F7BCA50027F959 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				8D75612629F7BCC50027F959 /* ClickEvent.h */,
+				8D75612729F7BCC50027F959 /* ClickEvent.m */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
@@ -966,6 +979,7 @@
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D75611129F675080027F959 /* ImageUtil.m in Sources */,
+				8D75612829F7BCC50027F959 /* ClickEvent.m in Sources */,
 				8D75610329F656470027F959 /* Sheet.m in Sources */,
 				8D75612429F7A2990027F959 /* User.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,

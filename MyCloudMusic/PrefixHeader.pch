@@ -30,7 +30,8 @@
 #import "UIView+SuperUI.h"
 #import "SuperDateUtil.h"
 #import "ImageUtil.h"
-
+#import "UIImage+SuperUI.h"
+#import "ClickEvent.h"
 #pragma mark - weakify宏
 #ifndef weakify
     #if DEBUG
