@@ -14,8 +14,10 @@
 #import "ButtonData.h"
 #import "SheetData.h"
 #import "SheetGroupCell.h"
+#import "SongData.h"
+#import "SongGroupCell.h"
 
-@interface DiscoveryController ()
+@interface DiscoveryController ()<SheetGroupDelegate>
 
 @end
 
@@ -23,6 +25,8 @@
 
 - (void)initViews{
     [super initViews];
+    
+    [self setBackgroundColor:[UIColor colorBackgroundLight]];
     
     //初始化TableView结构
     [self initTableViewSafeArea];
@@ -36,6 +40,7 @@
     
     [self.tableView registerClass:[SheetGroupCell class] forCellReuseIdentifier:SheetGroupCellName];
     
+    [self.tableView registerClass:[SongGroupCell class] forCellReuseIdentifier:SongGroupCellName];
 }
 
 - (void)initDatum{
@@ -74,8 +79,20 @@
         sheetData.datum = data;
         [self.datum addObject:sheetData];
         
-        [self.tableView reloadData];
+        //请求单曲数据
+        [self loadSongData];
+    }];
+}
+
+-(void)loadSongData{
+    [[DefaultRepository shared] songsWithController:self success:^(BaseResponse * _Nonnull baseResponse, Meta * _Nonnull meta, NSArray * _Nonnull data) {
         
+        //添加单曲数据
+        SongData *result=[SongData new];
+        result.datum = data;
+        [self.datum addObject:result];
+        
+        [self.tableView reloadData];
     }];
 }
 
@@ -126,11 +143,21 @@
         }case StyleSheet:{
             //歌单组
             SheetGroupCell *cell = [tableView dequeueReusableCellWithIdentifier:SheetGroupCellName forIndexPath:indexPath];
+            //设置代理
+            cell.delegate = self;
+            
+            [cell bind:data];
+            
+            return cell;
+        }case StyleSong:{
+            //单曲组
+            SongGroupCell *cell = [tableView dequeueReusableCellWithIdentifier:SongGroupCellName forIndexPath:indexPath];
             
             [cell bind:data];
             
             return cell;
         }
+
         default:
             return nil;
     }
@@ -152,13 +179,18 @@
         //歌单
         return StyleSheet;
     }
-    //    else if ([data isKindOfClass:[SongData class]]){
-    //        //单曲
-    //        return StyleSong;
-    //    }
-    //
+        else if ([data isKindOfClass:[SongData class]]){
+            //单曲
+            return StyleSong;
+        }
+    
     //TODO 更多的类型，在这里扩展就行了
     //尾部类型
     return StyleFooter;
+}
+
+#pragma mark - 歌单组代理
+- (void)sheetClick:(Sheet *)data{
+    NSLog(@"sheetClick %@",data.title);
 }
 @end

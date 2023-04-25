@@ -11,6 +11,11 @@
 static NSString * const URL_VIDEO = @"v1/videos";
 static NSString * const URL_AD = @"v1/ads";
 static NSString * const URL_SHEET = @"v1/sheets";
+static NSString * const URL_SONG = @"v1/songs";
+static NSString * const URL_FEED = @"v1/feeds";
+static NSString * const URL_SESSION = @"v1/sessions";
+static NSString * const URL_COMMENT = @"v1/comments";
+static NSString * const URL_USER = @"v1/users";
 
 static int const SIZE12 = 12;
 static int const VALUE_NO = -1;

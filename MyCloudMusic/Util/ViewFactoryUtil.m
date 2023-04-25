@@ -118,4 +118,13 @@
 
     return result;
 }
+
++(UIView *)smallDivider{
+    UIView *result = [UIView new];
+    result.myWidth = MyLayoutSize.fill;
+    result.myHeight = 0.5;
+    result.backgroundColor = [UIColor colorDivider];
+    
+    return result;
+}
 @end

@@ -40,6 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 +(UICollectionView *)collectionView;
 +(UICollectionViewFlowLayout *)collectionViewFlowLayout;
 
+/// 创建小水平分割线
++(UIView *)smallDivider;
 @end
 
 NS_ASSUME_NONNULL_END

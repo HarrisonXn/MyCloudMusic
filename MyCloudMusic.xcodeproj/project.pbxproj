@@ -26,6 +26,11 @@
 		8D75610B29F66B4B0027F959 /* BaseCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75610A29F66B4B0027F959 /* BaseCollectionViewCell.m */; };
 		8D75610E29F66CD90027F959 /* SheetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75610D29F66CD90027F959 /* SheetCell.m */; };
 		8D75611129F675080027F959 /* ImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611029F675080027F959 /* ImageUtil.m */; };
+		8D75611429F774870027F959 /* DiscoverySongCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611329F774870027F959 /* DiscoverySongCell.m */; };
+		8D75611729F774CA0027F959 /* SongGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611629F774CA0027F959 /* SongGroupCell.m */; };
+		8D75611A29F7752B0027F959 /* SongData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611929F7752B0027F959 /* SongData.m */; };
+		8D75611F29F775700027F959 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611E29F775700027F959 /* Song.m */; };
+		8D75612429F7A2990027F959 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612329F7A2990027F959 /* User.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -110,6 +115,16 @@
 		8D75610D29F66CD90027F959 /* SheetCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SheetCell.m; sourceTree = "<group>"; };
 		8D75610F29F675080027F959 /* ImageUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageUtil.h; sourceTree = "<group>"; };
 		8D75611029F675080027F959 /* ImageUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageUtil.m; sourceTree = "<group>"; };
+		8D75611229F774870027F959 /* DiscoverySongCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverySongCell.h; sourceTree = "<group>"; };
+		8D75611329F774870027F959 /* DiscoverySongCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverySongCell.m; sourceTree = "<group>"; };
+		8D75611529F774CA0027F959 /* SongGroupCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongGroupCell.h; sourceTree = "<group>"; };
+		8D75611629F774CA0027F959 /* SongGroupCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongGroupCell.m; sourceTree = "<group>"; };
+		8D75611829F7752B0027F959 /* SongData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SongData.h; sourceTree = "<group>"; };
+		8D75611929F7752B0027F959 /* SongData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SongData.m; sourceTree = "<group>"; };
+		8D75611D29F775700027F959 /* Song.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Song.h; sourceTree = "<group>"; };
+		8D75611E29F775700027F959 /* Song.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Song.m; sourceTree = "<group>"; };
+		8D75612229F7A2990027F959 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		8D75612329F7A2990027F959 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -232,6 +247,8 @@
 				8D7560F429F616DA0027F959 /* IconTitleButtonData.m */,
 				8D7560FD29F655680027F959 /* SheetData.h */,
 				8D7560FE29F655680027F959 /* SheetData.m */,
+				8D75611829F7752B0027F959 /* SongData.h */,
+				8D75611929F7752B0027F959 /* SongData.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,6 +282,10 @@
 				8D7560EE29F5096B0027F959 /* DiscoveryButtonCell.m */,
 				8D7560FA29F653FF0027F959 /* SheetGroupCell.h */,
 				8D7560FB29F653FF0027F959 /* SheetGroupCell.m */,
+				8D75611229F774870027F959 /* DiscoverySongCell.h */,
+				8D75611329F774870027F959 /* DiscoverySongCell.m */,
+				8D75611529F774CA0027F959 /* SongGroupCell.h */,
+				8D75611629F774CA0027F959 /* SongGroupCell.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -323,6 +344,40 @@
 				8D75610D29F66CD90027F959 /* SheetCell.m */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		8D75611B29F7754D0027F959 /* Song */ = {
+			isa = PBXGroup;
+			children = (
+				8D75611C29F775570027F959 /* Model */,
+			);
+			path = Song;
+			sourceTree = "<group>";
+		};
+		8D75611C29F775570027F959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D75611D29F775700027F959 /* Song.h */,
+				8D75611E29F775700027F959 /* Song.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D75612029F7A2660027F959 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				8D75612129F7A26C0027F959 /* Model */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		8D75612129F7A26C0027F959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D75612229F7A2990027F959 /* User.h */,
+				8D75612329F7A2990027F959 /* User.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
@@ -473,6 +528,8 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D75612029F7A2660027F959 /* User */,
+				8D75611B29F7754D0027F959 /* Song */,
 				8D75610029F656200027F959 /* Sheet */,
 				8DE85D4329E9408E004E22DB /* Ad */,
 				8DE85D3329E93229004E22DB /* Room */,
@@ -869,6 +926,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D7560FC29F653FF0027F959 /* SheetGroupCell.m in Sources */,
+				8D75611429F774870027F959 /* DiscoverySongCell.m in Sources */,
 				8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */,
 				8DE85D3B29E932B4004E22DB /* VideoController.m in Sources */,
 				8D9F989829E52D6B00E67AC8 /* BaseCommonController.m in Sources */,
@@ -881,6 +939,7 @@
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
+				8D75611A29F7752B0027F959 /* SongData.m in Sources */,
 				8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */,
 				8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */,
 				8D7560E829F4DDF90027F959 /* BannerClickEvent.m in Sources */,
@@ -899,6 +958,7 @@
 				8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */,
 				8DE85D1E29E92207004E22DB /* TipUtil.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
+				8D75611729F774CA0027F959 /* SongGroupCell.m in Sources */,
 				8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */,
 				8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */,
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
@@ -907,6 +967,7 @@
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D75611129F675080027F959 /* ImageUtil.m in Sources */,
 				8D75610329F656470027F959 /* Sheet.m in Sources */,
+				8D75612429F7A2990027F959 /* User.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
 				8D7560EC29F4E5770027F959 /* UIView+SuperUI.m in Sources */,
 				8D9DC7AD29E6AD400025F4C4 /* Config.m in Sources */,
@@ -914,6 +975,7 @@
 				8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */,
 				8D9DC7D129E7ED9D0025F4C4 /* Video.m in Sources */,
 				8DE85D2829E93160004E22DB /* FeedController.m in Sources */,
+				8D75611F29F775700027F959 /* Song.m in Sources */,
 				8D7560F529F616DA0027F959 /* IconTitleButtonData.m in Sources */,
 				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,

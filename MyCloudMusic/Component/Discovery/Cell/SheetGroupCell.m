@@ -26,7 +26,9 @@
     [super initViews];
     //标题
     [self.container addSubview:self.titleView];
-    
+    //分割线
+    //分割线
+    [self.container addSubview:[ViewFactoryUtil smallDivider]];
     //滚动容器
     _collectionView = [ViewFactoryUtil collectionView];
     _collectionView.delegate = self;
@@ -101,6 +103,16 @@
     [cell bind:data];
     
     return cell;
+}
+
+/// 点击了cell
+/// @param collectionView <#collectionView description#>
+/// @param indexPath <#indexPath description#>
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    if (_delegate) {
+        Sheet *data=self.datum[indexPath.row];
+        [_delegate sheetClick:data];
+    }
 }
 
 #pragma mark - CollectionView布局代理

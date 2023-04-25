@@ -627,7 +627,7 @@
 - (UIImage*)banner3 { return [UIImage imageNamed:@"banner_3" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)banner2 { return [UIImage imageNamed:@"banner_2" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)search { return [UIImage imageNamed:@"Search" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)placeholder { return [UIImage imageNamed:@"Placeholder" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)placeholder { return [UIImage imageNamed:@"placeholder" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)addFill { return [UIImage imageNamed:@"AddFill" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)liveSelected { return [UIImage imageNamed:@"LiveSelected" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)inputUsername { return [UIImage imageNamed:@"InputUsername" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
