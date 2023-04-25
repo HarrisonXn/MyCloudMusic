@@ -5,11 +5,10 @@
 //  Created by 邢世航 on 2023/4/14.
 //
 
-#import "BaseLogicController.h"
-
+#import "BaseTitleController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DiscoveryController : BaseLogicController
+@interface DiscoveryController : BaseTitleController
 
 @end
 

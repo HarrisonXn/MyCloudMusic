@@ -32,6 +32,8 @@
 		8D75611F29F775700027F959 /* Song.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75611E29F775700027F959 /* Song.m */; };
 		8D75612429F7A2990027F959 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612329F7A2990027F959 /* User.m */; };
 		8D75612829F7BCC50027F959 /* ClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612729F7BCC50027F959 /* ClickEvent.m */; };
+		8D75612C29F7C0FF0027F959 /* SuperToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612B29F7C0FF0027F959 /* SuperToolbarView.m */; };
+		8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612E29F7C5EC0027F959 /* BaseTitleController.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -128,6 +130,10 @@
 		8D75612329F7A2990027F959 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		8D75612629F7BCC50027F959 /* ClickEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClickEvent.h; sourceTree = "<group>"; };
 		8D75612729F7BCC50027F959 /* ClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickEvent.m; sourceTree = "<group>"; };
+		8D75612A29F7C0FF0027F959 /* SuperToolbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperToolbarView.h; sourceTree = "<group>"; };
+		8D75612B29F7C0FF0027F959 /* SuperToolbarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperToolbarView.m; sourceTree = "<group>"; };
+		8D75612D29F7C5EC0027F959 /* BaseTitleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTitleController.h; sourceTree = "<group>"; };
+		8D75612E29F7C5EC0027F959 /* BaseTitleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTitleController.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -393,6 +399,15 @@
 			path = Event;
 			sourceTree = "<group>";
 		};
+		8D75612929F7C0E00027F959 /* ToolBarView */ = {
+			isa = PBXGroup;
+			children = (
+				8D75612A29F7C0FF0027F959 /* SuperToolbarView.h */,
+				8D75612B29F7C0FF0027F959 /* SuperToolbarView.m */,
+			);
+			path = ToolBarView;
+			sourceTree = "<group>";
+		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -581,6 +596,7 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D75612929F7C0E00027F959 /* ToolBarView */,
 				8D7560E929F4E55F0027F959 /* View */,
 				8DE85D3F29E93386004E22DB /* Image */,
 				8DE85D1729E8FDD7004E22DB /* Toast */,
@@ -632,6 +648,8 @@
 				8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */,
 				8D9F989929E52DEC00E67AC8 /* BaseLogicController.h */,
 				8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */,
+				8D75612D29F7C5EC0027F959 /* BaseTitleController.h */,
+				8D75612E29F7C5EC0027F959 /* BaseTitleController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -950,6 +968,7 @@
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
 				8D7560E429F257310027F959 /* ResourceUtil.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
+				8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D75611A29F7752B0027F959 /* SongData.m in Sources */,
@@ -980,6 +999,7 @@
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D75611129F675080027F959 /* ImageUtil.m in Sources */,
 				8D75612829F7BCC50027F959 /* ClickEvent.m in Sources */,
+				8D75612C29F7C0FF0027F959 /* SuperToolbarView.m in Sources */,
 				8D75610329F656470027F959 /* Sheet.m in Sources */,
 				8D75612429F7A2990027F959 /* User.m in Sources */,
 				8D9DC7B529E7DE1A0025F4C4 /* SuperHttpUtil.m in Sources */,
