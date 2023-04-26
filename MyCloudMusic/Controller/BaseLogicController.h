@@ -65,6 +65,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 加载数据方法
 -(void)loadData;
+
+#pragma mark - 界面方法
+
+/// 关闭界面
+-(void)finish;
 @end
 
 NS_ASSUME_NONNULL_END

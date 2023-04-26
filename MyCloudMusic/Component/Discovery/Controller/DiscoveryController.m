@@ -16,6 +16,7 @@
 #import "SheetGroupCell.h"
 #import "SongData.h"
 #import "SongGroupCell.h"
+#import "SuperWebController.h"
 //下拉刷新
 #import <MJRefresh/MJRefresh.h>
 @interface DiscoveryController ()<SheetGroupDelegate>
@@ -130,7 +131,14 @@
 }
 
 - (void)processAdClick:(Ad *)data{
-    NSLog(@"processAdClick %@",data);
+    NSString *dataString = [data description];
+    NSURL *url = [[NSURL alloc]initWithString:@"https://www.nuist.edu.cn/main.htm"];
+    NSString *uri = [NSString stringWithFormat:@"%@%@", url.scheme, url.resourceSpecifier];
+    if ([dataString hasPrefix:@"banner"]) {
+            [SuperWebController start:self.navigationController title:dataString uri:uri];
+        }else{
+            
+        }
 }
 
 #pragma mark - 列表数据源

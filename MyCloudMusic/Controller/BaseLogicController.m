@@ -156,6 +156,14 @@
     [self.superFooterContainer addSubview:self.superFooterContentContainer];
     [self.rootContainer addSubview:self.superFooterContainer];
 }
+
+#pragma mark - 界面方法
+
+/// 关闭界面
+-(void)finish{
+    [self.navigationController popViewControllerAnimated:YES];
+}
+
 #pragma mark - 列表数据源
 
 /// 有多少个
@@ -182,4 +190,6 @@
 -(void)loadData{
     [self loadData:NO];
 }
+
+
 @end

@@ -35,6 +35,7 @@
 		8D75612C29F7C0FF0027F959 /* SuperToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612B29F7C0FF0027F959 /* SuperToolbarView.m */; };
 		8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612E29F7C5EC0027F959 /* BaseTitleController.m */; };
 		8D75613229F8C8250027F959 /* BaseMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613129F8C8250027F959 /* BaseMainController.m */; };
+		8D75613629F8FEB80027F959 /* SuperWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613529F8FEB80027F959 /* SuperWebController.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -137,6 +138,8 @@
 		8D75612E29F7C5EC0027F959 /* BaseTitleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTitleController.m; sourceTree = "<group>"; };
 		8D75613029F8C8250027F959 /* BaseMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMainController.h; sourceTree = "<group>"; };
 		8D75613129F8C8250027F959 /* BaseMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMainController.m; sourceTree = "<group>"; };
+		8D75613429F8FEB80027F959 /* SuperWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperWebController.h; sourceTree = "<group>"; };
+		8D75613529F8FEB80027F959 /* SuperWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperWebController.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -411,6 +414,15 @@
 			path = ToolBarView;
 			sourceTree = "<group>";
 		};
+		8D75613329F8FEA10027F959 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				8D75613429F8FEB80027F959 /* SuperWebController.h */,
+				8D75613529F8FEB80027F959 /* SuperWebController.m */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -599,6 +611,7 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D75613329F8FEA10027F959 /* Web */,
 				8D75612929F7C0E00027F959 /* ToolBarView */,
 				8D7560E929F4E55F0027F959 /* View */,
 				8DE85D3F29E93386004E22DB /* Image */,
@@ -979,6 +992,7 @@
 				8D75611A29F7752B0027F959 /* SongData.m in Sources */,
 				8D42F93229E8021B009B9788 /* DefaultRepository.m in Sources */,
 				8D9DC7AA29E653420025F4C4 /* GuideController.m in Sources */,
+				8D75613629F8FEB80027F959 /* SuperWebController.m in Sources */,
 				8D7560E829F4DDF90027F959 /* BannerClickEvent.m in Sources */,
 				8D7560DD29F23C620027F959 /* BaseTableViewCell.m in Sources */,
 				8DE85D4729E940B9004E22DB /* Ad.m in Sources */,
