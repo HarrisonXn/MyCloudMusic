@@ -336,6 +336,15 @@ en: "点击刷新"
 */
 - (NSString*)clickRefresh;
 /**
+key: "ClickReload"
+
+zh-Hans: "%\@, 点击重试"
+
+en: "%\@, click to refresh"
+*/
+- (NSString*)clickReload;
+- (NSString*)clickReload:(nullable NSString*)value1;
+/**
 key: "CloseApp"
 
 zh-Hans: "关闭应用"
@@ -1427,6 +1436,230 @@ en: "退出登录"
 */
 - (NSString*)logout;
 /**
+key: "MJRefreshAutoFooterIdleText"
+
+zh-Hans: "点击或上拉加载更多"
+
+en: "Tap or pull up to load more"
+
+uk: "Натисніть або потягніть щоб завантажити ще"
+
+ko: "탭 또는 위로 당겨 로드함"
+
+zh-Hant: "點擊或上拉加載更多"
+
+ru: "Нажмите или потяните чтобы загрузить еще"
+*/
+- (NSString*)mjRefreshAutoFooterIdleText;
+/**
+key: "MJRefreshAutoFooterNoMoreDataText"
+
+zh-Hans: "已经全部加载完毕"
+
+en: "No more data"
+
+uk: "Більше немає даних"
+
+ko: "더이상 데이터 없음"
+
+zh-Hant: "已經全部加載完畢"
+
+ru: "Больше нет данных"
+*/
+- (NSString*)mjRefreshAutoFooterNoMoreDataText;
+/**
+key: "MJRefreshAutoFooterRefreshingText"
+
+zh-Hans: "正在加载更多的数据..."
+
+en: "Loading..."
+
+uk: "Завантаження..."
+
+ko: "로딩중..."
+
+zh-Hant: "正在加載更多的數據..."
+
+ru: "Загрузка..."
+*/
+- (NSString*)mjRefreshAutoFooterRefreshingText;
+/**
+key: "MJRefreshBackFooterIdleText"
+
+zh-Hans: "上拉可以加载更多"
+
+en: "Pull up to load more"
+
+uk: "Потягніть щоб завантажити ще"
+
+ko: "위로 당겨 더 로드 가능"
+
+zh-Hant: "上拉可以加載更多"
+
+ru: "Потяните чтобы загрузить еще"
+*/
+- (NSString*)mjRefreshBackFooterIdleText;
+/**
+key: "MJRefreshBackFooterNoMoreDataText"
+
+zh-Hans: "已经全部加载完毕"
+
+en: "No more data"
+
+uk: "Більше немає даних"
+
+ko: "더이상 데이터 없음"
+
+zh-Hant: "已經全部加載完畢"
+
+ru: "Больше нет данных"
+*/
+- (NSString*)mjRefreshBackFooterNoMoreDataText;
+/**
+key: "MJRefreshBackFooterPullingText"
+
+zh-Hans: "松开立即加载更多"
+
+en: "Release to load more"
+
+uk: "Відпустіть щоб завантажити ще"
+
+ko: "놓으면 더 로드됨."
+
+zh-Hant: "鬆開立即加載更多"
+
+ru: "Отпустите чтобы загрузить еще"
+*/
+- (NSString*)mjRefreshBackFooterPullingText;
+/**
+key: "MJRefreshBackFooterRefreshingText"
+
+zh-Hans: "正在加载更多的数据..."
+
+en: "Loading..."
+
+uk: "Завантаження..."
+
+ko: "로딩중..."
+
+zh-Hant: "正在加載更多的數據..."
+
+ru: "Загрузка..."
+*/
+- (NSString*)mjRefreshBackFooterRefreshingText;
+/**
+key: "MJRefreshHeaderDateTodayText"
+
+zh-Hans: "今天"
+
+en: "Today"
+
+uk: "Сьогодні"
+
+ko: "오늘"
+
+zh-Hant: "今天"
+
+ru: "Сегодня"
+*/
+- (NSString*)mjRefreshHeaderDateTodayText;
+/**
+key: "MJRefreshHeaderIdleText"
+
+zh-Hans: "下拉可以刷新"
+
+en: "Pull down to refresh"
+
+uk: "Потягніть для оновлення"
+
+ko: "아래로 당겨 새로고침"
+
+zh-Hant: "下拉可以刷新"
+
+ru: "Потяните чтобы обновить"
+*/
+- (NSString*)mjRefreshHeaderIdleText;
+/**
+key: "MJRefreshHeaderLastTimeText"
+
+zh-Hans: "最后更新："
+
+en: "Last update: "
+
+uk: "Останнє оновлення: "
+
+ko: "마지막 업데이트: "
+
+zh-Hant: "最後更新："
+
+ru: "Последнее обновление: "
+*/
+- (NSString*)mjRefreshHeaderLastTimeText;
+/**
+key: "MJRefreshHeaderNoneLastDateText"
+
+zh-Hans: "无记录"
+
+en: "No record"
+
+uk: "Немає запису"
+
+ko: "기록 없음"
+
+zh-Hant: "無記錄"
+
+ru: "Нет записи"
+*/
+- (NSString*)mjRefreshHeaderNoneLastDateText;
+/**
+key: "MJRefreshHeaderPullingText"
+
+zh-Hans: "松开立即刷新"
+
+en: "Release to refresh"
+
+uk: "Відпустіть для оновлення"
+
+ko: "놓으면 새로고침"
+
+zh-Hant: "鬆開立即刷新"
+
+ru: "Отпустите чтобы обновить"
+*/
+- (NSString*)mjRefreshHeaderPullingText;
+/**
+key: "MJRefreshHeaderRefreshingText"
+
+zh-Hans: "正在刷新数据中..."
+
+en: "Loading..."
+
+uk: "Завантаження..."
+
+ko: "로딩중..."
+
+zh-Hant: "正在刷新數據中..."
+
+ru: "Загрузка..."
+*/
+- (NSString*)mjRefreshHeaderRefreshingText;
+/**
+key: "MJRefreshTrailerIdleText"
+
+zh-Hans: "滑动查看图文详情"
+
+zh-Hant: "滑動查看圖文詳情"
+*/
+- (NSString*)mjRefreshTrailerIdleText;
+/**
+key: "MJRefreshTrailerPullingText"
+
+zh-Hans: "释放查看图文详情"
+
+zh-Hant: "釋放查看圖文詳情"
+*/
+- (NSString*)mjRefreshTrailerPullingText;
+/**
 key: "Mall"
 
 zh-Hans: "官方商城"
@@ -1606,9 +1839,9 @@ en: "我的电台"
 /**
 key: "NetworkError"
 
-zh-Hans: "Your Network seems to be suck."
+zh-Hans: "您的网络不佳"
 
-en: "Your Network seems to be suck."
+en: "Your Network seems to be suck"
 */
 - (NSString*)networkError;
 /**
@@ -2789,6 +3022,22 @@ en: "MyCloudMusic"
 
 
 @interface RImages: NSObject
+- (UIImage*)qmuiIcloudDownloadFault;
+- (UIImage*)qmuiEmotionDelete;
+- (UIImage*)qmuiPreviewImageCheckboxChecked;
+- (UIImage*)qmuiConsoleClear;
+- (UIImage*)qmuiTipsError;
+- (UIImage*)qmuiPreviewImageCheckbox;
+- (UIImage*)qmuiConsoleLogo;
+- (UIImage*)qmuiTipsDone;
+- (UIImage*)qmuiPickerImageCheckbox;
+- (UIImage*)qmuiPickerImageCheckboxChecked;
+- (UIImage*)qmuiConsoleFilter;
+- (UIImage*)qmuiTipsInfo;
+- (UIImage*)qmuiPickerImageVideoMark;
+- (UIImage*)qmuiConsoleFilterSelected;
+- (UIImage*)qmuiPickerImageFavorite;
+- (UIImage*)qmuiHiddenAlbum;
 - (UIImage*)rank;
 - (UIImage*)play;
 - (UIImage*)dayRecommend;
@@ -2817,6 +3066,7 @@ en: "MyCloudMusic"
 - (UIImage*)guide1;
 - (UIImage*)live;
 - (UIImage*)digitalAlbum;
+- (UIImage*)banner1;
 - (UIImage*)arrowCircleDown;
 - (UIImage*)list;
 - (UIImage*)discovery;
@@ -2831,6 +3081,8 @@ en: "MyCloudMusic"
 - (UIImage*)checked;
 - (UIImage*)flashlightOn;
 - (UIImage*)loginWeibo;
+- (UIImage*)banner4;
+- (UIImage*)banner5;
 - (UIImage*)download;
 - (UIImage*)qrCode;
 - (UIImage*)loginQq;
@@ -2866,6 +3118,8 @@ en: "MyCloudMusic"
 - (UIImage*)arrowLeft;
 - (UIImage*)add;
 - (UIImage*)discoverySelected;
+- (UIImage*)banner3;
+- (UIImage*)banner2;
 - (UIImage*)search;
 - (UIImage*)placeholder;
 - (UIImage*)addFill;
@@ -2878,38 +3132,8 @@ en: "MyCloudMusic"
 - (UIImage*)commentCount;
 - (UIImage*)guide2;
 - (UIImage*)guide3;
-- (UIImage*)qmuiTipsInfo2x;
-- (UIImage*)qmuiEmotionDelete2x;
-- (UIImage*)qmuiConsoleLogo2x;
-- (UIImage*)qmuiPickerImageCheckbox2x;
-- (UIImage*)qmuiPreviewImageCheckbox2x;
-- (UIImage*)qmuiPickerImageCheckboxChecked3x;
-- (UIImage*)qmuiConsoleFilterSelected3x;
-- (UIImage*)qmuiConsoleFilterSelected2x;
-- (UIImage*)qmuiPickerImageCheckboxChecked2x;
-- (UIImage*)qmuiPreviewImageCheckbox3x;
-- (UIImage*)qmuiPickerImageCheckbox3x;
-- (UIImage*)qmuiEmotionDelete3x;
-- (UIImage*)qmuiConsoleLogo3x;
-- (UIImage*)qmuiTipsInfo3x;
-- (UIImage*)qmuiTipsError3x;
-- (UIImage*)qmuiConsoleFilter2x;
-- (UIImage*)qmuiTipsDone3x;
-- (UIImage*)qmuiConsoleClear3x;
-- (UIImage*)qmuiIcloudDownloadFault2x;
-- (UIImage*)qmuiPreviewImageCheckboxChecked2x;
-- (UIImage*)qmuiIcloudDownloadFault3x;
-- (UIImage*)qmuiPreviewImageCheckboxChecked3x;
-- (UIImage*)qmuiConsoleClear2x;
-- (UIImage*)qmuiTipsDone2x;
-- (UIImage*)qmuiConsoleFilter3x;
-- (UIImage*)qmuiTipsError2x;
-- (UIImage*)qmuiHiddenAlbum2x;
-- (UIImage*)qmuiPickerImageFavorite3x;
-- (UIImage*)qmuiPickerImageVideoMark3x;
-- (UIImage*)qmuiPickerImageVideoMark2x;
-- (UIImage*)qmuiPickerImageFavorite2x;
-- (UIImage*)qmuiHiddenAlbum3x;
+- (UIImage*)arrow2x;
+- (UIImage*)trailArrow2x;
 @end
 
 

@@ -7,6 +7,7 @@
 
 #import "BaseLogicController.h"
 
+
 @interface BaseLogicController ()
 
 @end
@@ -17,6 +18,10 @@
     [super initViews];
     //默认颜色，如果某些界面不一样，在单独设置
     [self setBackgroundColor:[UIColor colorBackground]];
+    
+    //隐藏系统导航栏
+    [self.navigationController.navigationBar setHidden:YES];
+
 }
 
 /// 初始化垂直方向LinearLayout容器
@@ -45,6 +50,31 @@
     [self initFooterContainer];
 }
 
+/// 初始化TableView，四边都在安全区内
+- (void)initTableViewSafeArea{
+    //外面添加一层容器，是方便在真实内容控件前后添加内容
+    [self initLinearLayoutSafeArea];
+
+    //tableView
+    [self createTableView];
+
+    [self.container addSubview:self.tableView];
+}
+
+/// 创建TableView，不会添加到任何布局
+-(void)createTableView{
+    self.datum = [NSMutableArray array];
+
+    self.tableView = [ViewFactoryUtil tableView];
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    self.tableView.weight=1;
+}
+
+/// 使用默认分割线
+- (void)initDefaultTableViewDivider{
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleSingleLine;
+}
 /// 初始化垂直方向LinearLayout容器，四边都在安全区内
 - (void)initLinearLayoutSafeArea{
     [self initLinearLayout];
@@ -70,6 +100,23 @@
     //footer，一般是底部要显示按钮，例如：购物车界面，商城相关界面
     //当然也可以细分到需要的界面才添加，但这样会增加复杂度
     [self initFooterContainer];
+}
+- (void)initPlaceholderView{
+    _placeholderView = [PlaceholderView new];
+
+    //默认隐藏
+    _placeholderView.visibility = MyVisibility_Gone;
+
+    [_rootContainer addSubview:self.placeholderView];
+
+    //添加点击事件
+    UITapGestureRecognizer *placeholderViewTapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onPlaceholderViewTapGestureRecognizer:)];
+
+    //设置成false表示当前控件响应后会传播到其他控件上
+    //如果不设置为false，界面里面的列表控件可能无法响应点击事件
+    placeholderViewTapGestureRecognizer.cancelsTouchesInView = NO;
+
+    [_placeholderView addGestureRecognizer:placeholderViewTapGestureRecognizer];
 }
 
 /// 头部容器，安全区外，一般用来设置头部到安全区外背景颜色
@@ -108,5 +155,31 @@
     
     [self.superFooterContainer addSubview:self.superFooterContentContainer];
     [self.rootContainer addSubview:self.superFooterContainer];
+}
+#pragma mark - 列表数据源
+
+/// 有多少个
+/// @param tableView <#tableView description#>
+/// @param section <#section description#>
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    return _datum.count;
+}
+#pragma mark - 加载数据
+
+/// 占位控件点击
+/// @param recognizer <#recognizer description#>
+-(void)onPlaceholderViewTapGestureRecognizer:(UITapGestureRecognizer *)recognizer{
+    [self loadData:YES];
+}
+
+/// 加载数据方法
+/// @param isPlaceholder 是否是通过placeholder控件触发的
+-(void)loadData:(BOOL)isPlaceholder{
+    
+}
+
+/// 加载数据方法
+-(void)loadData{
+    [self loadData:NO];
 }
 @end

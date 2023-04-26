@@ -30,10 +30,24 @@ NS_ASSUME_NONNULL_BEGIN
 /// 创建只有标题按钮（类似网页连接）
 +(QMUIButton *)linkButton;
 
-
-
 /// 小圆角空心按钮
 + (QMUIButton *)primaryOutlineButton;
+
+/// 创建TableView
++(QMUITableView *)tableView;
+
+/// 创建CollectionView
++(UICollectionView *)collectionView;
++(UICollectionViewFlowLayout *)collectionViewFlowLayout;
+
+/// 创建小水平分割线
++(UIView *)smallDivider;
+
+/// 创建次要，半圆角，小按钮
++(QMUIButton *)secondHalfFilletSmallButton;
+
+/// 创建图片按钮
++(QMUIButton *)buttonWithImage:(UIImage *)data;
 @end
 
 NS_ASSUME_NONNULL_END

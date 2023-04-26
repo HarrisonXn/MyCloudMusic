@@ -20,5 +20,8 @@
 
 /// 显示引导界面
 -(void)toGuide;
+
+/// 显示主界面
+-(void)toMain;
 @end
 

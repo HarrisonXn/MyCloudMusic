@@ -8,11 +8,63 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+//网络框架
+#import "MSNetwork.h"
+
+//发布订阅框架
+#import <QTEventBus/QTEventBus.h>
+
 #import "DefaultPreferenceUtil.h"
 #import "ViewFactoryUtil.h"
 #import "R.h"
 #import "UIColor+Config.h"
 #import "UIColor+Theme.h"
 #import "Constant.h"
+#import "Config.h"
+#import "DefaultRepository.h"
+#import "SuperToast.h"
+#import "StringUtil.h"
+#import "SuperToast.h"
+#import "TipUtil.h"
+#import "ResourceUtil.h"
+#import "UIView+SuperUI.h"
+#import "SuperDateUtil.h"
+#import "ImageUtil.h"
+#import "UIImage+SuperUI.h"
+#import "ClickEvent.h"
+#pragma mark - weakify宏
+#ifndef weakify
+    #if DEBUG
+        #if __has_feature(objc_arc)
+            #define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+        #else
+            #define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+        #endif
+    #else
+        #if __has_feature(objc_arc)
+            #define weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+        #else
+            #define weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+        #endif
+    #endif
+#endif
+
+#pragma mark - strongify宏
+#ifndef strongify
+    #if DEBUG
+        #if __has_feature(objc_arc)
+            #define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+        #else
+            #define strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+        #endif
+    #else
+        #if __has_feature(objc_arc)
+            #define strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+        #else
+            #define strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+        #endif
+    #endif
+#endif
+
 
 #endif /* PrefixHeader_pch */
