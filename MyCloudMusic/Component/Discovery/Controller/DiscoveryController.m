@@ -27,17 +27,8 @@
 - (void)initViews{
     [super initViews];
     
-    [self setBackgroundColor:[UIColor colorBackgroundLight]];
-    
     //初始化TableView结构
     [self initTableViewSafeArea];
-    
-    [self setTitle:@"发现"];
-    //设置左侧按钮
-    [self addLeftImageButton:[R.image.menu withTintColor]];
-    
-    //设置右侧按钮
-    [self addRightImageButton:[R.image.mic withTintColor]];
 
     //注册轮播图cell
     //也可以放到header中，这里之所以放到cell
@@ -65,14 +56,6 @@
 
 -(void)endRefresh{
     [self.tableView.mj_header endRefreshing];
-}
-
-- (void)onLeftClick:(QMUIButton *)sender{
-    NSLog(@"DiscoveryController onLeftClick");
-}
-
-- (void)onRightClick:(QMUIButton *)sender{
-    NSLog(@"DiscoveryController onRightClick");
 }
 
 - (void)initDatum{
