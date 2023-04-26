@@ -53,6 +53,16 @@
     return result;
 }
 
++(QMUIButton *)buttonWithImage:(UIImage *)data{
+    QMUIButton *result = [[QMUIButton alloc] init];
+    result.adjustsTitleTintColorAutomatically = YES;
+    result.myWidth = 30;
+    result.myHeight = 30;
+    result.tintColor = [UIColor colorOnSurface];
+    [result setImage:data forState:UIControlStateNormal];
+    return result;
+}
+
 +(UITableView *)tableView{
     QMUITableView *result = [[QMUITableView alloc] init];
     

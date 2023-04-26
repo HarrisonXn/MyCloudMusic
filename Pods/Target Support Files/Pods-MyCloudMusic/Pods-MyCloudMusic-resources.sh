@@ -98,11 +98,11 @@ EOM
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle"
-  install_resource "${PODS_ROOT}/QMUIKit/QMUIKit/QMUIResources/QMUIResources.bundle"
+  install_resource "${PODS_CONFIGURATION_BUILD_DIR}/QMUIKit/QMUIResources.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

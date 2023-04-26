@@ -20,11 +20,47 @@
     //系统导航栏高度是44，但看着太低了，所以增大
     self.heightSize.equalTo(@(50));
     
-    //标题容器
-   [self addSubview:self.centerContainer];
-   [self.centerContainer addSubview:self.titleView];
+    //左侧按钮容器
+    [self addSubview:self.leftContainer];
 
+    //标题容器
+    [self addSubview:self.centerContainer];
+    [self.centerContainer addSubview:self.titleView];
+
+    //右侧按钮容器
+    [self addSubview:self.rightContainer];
 }
+
+-(SuperToolbarView *)addLeftItem:(UIView *)data{
+    [self.leftContainer addSubview:data];
+    return self;
+}
+
+-(void)addCenterView:(UIView *)data{
+    //隐藏标题
+    [self.titleView hide];
+    
+    [self.centerContainer addSubview:data];
+}
+
+-(SuperToolbarView *)addRightItem:(UIView *)data{
+    [self.rightContainer addSubview:data];
+    return self;
+}
+
+- (MyLinearLayout *)leftContainer{
+    if (!_leftContainer) {
+        _leftContainer = [[MyLinearLayout alloc] initWithOrientation:MyOrientation_Horz];
+        _leftContainer.gravity=MyGravity_Vert_Center;
+        
+        _leftContainer.leftPos.equalTo(@(12));
+        _leftContainer.rightPos.equalTo(self.centerContainer.leftPos).offset(10);
+        _leftContainer.myHeight=MyLayoutSize.fill;
+        
+    }
+    return _leftContainer;
+}
+
 #pragma mark - 创建控件
 - (MyLinearLayout *)centerContainer{
     if(!_centerContainer){
@@ -39,6 +75,20 @@
         _centerContainer.myHeight = MyLayoutSize.fill;
     }
     return _centerContainer;
+}
+
+- (MyLinearLayout *)rightContainer{
+    if (!_rightContainer) {
+        _rightContainer = [[MyLinearLayout alloc] initWithOrientation:MyOrientation_Horz];
+        _rightContainer.subviewSpace = PADDING_MEDDLE;
+        _rightContainer.gravity=MyGravity_Horz_Right | MyGravity_Vert_Center;
+        
+        _rightContainer.rightPos.equalTo(@(12));
+        _rightContainer.leftPos.equalTo(self.centerContainer.rightPos).offset(10);
+        _rightContainer.myHeight=MyLayoutSize.fill;
+        
+    }
+    return _rightContainer;
 }
 
 - (UILabel *)titleView{

@@ -46,6 +46,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 创建次要，半圆角，小按钮
 +(QMUIButton *)secondHalfFilletSmallButton;
 
+/// 创建图片按钮
++(QMUIButton *)buttonWithImage:(UIImage *)data;
 @end
 
 NS_ASSUME_NONNULL_END

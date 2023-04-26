@@ -18,6 +18,10 @@
     [super initViews];
     //默认颜色，如果某些界面不一样，在单独设置
     [self setBackgroundColor:[UIColor colorBackground]];
+    
+    //隐藏系统导航栏
+    [self.navigationController.navigationBar setHidden:YES];
+
 }
 
 /// 初始化垂直方向LinearLayout容器

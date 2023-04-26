@@ -430,6 +430,22 @@
 
 
 @interface RImages ()
+@property (nonatomic, strong) UIImage* qmuiIcloudDownloadFault;
+@property (nonatomic, strong) UIImage* qmuiEmotionDelete;
+@property (nonatomic, strong) UIImage* qmuiPreviewImageCheckboxChecked;
+@property (nonatomic, strong) UIImage* qmuiConsoleClear;
+@property (nonatomic, strong) UIImage* qmuiTipsError;
+@property (nonatomic, strong) UIImage* qmuiPreviewImageCheckbox;
+@property (nonatomic, strong) UIImage* qmuiConsoleLogo;
+@property (nonatomic, strong) UIImage* qmuiTipsDone;
+@property (nonatomic, strong) UIImage* qmuiPickerImageCheckbox;
+@property (nonatomic, strong) UIImage* qmuiPickerImageCheckboxChecked;
+@property (nonatomic, strong) UIImage* qmuiConsoleFilter;
+@property (nonatomic, strong) UIImage* qmuiTipsInfo;
+@property (nonatomic, strong) UIImage* qmuiPickerImageVideoMark;
+@property (nonatomic, strong) UIImage* qmuiConsoleFilterSelected;
+@property (nonatomic, strong) UIImage* qmuiPickerImageFavorite;
+@property (nonatomic, strong) UIImage* qmuiHiddenAlbum;
 @property (nonatomic, strong) UIImage* rank;
 @property (nonatomic, strong) UIImage* play;
 @property (nonatomic, strong) UIImage* dayRecommend;
@@ -526,41 +542,25 @@
 @property (nonatomic, strong) UIImage* guide3;
 @property (nonatomic, strong) UIImage* arrow2x;
 @property (nonatomic, strong) UIImage* trailArrow2x;
-@property (nonatomic, strong) UIImage* qmuiTipsInfo2x;
-@property (nonatomic, strong) UIImage* qmuiEmotionDelete2x;
-@property (nonatomic, strong) UIImage* qmuiConsoleLogo2x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageCheckbox2x;
-@property (nonatomic, strong) UIImage* qmuiPreviewImageCheckbox2x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageCheckboxChecked3x;
-@property (nonatomic, strong) UIImage* qmuiConsoleFilterSelected3x;
-@property (nonatomic, strong) UIImage* qmuiConsoleFilterSelected2x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageCheckboxChecked2x;
-@property (nonatomic, strong) UIImage* qmuiPreviewImageCheckbox3x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageCheckbox3x;
-@property (nonatomic, strong) UIImage* qmuiEmotionDelete3x;
-@property (nonatomic, strong) UIImage* qmuiConsoleLogo3x;
-@property (nonatomic, strong) UIImage* qmuiTipsInfo3x;
-@property (nonatomic, strong) UIImage* qmuiTipsError3x;
-@property (nonatomic, strong) UIImage* qmuiConsoleFilter2x;
-@property (nonatomic, strong) UIImage* qmuiTipsDone3x;
-@property (nonatomic, strong) UIImage* qmuiConsoleClear3x;
-@property (nonatomic, strong) UIImage* qmuiIcloudDownloadFault2x;
-@property (nonatomic, strong) UIImage* qmuiPreviewImageCheckboxChecked2x;
-@property (nonatomic, strong) UIImage* qmuiIcloudDownloadFault3x;
-@property (nonatomic, strong) UIImage* qmuiPreviewImageCheckboxChecked3x;
-@property (nonatomic, strong) UIImage* qmuiConsoleClear2x;
-@property (nonatomic, strong) UIImage* qmuiTipsDone2x;
-@property (nonatomic, strong) UIImage* qmuiConsoleFilter3x;
-@property (nonatomic, strong) UIImage* qmuiTipsError2x;
-@property (nonatomic, strong) UIImage* qmuiHiddenAlbum2x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageFavorite3x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageVideoMark3x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageVideoMark2x;
-@property (nonatomic, strong) UIImage* qmuiPickerImageFavorite2x;
-@property (nonatomic, strong) UIImage* qmuiHiddenAlbum3x;
 @end
 
 @implementation RImages
+- (UIImage*)qmuiIcloudDownloadFault { return [UIImage imageNamed:@"QMUI_icloud_download_fault" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiEmotionDelete { return [UIImage imageNamed:@"QMUI_emotion_delete" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiPreviewImageCheckboxChecked { return [UIImage imageNamed:@"QMUI_previewImage_checkbox_checked" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiConsoleClear { return [UIImage imageNamed:@"QMUI_console_clear" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiTipsError { return [UIImage imageNamed:@"QMUI_tips_error" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiPreviewImageCheckbox { return [UIImage imageNamed:@"QMUI_previewImage_checkbox" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiConsoleLogo { return [UIImage imageNamed:@"QMUI_console_logo" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiTipsDone { return [UIImage imageNamed:@"QMUI_tips_done" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiPickerImageCheckbox { return [UIImage imageNamed:@"QMUI_pickerImage_checkbox" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiPickerImageCheckboxChecked { return [UIImage imageNamed:@"QMUI_pickerImage_checkbox_checked" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiConsoleFilter { return [UIImage imageNamed:@"QMUI_console_filter" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiTipsInfo { return [UIImage imageNamed:@"QMUI_tips_info" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiPickerImageVideoMark { return [UIImage imageNamed:@"QMUI_pickerImage_video_mark" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiConsoleFilterSelected { return [UIImage imageNamed:@"QMUI_console_filter_selected" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiPickerImageFavorite { return [UIImage imageNamed:@"QMUI_pickerImage_favorite" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
+- (UIImage*)qmuiHiddenAlbum { return [UIImage imageNamed:@"QMUI_hiddenAlbum" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)rank { return [UIImage imageNamed:@"Rank" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)play { return [UIImage imageNamed:@"Play" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)dayRecommend { return [UIImage imageNamed:@"DayRecommend" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
@@ -657,38 +657,6 @@
 - (UIImage*)guide3 { return [UIImage imageNamed:@"guide3" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)arrow2x { return [UIImage imageNamed:@"arrow@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 - (UIImage*)trailArrow2x { return [UIImage imageNamed:@"trail_arrow@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiTipsInfo2x { return [UIImage imageNamed:@"QMUI_tips_info@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiEmotionDelete2x { return [UIImage imageNamed:@"QMUI_emotion_delete@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleLogo2x { return [UIImage imageNamed:@"QMUI_console_logo@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageCheckbox2x { return [UIImage imageNamed:@"QMUI_pickerImage_checkbox@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPreviewImageCheckbox2x { return [UIImage imageNamed:@"QMUI_previewImage_checkbox@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageCheckboxChecked3x { return [UIImage imageNamed:@"QMUI_pickerImage_checkbox_checked@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleFilterSelected3x { return [UIImage imageNamed:@"QMUI_console_filter_selected@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleFilterSelected2x { return [UIImage imageNamed:@"QMUI_console_filter_selected@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageCheckboxChecked2x { return [UIImage imageNamed:@"QMUI_pickerImage_checkbox_checked@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPreviewImageCheckbox3x { return [UIImage imageNamed:@"QMUI_previewImage_checkbox@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageCheckbox3x { return [UIImage imageNamed:@"QMUI_pickerImage_checkbox@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiEmotionDelete3x { return [UIImage imageNamed:@"QMUI_emotion_delete@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleLogo3x { return [UIImage imageNamed:@"QMUI_console_logo@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiTipsInfo3x { return [UIImage imageNamed:@"QMUI_tips_info@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiTipsError3x { return [UIImage imageNamed:@"QMUI_tips_error@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleFilter2x { return [UIImage imageNamed:@"QMUI_console_filter@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiTipsDone3x { return [UIImage imageNamed:@"QMUI_tips_done@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleClear3x { return [UIImage imageNamed:@"QMUI_console_clear@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiIcloudDownloadFault2x { return [UIImage imageNamed:@"QMUI_icloud_download_fault@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPreviewImageCheckboxChecked2x { return [UIImage imageNamed:@"QMUI_previewImage_checkbox_checked@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiIcloudDownloadFault3x { return [UIImage imageNamed:@"QMUI_icloud_download_fault@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPreviewImageCheckboxChecked3x { return [UIImage imageNamed:@"QMUI_previewImage_checkbox_checked@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleClear2x { return [UIImage imageNamed:@"QMUI_console_clear@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiTipsDone2x { return [UIImage imageNamed:@"QMUI_tips_done@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiConsoleFilter3x { return [UIImage imageNamed:@"QMUI_console_filter@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiTipsError2x { return [UIImage imageNamed:@"QMUI_tips_error@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiHiddenAlbum2x { return [UIImage imageNamed:@"QMUI_hiddenAlbum@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageFavorite3x { return [UIImage imageNamed:@"QMUI_pickerImage_favorite@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageVideoMark3x { return [UIImage imageNamed:@"QMUI_pickerImage_video_mark@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageVideoMark2x { return [UIImage imageNamed:@"QMUI_pickerImage_video_mark@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiPickerImageFavorite2x { return [UIImage imageNamed:@"QMUI_pickerImage_favorite@2x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
-- (UIImage*)qmuiHiddenAlbum3x { return [UIImage imageNamed:@"QMUI_hiddenAlbum@3x.png" inBundle:[NSBundle bundleForClass:self.class] compatibleWithTraitCollection:nil]; }
 @end
 
 

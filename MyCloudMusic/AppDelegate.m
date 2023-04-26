@@ -28,7 +28,8 @@
 /// 显示主界面
 -(void)toMain{
     MainController *controller = [MainController new];
-    [self setRootViewController:controller];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:controller];
+        [self setRootViewController:navigationController];
 }
 
 -(void)setRootViewController:(UIViewController *)controller{
@@ -74,17 +75,5 @@
 }
 
 
-#pragma mark - Core Data Saving support
-
-- (void)saveContext {
-    NSManagedObjectContext *context = self.persistentContainer.viewContext;
-    NSError *error = nil;
-    if ([context hasChanges] && ![context save:&error]) {
-        // Replace this implementation with code to handle the error appropriately.
-        // abort() causes the application to generate a crash log and terminate. You should not use this function in a shipping application, although it may be useful during development.
-        NSLog(@"Unresolved error %@, %@", error, error.userInfo);
-        abort();
-    }
-}
 
 @end
