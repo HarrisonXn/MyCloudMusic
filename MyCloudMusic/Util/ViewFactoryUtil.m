@@ -63,6 +63,21 @@
     return result;
 }
 
++(UIImageView *)moreIconView{
+    UIImageView *result = [UIImageView new];
+    result.myWidth = 15;
+    result.myHeight = 15;
+    result.image = [R.image.superChevronRight withTintColor];
+    result.tintColor = [UIColor black80];
+    result.centerYPos.equalTo(@(0));
+    
+    //图片完全显示到控件里面
+    result.contentMode = UIViewContentModeScaleAspectFit;
+    
+    return result;
+}
+
+
 +(UITableView *)tableView{
     QMUITableView *result = [[QMUITableView alloc] init];
     

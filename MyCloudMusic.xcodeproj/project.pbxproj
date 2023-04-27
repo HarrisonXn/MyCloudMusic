@@ -36,6 +36,8 @@
 		8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612E29F7C5EC0027F959 /* BaseTitleController.m */; };
 		8D75613229F8C8250027F959 /* BaseMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613129F8C8250027F959 /* BaseMainController.m */; };
 		8D75613629F8FEB80027F959 /* SuperWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613529F8FEB80027F959 /* SuperWebController.m */; };
+		8D75613A29FA0C4F0027F959 /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613929FA0C4F0027F959 /* DrawerController.m */; };
+		8D75613E29FA20BC0027F959 /* SuperSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613D29FA20BC0027F959 /* SuperSettingView.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -140,6 +142,10 @@
 		8D75613129F8C8250027F959 /* BaseMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMainController.m; sourceTree = "<group>"; };
 		8D75613429F8FEB80027F959 /* SuperWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperWebController.h; sourceTree = "<group>"; };
 		8D75613529F8FEB80027F959 /* SuperWebController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperWebController.m; sourceTree = "<group>"; };
+		8D75613829FA0C4F0027F959 /* DrawerController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawerController.h; sourceTree = "<group>"; };
+		8D75613929FA0C4F0027F959 /* DrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerController.m; sourceTree = "<group>"; };
+		8D75613C29FA20BC0027F959 /* SuperSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperSettingView.h; sourceTree = "<group>"; };
+		8D75613D29FA20BC0027F959 /* SuperSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperSettingView.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -423,6 +429,24 @@
 			path = Web;
 			sourceTree = "<group>";
 		};
+		8D75613729FA0C200027F959 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				8D75613829FA0C4F0027F959 /* DrawerController.h */,
+				8D75613929FA0C4F0027F959 /* DrawerController.m */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+		8D75613B29FA208B0027F959 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				8D75613C29FA20BC0027F959 /* SuperSettingView.h */,
+				8D75613D29FA20BC0027F959 /* SuperSettingView.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,12 +595,13 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D75613729FA0C200027F959 /* Drawer */,
 				8D75612029F7A2660027F959 /* User */,
 				8D75611B29F7754D0027F959 /* Song */,
 				8D75610029F656200027F959 /* Sheet */,
 				8DE85D4329E9408E004E22DB /* Ad */,
 				8DE85D3329E93229004E22DB /* Room */,
-				8DE85D2E29E931EC004E22DB /* New Group */,
+				8DE85D2E29E931EC004E22DB /* Me */,
 				8DE85D2929E93197004E22DB /* Main */,
 				8DE85D2429E9313F004E22DB /* Feed */,
 				8DE85D1F29E93062004E22DB /* Discovery */,
@@ -611,6 +636,7 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D75613B29FA208B0027F959 /* Setting */,
 				8D75613329F8FEA10027F959 /* Web */,
 				8D75612929F7C0E00027F959 /* ToolBarView */,
 				8D7560E929F4E55F0027F959 /* View */,
@@ -761,12 +787,12 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		8DE85D2E29E931EC004E22DB /* New Group */ = {
+		8DE85D2E29E931EC004E22DB /* Me */ = {
 			isa = PBXGroup;
 			children = (
 				8DE85D2F29E931FC004E22DB /* Controller */,
 			);
-			path = "New Group";
+			path = Me;
 			sourceTree = "<group>";
 		};
 		8DE85D2F29E931FC004E22DB /* Controller */ = {
@@ -1004,10 +1030,12 @@
 				8D75610E29F66CD90027F959 /* SheetCell.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D0FB0F129EC0E8F0074AA6B /* BannerData.m in Sources */,
+				8D75613E29FA20BC0027F959 /* SuperSettingView.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
 				8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */,
 				8DE85D1E29E92207004E22DB /* TipUtil.m in Sources */,
+				8D75613A29FA0C4F0027F959 /* DrawerController.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
 				8D75611729F774CA0027F959 /* SongGroupCell.m in Sources */,
 				8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */,

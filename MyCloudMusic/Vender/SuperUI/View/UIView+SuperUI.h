@@ -27,6 +27,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 小圆角
 -(void)smallRadius;
+
+/// 设置View圆角大小
+/// @param size <#size description#>
+- (void)radiusWithSize:(float)size;
+
+/// 设置View圆角，默认为10
+- (void)radius;
+
 @end
 
 NS_ASSUME_NONNULL_END

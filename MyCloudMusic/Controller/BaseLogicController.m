@@ -157,6 +157,27 @@
     [self.rootContainer addSubview:self.superFooterContainer];
 }
 
+-(void)initScrollSafeArea{
+    [self initLinearLayoutSafeArea];
+
+    //滚动容器
+    _scrollView = [UIScrollView new];
+    //_scrollView.contentInset = UIEdgeInsetsMake(0, 13, 0, 13);
+    [_scrollView setShowsVerticalScrollIndicator:NO];
+    //[_scrollView setShowsHorizontalScrollIndicator:NO];
+    _scrollView.myWidth = MyLayoutSize.fill;
+    //_scrollView.myHeight = MyLayoutSize.fill;
+    [self.container addSubview:_scrollView];
+
+    //真实内容容器
+    self.contentContainer = [MyLinearLayout linearLayoutWithOrientation:MyOrientation_Vert];
+    self.contentContainer.gravity = MyGravity_Vert_Center;
+    self.contentContainer.myWidth = MyLayoutSize.fill;
+
+    //重点：如果是垂直滚动，不要设置内容容器高度，让他自己计算
+    [_scrollView addSubview:self.contentContainer];
+}
+
 #pragma mark - 界面方法
 
 /// 关闭界面

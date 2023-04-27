@@ -40,6 +40,7 @@ static float const TEXT_PRICE = 30;
 
 #pragma mark - 圆角尺寸
 static float const SMALL_RADIUS = 5;
+static float const MEDDLE_RADIUS = 10;
 static float const BUTTON_SMALL_RADIUS = 15;
 static float const BUTTON_MEDDLE_RADIUS = 21;
 static float const BUTTON_HUGE_RADIUS = 30;

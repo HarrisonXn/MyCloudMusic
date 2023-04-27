@@ -32,6 +32,7 @@
 #import "ImageUtil.h"
 #import "UIImage+SuperUI.h"
 #import "ClickEvent.h"
+#import "UIColor+Hex.h"
 #pragma mark - weakify宏
 #ifndef weakify
     #if DEBUG

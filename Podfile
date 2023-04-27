@@ -32,4 +32,8 @@ pod 'QTEventBus', '~> 0.4.1'
 #下拉刷新
 #https://github.com/CoderMJLee/MJRefresh
 pod 'MJRefresh'
+
+#https://github.com/ChavezChen/CWLateralSlide
+#侧滑菜单
+pod 'CWLateralSlide'
 end

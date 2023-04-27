@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CWLateralSlide (1.6.5)
   - GKCycleScrollView (1.2.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.4.1)
@@ -350,6 +351,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CWLateralSlide
   - GKCycleScrollView
   - MBProgressHUD (~> 1.2.0)
   - MJExtension
@@ -371,6 +373,7 @@ SPEC REPOS:
     - R.objc
     - YYCache
   trunk:
+    - CWLateralSlide
     - MJRefresh
     - QMUIKit
     - QTEventBus
@@ -378,6 +381,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CWLateralSlide: 8939c8dea91a24e40d0793553118cb57cd67f64b
   GKCycleScrollView: a0136b10bb18a09fc98fefd48c11d60206f0e68e
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
@@ -389,6 +393,6 @@ SPEC CHECKSUMS:
   SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
-PODFILE CHECKSUM: b8ec96a4b5f58fc6a8dade56ed9633a3ffb875f4
+PODFILE CHECKSUM: e74677f937cfdfad836f00c52b92c8eb30e8f420
 
 COCOAPODS: 1.12.1

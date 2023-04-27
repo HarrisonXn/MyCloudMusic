@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 小圆角空心按钮
 + (QMUIButton *)primaryOutlineButton;
 
+/// 创建更多 图片控件
++(UIImageView *)moreIconView;
+
 /// 创建TableView
 +(QMUITableView *)tableView;
 

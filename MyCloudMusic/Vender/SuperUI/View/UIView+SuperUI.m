@@ -32,5 +32,16 @@
 -(void)smallRadius{
     //小圆角
     self.layer.cornerRadius = SMALL_RADIUS;
+    self.clipsToBounds=YES;
+    }
+
+- (void)radiusWithSize:(float)size{
+    self.layer.cornerRadius = size;
+    self.clipsToBounds=YES;
+}
+
+- (void)radius{
+    [self radiusWithSize:MEDDLE_RADIUS];
+
 }
 @end

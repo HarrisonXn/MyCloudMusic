@@ -132,7 +132,7 @@
 
 - (void)processAdClick:(Ad *)data{
     NSString *dataString = [data description];
-    NSURL *url = [[NSURL alloc]initWithString:@"https://www.nuist.edu.cn/main.htm"];
+    NSURL *url = [[NSURL alloc]initWithString:@"http://www.nuist.edu.cn"];
     NSString *uri = [NSString stringWithFormat:@"%@%@", url.scheme, url.resourceSpecifier];
     if ([dataString hasPrefix:@"banner"]) {
             [SuperWebController start:self.navigationController title:dataString uri:uri];

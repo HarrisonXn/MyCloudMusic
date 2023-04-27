@@ -39,6 +39,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 占位控件
 @property(nonatomic,strong) PlaceholderView *placeholderView;
 
+/// 内容容器，一般只有初始化ScrollView后，才有效
+@property (nonatomic, strong) MyLinearLayout *contentContainer;
+
+/// 滚动容器
+@property (nonatomic, strong) UIScrollView *scrollView;
 
 /// 初始化垂直方向LinearLayout容器
 - (void)initLinearLayout;
@@ -57,6 +62,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 初始化占位控件
 - (void)initPlaceholderView;
+
+/// 初始化ScrollView容器，四边都在安全区内
+- (void)initScrollSafeArea;
 #pragma mark - 加载数据
 
 /// 加载数据方法
