@@ -19,6 +19,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param view <#view description#>
 /// @param uri <#uri description#>
 +(void)showFull:(UIImageView *)view uri:(NSString *)uri;
+
+/// 显示头像
+/// @param view <#view description#>
+/// @param uri <#uri description#>
++(void)showAvatar:(UIImageView *)view uri:(NSString *)uri;
+
 @end
 
 

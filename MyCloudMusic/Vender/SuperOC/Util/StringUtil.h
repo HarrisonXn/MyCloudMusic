@@ -17,6 +17,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 是否不是空白字符串
 /// @param data <#data description#>
 + (BOOL)isNotBlank:(NSString *)data;
+
+/// 是否符合密码格式
+/// @param data <#data description#>
++ (BOOL)isPassword:(NSString *)data;
+
 @end
 
 NS_ASSUME_NONNULL_END

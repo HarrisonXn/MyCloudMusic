@@ -23,6 +23,11 @@ static NSString * const ENDPOINT = @"http://my-cloud-music-api-sp3-dev.ixuea.com
 #pragma mark - 资源端点
 static NSString * const RESOURCE_ENDPOINT = @"http://course-music-dev.ixuea.com/";
 
+//服务协议地址
+static NSString * const URI_SERVICE = @"http://www.ixuea.com/articles/4449";
+
+//隐私政策地址
+static NSString * const URI_PRIVACY = @"http://www.ixuea.com/articles/4467";
 @interface Config : NSObject
 
 @end

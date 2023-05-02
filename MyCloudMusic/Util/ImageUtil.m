@@ -33,4 +33,20 @@
 +(void)showFull:(UIImageView *)view uri:(NSString *)uri{
     [view sd_setImageWithURL:[NSURL URLWithString:uri] placeholderImage:R.image.placeholder];
 }
+
++ (void)showAvatar:(UIImageView *)view uri:(NSString *)uri{
+    if ([StringUtil isBlank:uri]) {
+        //显示默认图标
+        view.image = R.image.defaultAvatar;
+        return;
+    }
+    if ([uri hasPrefix:@"http"]) {
+        //绝对路径
+        [self showFull:view uri:uri];
+    } else {
+        //相对路径
+        [self show:view uri:uri];
+    }
+}
+
 @end

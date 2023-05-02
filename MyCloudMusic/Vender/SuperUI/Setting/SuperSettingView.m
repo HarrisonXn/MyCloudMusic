@@ -31,6 +31,10 @@
     [self addSubview:self.moreIconView];
 }
 
+-(void)initSwitch{
+    [self insertSubview:self.superSwitch atIndex:3];
+}
+
 // 小容器样式
 -(void)small{
     self.padding = UIEdgeInsetsMake(0, PADDING_OUTER, 0, PADDING_OUTER);
@@ -44,6 +48,20 @@
     UITapGestureRecognizer *tapGestureRecognizer=[[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(onTapClick:)];
 //    tapGestureRecognizer.delegate=self;
     [self addGestureRecognizer:tapGestureRecognizer];
+}
+
++(instancetype)smallWithIcon:(UIImage *)icon title:(NSString *)title switchChanged:(SwitchChanged)switchChanged  click:(ViewClick)click{
+    SuperSettingView *result = [self smallWithIcon:icon title:title click:click];
+    
+    result.switchChanged=switchChanged;
+    
+    [result initSwitch];
+    
+    return result;
+}
+
+- (void)switchChanged:(UISwitch *) sender {
+    self.switchChanged(sender);
 }
 
 -(void)onTapClick:(UITapGestureRecognizer *)gestureRecognizer{
@@ -115,6 +133,22 @@
         _moreIconView.myRight=0;
     }
     return _moreIconView;
+}
+
+- (UISwitch *)superSwitch{
+    if (!_superSwitch) {
+        _superSwitch = [UISwitch new];
+        _superSwitch.myWidth = MyLayoutSize.wrap;
+        _superSwitch.myHeight = MyLayoutSize.wrap;
+        
+        //开关状态为开的时候左侧颜色
+        _superSwitch.onTintColor = [UIColor colorPrimary];
+        
+        [_superSwitch addTarget:self action:@selector(switchChanged:) forControlEvents:UIControlEventValueChanged];
+        _superSwitch.myCenterY = 0;
+        _superSwitch.rightPos.equalTo(self.moreIconView.leftPos).offset(5);
+    }
+    return _superSwitch;
 }
 
 @end

@@ -36,4 +36,13 @@ pod 'MJRefresh'
 #https://github.com/ChavezChen/CWLateralSlide
 #侧滑菜单
 pod 'CWLateralSlide'
+
+#富文本
+#https://github.com/ibireme/YYText
+pod 'YYText', '~> 1.0'
+
+#腾讯开源的偏好存储框架
+#https://github.com/Tencent/MMKV
+pod 'MMKV'
+
 end

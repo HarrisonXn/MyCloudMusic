@@ -15,6 +15,7 @@
 #import "Ad.h"
 #import "Sheet.h"
 #import "Song.h"
+#import "User.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -44,10 +45,28 @@ NS_ASSUME_NONNULL_BEGIN
 -(void)bannerAdWithController:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
 
 #pragma mark - 歌单
+
 /// 歌单列表
 -(void)sheets:(int)size controller:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
 #pragma mark - 单曲
+
 -(void)songsWithController:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success;
+#pragma mark - 登陆
+
+/// 用户名登陆
+/// @param controller <#controller description#>
+/// @param data <#data description#>
+/// @param success <#success description#>
+-(void)loginWithController:(nullable BaseLogicController *)controller data:(User *)data success:(SuperHttpSuccess)success;
+#pragma mark - 注册
+
+-(void)userRegister:(User *)data success:(SuperHttpSuccess)success;
+#pragma mark - 用户
+
+/// 用户详情
+-(void)userDetailWithId:(NSString *)id success:(SuperHttpSuccess)success;
+
+-(void)userDetailWithId:(NSString *)id nickname:(NSString *)nickname success:(SuperHttpSuccess)success;
 
 @end
 

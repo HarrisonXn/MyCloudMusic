@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "defaultAvatar.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
@@ -9,7 +10,6 @@
       "scale" : "2x"
     },
     {
-      "filename" : "default_avatar.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

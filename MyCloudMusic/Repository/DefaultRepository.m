@@ -6,7 +6,7 @@
 //
 
 #import "DefaultRepository.h"
-
+#import "Session.h"
 @implementation DefaultRepository
 
 +(instancetype)shared{
@@ -56,4 +56,33 @@
 -(void)songsWithController:(nullable BaseLogicController *)controller success:(SuperHttpListSuccess)success{
     [SuperHttpUtil requestListObjectWith:[Song class] url:URL_SONG parameters:nil cachePolicy:MSCachePolicyNetElseCache controller:controller success:success];
 }
+#pragma mark - 登陆
+-(void)loginWithController:(nullable BaseLogicController *)controller data:(User *)data success:(SuperHttpSuccess)success{
+    
+    //参数转为字典
+    NSDictionary *parameters=[data mj_keyValues];
+    
+    [SuperHttpUtil postObjectWith:[Session class] url:URL_SESSION parameters:parameters loading:YES controller:controller success:success failure:nil];
+}
+#pragma mark - 注册
+-(void)userRegister:(User *)data success:(SuperHttpSuccess)success{
+    [SuperHttpUtil postObjectWith:[SuperBase class] url:@"v1/users" parameter:data success:success];
+}
+
+#pragma mark - 用户
+-(void)userDetailWithId:(NSString *)id success:(SuperHttpSuccess)success{
+    [SuperHttpUtil requestObjectWith:[User class] url:URL_USER id:id success:success];
+}
+
+-(void)userDetailWithId:(NSString *)id nickname:(NSString *)nickname success:(SuperHttpSuccess)success{
+    NSString *uri=[NSString stringWithFormat:@"%@/%@",URL_USER,id];
+    
+    NSDictionary *params = nil;
+    if ([StringUtil isNotBlank:nickname]){
+        params=@{@"nickname":nickname};
+    }
+    
+    [SuperHttpUtil requestObjectWith:[User class] url:uri parameters:params success:success];
+}
+
 @end

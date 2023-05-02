@@ -38,6 +38,20 @@
 		8D75613629F8FEB80027F959 /* SuperWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613529F8FEB80027F959 /* SuperWebController.m */; };
 		8D75613A29FA0C4F0027F959 /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613929FA0C4F0027F959 /* DrawerController.m */; };
 		8D75613E29FA20BC0027F959 /* SuperSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613D29FA20BC0027F959 /* SuperSettingView.m */; };
+		8D75614329FBC7B70027F959 /* LoginHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75614229FBC7B70027F959 /* LoginHomeController.m */; };
+		8D75614729FD04240027F959 /* UIViewController+SuperUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75614529FD04240027F959 /* UIViewController+SuperUI.m */; };
+		8D75614D29FE38980027F959 /* BaseLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75614C29FE38980027F959 /* BaseLoginController.m */; };
+		8D75615029FE3A030027F959 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75614F29FE3A030027F959 /* LoginController.m */; };
+		8D75615329FE3A800027F959 /* BaseRelativeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75615229FE3A800027F959 /* BaseRelativeLayout.m */; };
+		8D75615629FE3E440027F959 /* SuperInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75615529FE3E440027F959 /* SuperInputView.m */; };
+		8D75615929FE4BEF0027F959 /* PreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75615829FE4BEF0027F959 /* PreferenceUtil.m */; };
+		8D75615D29FE4DB20027F959 /* NSString+SuperOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75615C29FE4DB20027F959 /* NSString+SuperOC.m */; };
+		8D75616029FE531F0027F959 /* SuperRegularUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75615F29FE531F0027F959 /* SuperRegularUtil.m */; };
+		8D75616429FE57250027F959 /* Session.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75616329FE57250027F959 /* Session.m */; };
+		8D75616829FE576D0027F959 /* LoginStatusChangedEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75616729FE576D0027F959 /* LoginStatusChangedEvent.m */; };
+		8D75616C29FE78BA0027F959 /* SuperBase+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75616B29FE78BA0027F959 /* SuperBase+MJExtension.m */; };
+		8D75617029FEB6BA0027F959 /* SuperDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75616F29FEB6BA0027F959 /* SuperDialogController.m */; };
+		8D75617529FEBEF70027F959 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75617429FEBEF70027F959 /* RegisterController.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -146,6 +160,34 @@
 		8D75613929FA0C4F0027F959 /* DrawerController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawerController.m; sourceTree = "<group>"; };
 		8D75613C29FA20BC0027F959 /* SuperSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperSettingView.h; sourceTree = "<group>"; };
 		8D75613D29FA20BC0027F959 /* SuperSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperSettingView.m; sourceTree = "<group>"; };
+		8D75614129FBC7B70027F959 /* LoginHomeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginHomeController.h; sourceTree = "<group>"; };
+		8D75614229FBC7B70027F959 /* LoginHomeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginHomeController.m; sourceTree = "<group>"; };
+		8D75614529FD04240027F959 /* UIViewController+SuperUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SuperUI.m"; sourceTree = "<group>"; };
+		8D75614629FD04240027F959 /* UIViewController+SuperUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SuperUI.h"; sourceTree = "<group>"; };
+		8D75614B29FE38980027F959 /* BaseLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseLoginController.h; sourceTree = "<group>"; };
+		8D75614C29FE38980027F959 /* BaseLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseLoginController.m; sourceTree = "<group>"; };
+		8D75614E29FE3A030027F959 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		8D75614F29FE3A030027F959 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		8D75615129FE3A800027F959 /* BaseRelativeLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseRelativeLayout.h; sourceTree = "<group>"; };
+		8D75615229FE3A800027F959 /* BaseRelativeLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseRelativeLayout.m; sourceTree = "<group>"; };
+		8D75615429FE3E440027F959 /* SuperInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperInputView.h; sourceTree = "<group>"; };
+		8D75615529FE3E440027F959 /* SuperInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperInputView.m; sourceTree = "<group>"; };
+		8D75615729FE4BEF0027F959 /* PreferenceUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PreferenceUtil.h; sourceTree = "<group>"; };
+		8D75615829FE4BEF0027F959 /* PreferenceUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PreferenceUtil.m; sourceTree = "<group>"; };
+		8D75615B29FE4DB20027F959 /* NSString+SuperOC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SuperOC.h"; sourceTree = "<group>"; };
+		8D75615C29FE4DB20027F959 /* NSString+SuperOC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SuperOC.m"; sourceTree = "<group>"; };
+		8D75615E29FE531F0027F959 /* SuperRegularUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperRegularUtil.h; sourceTree = "<group>"; };
+		8D75615F29FE531F0027F959 /* SuperRegularUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperRegularUtil.m; sourceTree = "<group>"; };
+		8D75616229FE57250027F959 /* Session.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Session.h; sourceTree = "<group>"; };
+		8D75616329FE57250027F959 /* Session.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Session.m; sourceTree = "<group>"; };
+		8D75616629FE576D0027F959 /* LoginStatusChangedEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginStatusChangedEvent.h; sourceTree = "<group>"; };
+		8D75616729FE576D0027F959 /* LoginStatusChangedEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginStatusChangedEvent.m; sourceTree = "<group>"; };
+		8D75616A29FE78BA0027F959 /* SuperBase+MJExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SuperBase+MJExtension.h"; sourceTree = "<group>"; };
+		8D75616B29FE78BA0027F959 /* SuperBase+MJExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "SuperBase+MJExtension.m"; sourceTree = "<group>"; };
+		8D75616E29FEB6BA0027F959 /* SuperDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperDialogController.h; sourceTree = "<group>"; };
+		8D75616F29FEB6BA0027F959 /* SuperDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDialogController.m; sourceTree = "<group>"; };
+		8D75617329FEBEF70027F959 /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
+		8D75617429FEBEF70027F959 /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -326,6 +368,10 @@
 			children = (
 				8D7560EA29F4E5770027F959 /* UIView+SuperUI.h */,
 				8D7560EB29F4E5770027F959 /* UIView+SuperUI.m */,
+				8D75615129FE3A800027F959 /* BaseRelativeLayout.h */,
+				8D75615229FE3A800027F959 /* BaseRelativeLayout.m */,
+				8D75615429FE3E440027F959 /* SuperInputView.h */,
+				8D75615529FE3E440027F959 /* SuperInputView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -447,6 +493,101 @@
 			path = Setting;
 			sourceTree = "<group>";
 		};
+		8D75613F29FBC78E0027F959 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8D75616129FE57000027F959 /* Model */,
+				8D75614029FBC7990027F959 /* Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		8D75614029FBC7990027F959 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D75614129FBC7B70027F959 /* LoginHomeController.h */,
+				8D75614229FBC7B70027F959 /* LoginHomeController.m */,
+				8D75614B29FE38980027F959 /* BaseLoginController.h */,
+				8D75614C29FE38980027F959 /* BaseLoginController.m */,
+				8D75614E29FE3A030027F959 /* LoginController.h */,
+				8D75614F29FE3A030027F959 /* LoginController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D75614429FD04240027F959 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D75614529FD04240027F959 /* UIViewController+SuperUI.m */,
+				8D75614629FD04240027F959 /* UIViewController+SuperUI.h */,
+			);
+			name = Controller;
+			path = "../../../../../../../my-cloud-music-ios-oc3/video/MyCloudMusic/MyCloudMusic/Vender/SuperUI/Controller";
+			sourceTree = "<group>";
+		};
+		8D75615A29FE4D960027F959 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				8D75615B29FE4DB20027F959 /* NSString+SuperOC.h */,
+				8D75615C29FE4DB20027F959 /* NSString+SuperOC.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		8D75616129FE57000027F959 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D75616529FE575E0027F959 /* Event */,
+				8D75616229FE57250027F959 /* Session.h */,
+				8D75616329FE57250027F959 /* Session.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D75616529FE575E0027F959 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				8D75616629FE576D0027F959 /* LoginStatusChangedEvent.h */,
+				8D75616729FE576D0027F959 /* LoginStatusChangedEvent.m */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		8D75616929FE78910027F959 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8D75616A29FE78BA0027F959 /* SuperBase+MJExtension.h */,
+				8D75616B29FE78BA0027F959 /* SuperBase+MJExtension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		8D75616D29FEB6860027F959 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				8D75616E29FEB6BA0027F959 /* SuperDialogController.h */,
+				8D75616F29FEB6BA0027F959 /* SuperDialogController.m */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		8D75617129FEBEBD0027F959 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				8D75617229FEBEDA0027F959 /* Controller */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		8D75617229FEBEDA0027F959 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D75617329FEBEF70027F959 /* RegisterController.h */,
+				8D75617429FEBEF70027F959 /* RegisterController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +602,8 @@
 				8D7560E329F257310027F959 /* ResourceUtil.m */,
 				8D75610F29F675080027F959 /* ImageUtil.h */,
 				8D75611029F675080027F959 /* ImageUtil.m */,
+				8D75615729FE4BEF0027F959 /* PreferenceUtil.h */,
+				8D75615829FE4BEF0027F959 /* PreferenceUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -564,6 +707,7 @@
 		8D9F984929E3FC8700E67AC8 /* MyCloudMusic */ = {
 			isa = PBXGroup;
 			children = (
+				8D75616929FE78910027F959 /* Extension */,
 				8D7560DA29F23C3C0027F959 /* Cell */,
 				8DE85D0E29E8EBED004E22DB /* View */,
 				8D42F92F29E801FD009B9788 /* Repository */,
@@ -595,6 +739,8 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D75617129FEBEBD0027F959 /* Register */,
+				8D75613F29FBC78E0027F959 /* Login */,
 				8D75613729FA0C200027F959 /* Drawer */,
 				8D75612029F7A2660027F959 /* User */,
 				8D75611B29F7754D0027F959 /* Song */,
@@ -636,6 +782,8 @@
 		8D9F986C29E45CB900E67AC8 /* SuperUI */ = {
 			isa = PBXGroup;
 			children = (
+				8D75616D29FEB6860027F959 /* Dialog */,
+				8D75614429FD04240027F959 /* Controller */,
 				8D75613B29FA208B0027F959 /* Setting */,
 				8D75613329F8FEA10027F959 /* Web */,
 				8D75612929F7C0E00027F959 /* ToolBarView */,
@@ -708,6 +856,7 @@
 		8DE85D1229E8EF9C004E22DB /* SuperOC */ = {
 			isa = PBXGroup;
 			children = (
+				8D75615A29FE4D960027F959 /* String */,
 				8DE85D1329E8EFA8004E22DB /* Util */,
 			);
 			path = SuperOC;
@@ -718,6 +867,8 @@
 			children = (
 				8DE85D1429E8F1A9004E22DB /* StringUtil.h */,
 				8DE85D1529E8F1A9004E22DB /* StringUtil.m */,
+				8D75615E29FE531F0027F959 /* SuperRegularUtil.h */,
+				8D75615F29FE531F0027F959 /* SuperRegularUtil.m */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -1000,7 +1151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D75615929FE4BEF0027F959 /* PreferenceUtil.m in Sources */,
+				8D75614D29FE38980027F959 /* BaseLoginController.m in Sources */,
 				8D7560FC29F653FF0027F959 /* SheetGroupCell.m in Sources */,
+				8D75615D29FE4DB20027F959 /* NSString+SuperOC.m in Sources */,
 				8D75611429F774870027F959 /* DiscoverySongCell.m in Sources */,
 				8DE85D1129E8EC0A004E22DB /* PlaceholderView.m in Sources */,
 				8DE85D3B29E932B4004E22DB /* VideoController.m in Sources */,
@@ -1010,6 +1164,7 @@
 				8D75610629F660A60027F959 /* ItemTitleView.m in Sources */,
 				8DE85D4229E933A2004E22DB /* UIImage+SuperUI.m in Sources */,
 				8D9F988E29E50F3A00E67AC8 /* UIColor+Theme.m in Sources */,
+				8D75616829FE576D0027F959 /* LoginStatusChangedEvent.m in Sources */,
 				8D7560E429F257310027F959 /* ResourceUtil.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
 				8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */,
@@ -1025,17 +1180,25 @@
 				8D7560FF29F655680027F959 /* SheetData.m in Sources */,
 				8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
+				8D75617029FEB6BA0027F959 /* SuperDialogController.m in Sources */,
 				8D7560E129F240AA0027F959 /* BannerCell.m in Sources */,
+				8D75616429FE57250027F959 /* Session.m in Sources */,
+				8D75614329FBC7B70027F959 /* LoginHomeController.m in Sources */,
 				8D7560F929F623670027F959 /* DiscoveryButtonView.m in Sources */,
 				8D75610E29F66CD90027F959 /* SheetCell.m in Sources */,
 				8D9F989B29E52DEC00E67AC8 /* BaseLogicController.m in Sources */,
 				8D0FB0F129EC0E8F0074AA6B /* BannerData.m in Sources */,
+				8D75616029FE531F0027F959 /* SuperRegularUtil.m in Sources */,
 				8D75613E29FA20BC0027F959 /* SuperSettingView.m in Sources */,
+				8D75615629FE3E440027F959 /* SuperInputView.m in Sources */,
 				8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */,
 				8D9F988729E509D300E67AC8 /* UIColor+Hex.m in Sources */,
+				8D75616C29FE78BA0027F959 /* SuperBase+MJExtension.m in Sources */,
 				8DE85D3E29E9335A004E22DB /* DiscoveryController.m in Sources */,
+				8D75615029FE3A030027F959 /* LoginController.m in Sources */,
 				8DE85D1E29E92207004E22DB /* TipUtil.m in Sources */,
 				8D75613A29FA0C4F0027F959 /* DrawerController.m in Sources */,
+				8D75614729FD04240027F959 /* UIViewController+SuperUI.m in Sources */,
 				8D9F988229E4776500E67AC8 /* R.m in Sources */,
 				8D75611729F774CA0027F959 /* SongGroupCell.m in Sources */,
 				8D9DC7B129E6AF690025F4C4 /* MSNetwork.m in Sources */,
@@ -1062,12 +1225,14 @@
 				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
+				8D75617529FEBEF70027F959 /* RegisterController.m in Sources */,
 				8D75610B29F66B4B0027F959 /* BaseCollectionViewCell.m in Sources */,
 				8DE85D3229E9321A004E22DB /* MeController.m in Sources */,
 				8D7560EF29F5096B0027F959 /* DiscoveryButtonCell.m in Sources */,
 				8D9DC7BD29E7E1E20025F4C4 /* SuperBase.m in Sources */,
 				8D9DC7CE29E7ED4F0025F4C4 /* SuperCommon.m in Sources */,
 				8DE85D2D29E931C7004E22DB /* MainController.m in Sources */,
+				8D75615329FE3A800027F959 /* BaseRelativeLayout.m in Sources */,
 				8D9DC7BA29E7E04D0025F4C4 /* BaseResponse.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

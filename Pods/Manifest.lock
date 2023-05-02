@@ -19,6 +19,9 @@ PODS:
   - MBProgressHUD (1.2.0)
   - MJExtension (3.4.1)
   - MJRefresh (3.7.5)
+  - MMKV (1.2.15):
+    - MMKVCore (~> 1.2.15)
+  - MMKVCore (1.2.15)
   - MyLayout (1.9.8)
   - QMUIKit (4.2.3):
     - QMUIKit/QMUIComponents (= 4.2.3)
@@ -348,6 +351,7 @@ PODS:
     - SDWebImage/Core (= 5.15.5)
   - SDWebImage/Core (5.15.5)
   - YYCache (1.0.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking
@@ -356,12 +360,14 @@ DEPENDENCIES:
   - MBProgressHUD (~> 1.2.0)
   - MJExtension
   - MJRefresh
+  - MMKV
   - MyLayout (~> 1.9.8)
   - QMUIKit (~> 4.2.0)
   - QTEventBus (~> 0.4.1)
   - R.objc (~> 0.8.2)
   - SDWebImage (~> 5.15.5)
   - YYCache (~> 1.0.4)
+  - YYText (~> 1.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
@@ -375,9 +381,12 @@ SPEC REPOS:
   trunk:
     - CWLateralSlide
     - MJRefresh
+    - MMKV
+    - MMKVCore
     - QMUIKit
     - QTEventBus
     - SDWebImage
+    - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
@@ -386,13 +395,16 @@ SPEC CHECKSUMS:
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
+  MMKV: 7f34558bbb5a33b0eaefae2de4b6a20a2ffdad6f
+  MMKVCore: ddf41b9d9262f058419f9ba7598719af56c02cd3
   MyLayout: 6ca47dbf27648aa011496094cfe1162217e3c912
   QMUIKit: c047f987b14be9f48df47cb934a2d21ccd7ef4b6
   QTEventBus: ea42577d40303f11fb2392e1383fb5d4a7335609
   R.objc: bd0a4ef693bc8f9daa4e658d99afe1e01d204e7d
   SDWebImage: fd7e1a22f00303e058058278639bf6196ee431fe
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: e74677f937cfdfad836f00c52b92c8eb30e8f420
+PODFILE CHECKSUM: 2aceaf59245547e9765d32d66f70166f6f692397
 
 COCOAPODS: 1.12.1

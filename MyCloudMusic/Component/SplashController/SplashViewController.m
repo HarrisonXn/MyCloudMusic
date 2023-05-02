@@ -15,6 +15,7 @@
 #import "TermServiceDialogController.h"
 #import "DefaultPreferenceUtil.h"
 #import "GuideController.h"
+#import "LoginHomeController.h"
 #import "AppDelegate.h"
 
 @interface SplashViewController ()
@@ -95,6 +96,7 @@
 -(void)primaryClick:(UIButton *)sender{
     [self.dialogController hide];
     [DefaultPreferenceUtil setAcceptTermsServiceAgreement:YES];
+    
     
     [AppDelegate.shared toGuide];
 }

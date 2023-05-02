@@ -14,6 +14,7 @@
 #import "SuperHttpUtil.h"
 #import "Video.h"
 #import "AppDelegate.h"
+#import "LoginHomeController.h"
 
 @interface GuideController ()<GKCycleScrollViewDataSource,GKCycleScrollViewDelegate>
 @property (nonatomic, strong) GKCycleScrollView *contentScrollView;
@@ -136,7 +137,6 @@
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        [SuperToast hideLoading];
 //    });
-    
 }
 
 - (void)onEnterClick:(QMUIButton *)sender{

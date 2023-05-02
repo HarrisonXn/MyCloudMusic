@@ -9,6 +9,11 @@
 #import "SplashViewController.h"
 #import "GuideController.h"
 #import "MainController.h"
+#import "LoginStatusChangedEvent.h"
+#import "Session.h"
+#import "LoginHomeController.h"
+//腾讯开源的偏好存储框架
+#import <MMKV/MMKV.h>
 @interface AppDelegate ()
 
 @end
@@ -41,11 +46,17 @@
     
     [self initNetwork];
     
+    [self initMMKV];
+    
     SplashViewController *splashVC = [[SplashViewController alloc]init];
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = splashVC;
     [self.window makeKeyAndVisible];
     return YES;
+}
+
+-(void)initMMKV{
+    [MMKV initializeMMKV:nil];
 }
 
 /// 初始化网络框架
@@ -74,6 +85,41 @@
   [MSNetwork setRequestSerializer:MSRequestSerializerJSON];
 }
 
+-(void)onLogin:(Session *)data{
+    //关闭登陆相关界面
+   UINavigationController *navigationController=self.window.rootViewController;
+   NSArray *vcs = navigationController.viewControllers;
+   
+   NSMutableArray *newVCS = [NSMutableArray array];
+   
+   for (int i=0; i < [vcs count]; i++) {
+       UIViewController *it = [vcs objectAtIndex:i];
+       if ([it isKindOfClass:[LoginHomeController class]]) {
+           break;
+       }
+       [newVCS addObject:[vcs objectAtIndex:i]];
+   }
+   
+   [navigationController setViewControllers:newVCS animated:YES];
+       
 
+    [self loginStatusChanged];
+}
 
+- (void)logout{
+    [self logoutSilence];
+}
+
+/// 静默退出
+- (void)logoutSilence{
+    //清除登录相关信息
+    [PreferenceUtil logout];
+    
+    [self loginStatusChanged];
+}
+
+- (void)loginStatusChanged{
+    LoginStatusChangedEvent *event = [[LoginStatusChangedEvent alloc] init];
+    [QTEventBus.shared dispatch:event];
+}
 @end

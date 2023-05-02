@@ -33,6 +33,9 @@
 #import "UIImage+SuperUI.h"
 #import "ClickEvent.h"
 #import "UIColor+Hex.h"
+#import "NSString+SuperOC.h"
+#import "PreferenceUtil.h"
+
 #pragma mark - weakify宏
 #ifndef weakify
     #if DEBUG

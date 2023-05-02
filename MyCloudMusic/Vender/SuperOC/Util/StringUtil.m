@@ -30,4 +30,7 @@
     return ![self isBlank:data];
 }
 
++ (BOOL)isPassword:(NSString *)data{
+    return data.length >= 6 && data.length <= 15;
+}
 @end

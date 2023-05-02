@@ -7,6 +7,7 @@
 
 #ifndef Constant_h
 #define Constant_h
+static NSString * const ANONYMOUS = @"anonymous";
 
 static NSString * const URL_VIDEO = @"v1/videos";
 static NSString * const URL_AD = @"v1/ads";
@@ -16,6 +17,10 @@ static NSString * const URL_FEED = @"v1/feeds";
 static NSString * const URL_SESSION = @"v1/sessions";
 static NSString * const URL_COMMENT = @"v1/comments";
 static NSString * const URL_USER = @"v1/users";
+
+#pragma mark - 输入框尺寸
+static float const INPUT_SMALL = 30;
+static float const INPUT_MEDDLE = 46;
 
 static int const SIZE12 = 12;
 static int const VALUE_NO = -1;
