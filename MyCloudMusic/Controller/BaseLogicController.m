@@ -61,6 +61,14 @@
     [self.container addSubview:self.tableView];
 }
 
+/// 在initLinearLayoutSafeArea基础上，设置padding，子控件间距
+- (void)initLinearLayoutInputSafeArea{
+    [self initLinearLayoutSafeArea];
+    
+    self.container.padding = UIEdgeInsetsMake(PADDING_LARGE, PADDING_OUTER, 0, PADDING_OUTER);
+    self.container.subviewSpace = PADDING_LARGE;
+}
+
 /// 创建TableView，不会添加到任何布局
 -(void)createTableView{
     self.datum = [NSMutableArray array];

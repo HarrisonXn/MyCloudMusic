@@ -10,6 +10,7 @@
 #import "LoginHomeController.h"
 #import "SuperWebController.h"
 #import "LoginController.h"
+#import "InputUserIdentityController.h"
 
 @interface LoginHomeController ()
 /// 用户协议view
@@ -124,7 +125,7 @@
 /// 手机号登录
 /// @param sender <#sender description#>
 - (void)onPhoneLoginClick:(QMUIButton *)sender{
-    
+    [InputUserIdentityController startWithPhoneLogin:self.navigationController];
 }
 
 ///用户名登录

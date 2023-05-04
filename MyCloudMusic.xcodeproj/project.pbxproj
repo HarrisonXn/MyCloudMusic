@@ -33,7 +33,6 @@
 		8D75612429F7A2990027F959 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612329F7A2990027F959 /* User.m */; };
 		8D75612829F7BCC50027F959 /* ClickEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612729F7BCC50027F959 /* ClickEvent.m */; };
 		8D75612C29F7C0FF0027F959 /* SuperToolbarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612B29F7C0FF0027F959 /* SuperToolbarView.m */; };
-		8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75612E29F7C5EC0027F959 /* BaseTitleController.m */; };
 		8D75613229F8C8250027F959 /* BaseMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613129F8C8250027F959 /* BaseMainController.m */; };
 		8D75613629F8FEB80027F959 /* SuperWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613529F8FEB80027F959 /* SuperWebController.m */; };
 		8D75613A29FA0C4F0027F959 /* DrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75613929FA0C4F0027F959 /* DrawerController.m */; };
@@ -52,6 +51,10 @@
 		8D75616C29FE78BA0027F959 /* SuperBase+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75616B29FE78BA0027F959 /* SuperBase+MJExtension.m */; };
 		8D75617029FEB6BA0027F959 /* SuperDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75616F29FEB6BA0027F959 /* SuperDialogController.m */; };
 		8D75617529FEBEF70027F959 /* RegisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75617429FEBEF70027F959 /* RegisterController.m */; };
+		8D75617D2A033FEA0027F959 /* BaseTitleController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75617C2A033FEA0027F959 /* BaseTitleController.m */; };
+		8D7561802A0340620027F959 /* InputUserIdentityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D75617F2A0340620027F959 /* InputUserIdentityController.m */; };
+		8D96B4C72A034EC5009A28F4 /* InputCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D96B4C62A034EC5009A28F4 /* InputCodeController.m */; };
+		8D96B4CB2A034F87009A28F4 /* InputCodePageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D96B4CA2A034F87009A28F4 /* InputCodePageData.m */; };
 		8D9DC79C29E549B60025F4C4 /* TermServiceDialogController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */; };
 		8D9DC7A029E555E30025F4C4 /* ViewFactoryUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC79F29E555E30025F4C4 /* ViewFactoryUtil.m */; };
 		8D9DC7A429E567280025F4C4 /* DefaultPreferenceUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DC7A329E567280025F4C4 /* DefaultPreferenceUtil.m */; };
@@ -150,8 +153,6 @@
 		8D75612729F7BCC50027F959 /* ClickEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClickEvent.m; sourceTree = "<group>"; };
 		8D75612A29F7C0FF0027F959 /* SuperToolbarView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperToolbarView.h; sourceTree = "<group>"; };
 		8D75612B29F7C0FF0027F959 /* SuperToolbarView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperToolbarView.m; sourceTree = "<group>"; };
-		8D75612D29F7C5EC0027F959 /* BaseTitleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTitleController.h; sourceTree = "<group>"; };
-		8D75612E29F7C5EC0027F959 /* BaseTitleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTitleController.m; sourceTree = "<group>"; };
 		8D75613029F8C8250027F959 /* BaseMainController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseMainController.h; sourceTree = "<group>"; };
 		8D75613129F8C8250027F959 /* BaseMainController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseMainController.m; sourceTree = "<group>"; };
 		8D75613429F8FEB80027F959 /* SuperWebController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperWebController.h; sourceTree = "<group>"; };
@@ -188,6 +189,14 @@
 		8D75616F29FEB6BA0027F959 /* SuperDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperDialogController.m; sourceTree = "<group>"; };
 		8D75617329FEBEF70027F959 /* RegisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterController.h; sourceTree = "<group>"; };
 		8D75617429FEBEF70027F959 /* RegisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterController.m; sourceTree = "<group>"; };
+		8D75617B2A033FEA0027F959 /* BaseTitleController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTitleController.h; sourceTree = "<group>"; };
+		8D75617C2A033FEA0027F959 /* BaseTitleController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTitleController.m; sourceTree = "<group>"; };
+		8D75617E2A0340620027F959 /* InputUserIdentityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputUserIdentityController.h; sourceTree = "<group>"; };
+		8D75617F2A0340620027F959 /* InputUserIdentityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputUserIdentityController.m; sourceTree = "<group>"; };
+		8D96B4C52A034EC5009A28F4 /* InputCodeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCodeController.h; sourceTree = "<group>"; };
+		8D96B4C62A034EC5009A28F4 /* InputCodeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCodeController.m; sourceTree = "<group>"; };
+		8D96B4C92A034F87009A28F4 /* InputCodePageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InputCodePageData.h; sourceTree = "<group>"; };
+		8D96B4CA2A034F87009A28F4 /* InputCodePageData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InputCodePageData.m; sourceTree = "<group>"; };
 		8D9DC79A29E549B60025F4C4 /* TermServiceDialogController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermServiceDialogController.h; sourceTree = "<group>"; };
 		8D9DC79B29E549B60025F4C4 /* TermServiceDialogController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermServiceDialogController.m; sourceTree = "<group>"; };
 		8D9DC79E29E555E30025F4C4 /* ViewFactoryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewFactoryUtil.h; sourceTree = "<group>"; };
@@ -588,6 +597,43 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		8D7561762A033E9E0027F959 /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				8D96B4C82A034F6C009A28F4 /* Model */,
+				8D7561772A033EA80027F959 /* Controller */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		8D7561772A033EA80027F959 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8D75617E2A0340620027F959 /* InputUserIdentityController.h */,
+				8D75617F2A0340620027F959 /* InputUserIdentityController.m */,
+				8D96B4C52A034EC5009A28F4 /* InputCodeController.h */,
+				8D96B4C62A034EC5009A28F4 /* InputCodeController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8D96B4C82A034F6C009A28F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8D96B4CC2A034F95009A28F4 /* UI */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8D96B4CC2A034F95009A28F4 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8D96B4C92A034F87009A28F4 /* InputCodePageData.h */,
+				8D96B4CA2A034F87009A28F4 /* InputCodePageData.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		8D9DC79D29E555CF0025F4C4 /* Util */ = {
 			isa = PBXGroup;
 			children = (
@@ -739,6 +785,7 @@
 		8D9F986629E3FD5C00E67AC8 /* Component */ = {
 			isa = PBXGroup;
 			children = (
+				8D7561762A033E9E0027F959 /* Input */,
 				8D75617129FEBEBD0027F959 /* Register */,
 				8D75613F29FBC78E0027F959 /* Login */,
 				8D75613729FA0C200027F959 /* Drawer */,
@@ -838,8 +885,8 @@
 				8D9F989729E52D6B00E67AC8 /* BaseCommonController.m */,
 				8D9F989929E52DEC00E67AC8 /* BaseLogicController.h */,
 				8D9F989A29E52DEC00E67AC8 /* BaseLogicController.m */,
-				8D75612D29F7C5EC0027F959 /* BaseTitleController.h */,
-				8D75612E29F7C5EC0027F959 /* BaseTitleController.m */,
+				8D75617B2A033FEA0027F959 /* BaseTitleController.h */,
+				8D75617C2A033FEA0027F959 /* BaseTitleController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1153,6 +1200,7 @@
 			files = (
 				8D75615929FE4BEF0027F959 /* PreferenceUtil.m in Sources */,
 				8D75614D29FE38980027F959 /* BaseLoginController.m in Sources */,
+				8D7561802A0340620027F959 /* InputUserIdentityController.m in Sources */,
 				8D7560FC29F653FF0027F959 /* SheetGroupCell.m in Sources */,
 				8D75615D29FE4DB20027F959 /* NSString+SuperOC.m in Sources */,
 				8D75611429F774870027F959 /* DiscoverySongCell.m in Sources */,
@@ -1167,7 +1215,6 @@
 				8D75616829FE576D0027F959 /* LoginStatusChangedEvent.m in Sources */,
 				8D7560E429F257310027F959 /* ResourceUtil.m in Sources */,
 				8D9F986F29E45CFC00E67AC8 /* SuperDateUtil.m in Sources */,
-				8D75612F29F7C5EC0027F959 /* BaseTitleController.m in Sources */,
 				8D9F986029E3FC8700E67AC8 /* main.m in Sources */,
 				8D9F985229E3FC8700E67AC8 /* ViewController.m in Sources */,
 				8D75611A29F7752B0027F959 /* SongData.m in Sources */,
@@ -1178,6 +1225,7 @@
 				8D7560DD29F23C620027F959 /* BaseTableViewCell.m in Sources */,
 				8DE85D4729E940B9004E22DB /* Ad.m in Sources */,
 				8D7560FF29F655680027F959 /* SheetData.m in Sources */,
+				8D75617D2A033FEA0027F959 /* BaseTitleController.m in Sources */,
 				8DE85D1B29E8FDFD004E22DB /* SuperToast.m in Sources */,
 				8D9F984C29E3FC8700E67AC8 /* AppDelegate.m in Sources */,
 				8D75617029FEB6BA0027F959 /* SuperDialogController.m in Sources */,
@@ -1206,6 +1254,7 @@
 				8D9F988B29E50C8300E67AC8 /* UIColor+Config.m in Sources */,
 				8D7560F229F616690027F959 /* ButtonData.m in Sources */,
 				8D9F989129E5101B00E67AC8 /* UIColor+SuperUI.m in Sources */,
+				8D96B4C72A034EC5009A28F4 /* InputCodeController.m in Sources */,
 				8D9DC7C029E7E2BE0025F4C4 /* Meta.m in Sources */,
 				8D75611129F675080027F959 /* ImageUtil.m in Sources */,
 				8D75612829F7BCC50027F959 /* ClickEvent.m in Sources */,
@@ -1225,6 +1274,7 @@
 				8DE85D1629E8F1A9004E22DB /* StringUtil.m in Sources */,
 				8D9F989529E52CC100E67AC8 /* BaseController.m in Sources */,
 				8D9F985829E3FC8700E67AC8 /* MyCloudMusic.xcdatamodeld in Sources */,
+				8D96B4CB2A034F87009A28F4 /* InputCodePageData.m in Sources */,
 				8D75617529FEBEF70027F959 /* RegisterController.m in Sources */,
 				8D75610B29F66B4B0027F959 /* BaseCollectionViewCell.m in Sources */,
 				8DE85D3229E9321A004E22DB /* MeController.m in Sources */,

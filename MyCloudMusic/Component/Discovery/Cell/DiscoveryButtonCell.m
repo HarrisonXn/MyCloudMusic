@@ -50,7 +50,6 @@
         }
         
         //设置点击事件
-        
         [self.contentContainer addSubview:buttonView];
     }
 }

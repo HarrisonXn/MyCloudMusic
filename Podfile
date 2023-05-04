@@ -45,4 +45,7 @@ pod 'YYText', '~> 1.0'
 #https://github.com/Tencent/MMKV
 pod 'MMKV'
 
+#验证码输入框
+#https://github.com/CRAnimation/CRBoxInputView
+pod 'CRBoxInputView'
 end

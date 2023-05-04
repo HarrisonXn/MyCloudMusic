@@ -54,6 +54,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 初始化垂直方向LinearLayout容器，四边都在安全区内
 - (void)initLinearLayoutSafeArea;
 
+/// 在initLinearLayoutSafeArea基础上，设置padding，子控件间距
+- (void)initLinearLayoutInputSafeArea;
+
 /// 初始化TableView，四边都在安全区内
 - (void)initTableViewSafeArea;
 

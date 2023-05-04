@@ -14,8 +14,11 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CRBoxInputView (1.2.2):
+    - Masonry
   - CWLateralSlide (1.6.5)
   - GKCycleScrollView (1.2.0)
+  - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MJExtension (3.4.1)
   - MJRefresh (3.7.5)
@@ -355,6 +358,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CRBoxInputView
   - CWLateralSlide
   - GKCycleScrollView
   - MBProgressHUD (~> 1.2.0)
@@ -379,7 +383,9 @@ SPEC REPOS:
     - R.objc
     - YYCache
   trunk:
+    - CRBoxInputView
     - CWLateralSlide
+    - Masonry
     - MJRefresh
     - MMKV
     - MMKVCore
@@ -390,8 +396,10 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
+  CRBoxInputView: 2380c292aabbf786fe923776f111ba3053438fba
   CWLateralSlide: 8939c8dea91a24e40d0793553118cb57cd67f64b
   GKCycleScrollView: a0136b10bb18a09fc98fefd48c11d60206f0e68e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   MJRefresh: fdf5e979eb406a0341468932d1dfc8b7f9fce961
@@ -405,6 +413,6 @@ SPEC CHECKSUMS:
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 2aceaf59245547e9765d32d66f70166f6f692397
+PODFILE CHECKSUM: 00a39f0d97085891871604b7d008fc760984c0bf
 
 COCOAPODS: 1.12.1
